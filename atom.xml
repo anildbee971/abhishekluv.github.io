@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Abhishek's Blog - Code Abstract]]></title>
+  <link href="http://abhishekluv.github.io/atom.xml" rel="self"/>
+  <link href="http://abhishekluv.github.io/"/>
+  <updated>2014-01-06T23:59:35+05:30</updated>
+  <id>http://abhishekluv.github.io/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
