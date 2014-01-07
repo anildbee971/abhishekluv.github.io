@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Abhishek's Blog - Code Abstract]]></title>
-  <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Udemy | Abhishek's Blog - Code Abstract]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/udemy/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
   <updated>2014-01-07T17:43:38+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
@@ -25,27 +25,11 @@
 
 <p>Orchard CMS for Absolute Beginners free coupon code :</p>
 
-<blockquote><p>free 1000 coupon code &#8220;ORCHARDPROJECT&#8221;</p></blockquote>
+<blockquote><p>free 1000 coupon code "ORCHARDPROJECT"</p></blockquote>
 
 <p><a href="https://www.udemy.com/orchard-cms-for-absolute-beginners" title="Orchard CMS for Absolute Beginners - Udemy Course">Orchard CMS for Absolute Beginners - Udemy Course</a></p>
 
 <p>Grab it and do share it with your friends.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My First Blog Post]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/01/07/my-first-blog-post/"/>
-    <updated>2014-01-07T00:21:40+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/01/07/my-first-blog-post</id>
-    <content type="html"><![CDATA[<p>My first blog post written using Markdown syntax</p>
-
-<!-- more -->
-
-
-<p>Blog powered by Octopress and Hosted by GitHub Pages</p>
-
-<blockquote><p>Abhishek Luv</p></blockquote>
 ]]></content>
   </entry>
   
