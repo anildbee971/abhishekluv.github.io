@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://abhishekluv.github.io/blog/2014/01/07/my-first-blog-post/</loc>
+        <loc>http://www.abhishekluv.in/blog/2014/01/07/my-first-blog-post/</loc>
         <lastmod>2014-01-07T11:11:24+05:30</lastmod>
     </url>
     <url>
-        <loc>http://abhishekluv.github.io/</loc>
+        <loc>http://www.abhishekluv.in/</loc>
         <lastmod>2014-01-07T11:11:24+05:30</lastmod>
     </url>
     <url>
-        <loc>http://abhishekluv.github.io/blog/archives/</loc>
+        <loc>http://www.abhishekluv.in/blog/archives/</loc>
         <lastmod>2014-01-07T11:11:24+05:30</lastmod>
     </url>
     <url>
-        <loc>http://abhishekluv.github.io/robots.txt</loc>
+        <loc>http://www.abhishekluv.in/robots.txt</loc>
         <lastmod>2014-01-07T11:11:24+05:30</lastmod>
     </url>
 </urlset>
