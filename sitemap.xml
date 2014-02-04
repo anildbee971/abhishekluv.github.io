@@ -42,7 +42,7 @@
     </url>
     <url>
         <loc>http://www.abhishekluv.in/services/</loc>
-        <lastmod>2014-02-04T00:44:11+05:30</lastmod>
+        <lastmod>2014-02-04T12:14:20+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/blog/archives/</loc>
@@ -57,11 +57,19 @@
         <lastmod>2014-02-04T00:13:06+05:30</lastmod>
     </url>
     <url>
+        <loc>http://www.abhishekluv.in/orchard-cms-themes/</loc>
+        <lastmod>2014-02-04T12:15:13+05:30</lastmod>
+    </url>
+    <url>
         <loc>http://www.abhishekluv.in/contact-me/</loc>
         <lastmod>2014-01-20T20:58:24+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/robots.txt</loc>
         <lastmod>2014-01-07T11:11:24+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/deploy-to-hosting-server/</loc>
+        <lastmod>2014-02-04T12:15:01+05:30</lastmod>
     </url>
 </urlset>
