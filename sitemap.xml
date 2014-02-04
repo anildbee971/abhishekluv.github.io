@@ -21,6 +21,10 @@
         <lastmod>2014-02-04T00:25:17+05:30</lastmod>
     </url>
     <url>
+        <loc>http://www.abhishekluv.in/basics-of-orchard-cms-module-development/</loc>
+        <lastmod>2014-02-04T13:56:16+05:30</lastmod>
+    </url>
+    <url>
         <loc>http://www.abhishekluv.in/aspnet-mvc-websites/</loc>
         <lastmod>2014-02-04T00:40:17+05:30</lastmod>
     </url>
@@ -29,12 +33,16 @@
         <lastmod>2014-01-20T22:51:40+05:30</lastmod>
     </url>
     <url>
+        <loc>http://www.abhishekluv.in/orchard-cms-for-absolute-beginners/</loc>
+        <lastmod>2014-02-04T13:46:52+05:30</lastmod>
+    </url>
+    <url>
         <loc>http://www.abhishekluv.in/</loc>
         <lastmod>2014-02-04T00:25:17+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/training/</loc>
-        <lastmod>2014-01-20T21:14:06+05:30</lastmod>
+        <lastmod>2014-02-04T13:56:46+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/orchard-cms-websites/</loc>
@@ -51,6 +59,10 @@
     <url>
         <loc>http://www.abhishekluv.in/testimonials/</loc>
         <lastmod>2014-01-21T07:26:47+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/basics-of-git-and-github/</loc>
+        <lastmod>2014-02-04T13:54:25+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/portfolio/</loc>
@@ -71,5 +83,13 @@
     <url>
         <loc>http://www.abhishekluv.in/deploy-to-hosting-server/</loc>
         <lastmod>2014-02-04T12:15:01+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/csharp-of-absolute-beginners/</loc>
+        <lastmod>2014-02-04T13:54:37+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/aspnet-mvc-for-absolute-beginners/</loc>
+        <lastmod>2014-02-04T13:54:54+05:30</lastmod>
     </url>
 </urlset>
