@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Orchardcms | Abhishek's Blog - Code Abstract]]></title>
+  <title><![CDATA[Category: orchardcms | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchardcms/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-02-07T21:14:37+05:30</updated>
+  <updated>2014-02-07T23:10:44+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -36,7 +36,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Orchard CMS for Absolute Beginners - Udemy Course]]></title>
+    <title type="html"><![CDATA[Orchard CMS for Absolute Beginners - Udemy course]]></title>
     <link href="http://www.abhishekluv.in/blog/2014/01/07/orchard-cms-for-absolute-beginners-udemy-course/"/>
     <updated>2014-01-07T17:34:46+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/01/07/orchard-cms-for-absolute-beginners-udemy-course</id>
