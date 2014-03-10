@@ -4,7 +4,7 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-03-10T22:31:36+05:30</updated>
+  <updated>2014-03-10T22:32:57+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -18,9 +18,7 @@
     <link href="http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net/"/>
     <updated>2014-03-10T22:19:07+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net</id>
-    <content type="html"><![CDATA[<h2>HTTP Handler</h2>
-
-<p>HTTP Handler is key to unlocking how HTTP requests are linked to your ASP.NET Pages.</p>
+    <content type="html"><![CDATA[<p>HTTP Handler is key to unlocking how HTTP requests are linked to your ASP.NET Pages.</p>
 
 <p>An HTTP Handler is an endpoint on the server that responds to requests for different resources. for example</p>
 
