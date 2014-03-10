@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HTTPHandler | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/httphandler/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-03-10T22:37:00+05:30</updated>
+  <updated>2014-03-10T22:49:41+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -18,12 +18,9 @@
     <link href="http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net/"/>
     <updated>2014-03-10T22:19:07+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net</id>
-    <content type="html"><![CDATA[<p>HTTP Handler is key to unlocking how HTTP requests are linked to your ASP.NET Pages.</p>
+    <content type="html"><![CDATA[<p>HTTP Handler is a key to unlocking how HTTP requests are linked to your ASP.NET Pages.</p>
 
-<p>An HTTP Handler is an endpoint on the server that responds to requests for different resources. for example</p>
-
-<p>ASP.NET Page Handler is called when an ASPX page is requested from the sever. Similarly you can write custom
-handlers to be called when a resource with a specific file extension is requested of the server.</p>
+<p>An HTTP Handler is an endpoint on the server that responds to requests for different resources. For Example, ASP.NET Page Handler is called when an ASPX page is requested from the sever. Similarly you can write your own custom handlers to be called when a resource with a specific file extension is requested of the server.</p>
 
 <!-- more -->
 
@@ -34,9 +31,9 @@ handlers to be called when a resource with a specific file extension is requeste
 You can create custom handlers, register them with IIS.</p>
 
 <p>You can create a custom, Synchronous HTTP Handler by implementing the IHttpHandler interface. This interface
-requires you to implement that IsResusable property to indicate whether your handler can be resued to increase performance across requests.</p>
+requires you to implement the IsResusable property to indicate whether your handler can be resued to increase performance across requests.</p>
 
-<p>The IHttpHandler interface also requires you to implement the ProcessRequest method. This method is called by ASP.NET when your handler executes. HTTP Hanlder exists inside ASP.NET. Therefore, it has access to the application context including the session state , application state and identity of the user making the request.</p>
+<p>The IHttpHandler interface also requires you to implement the ProcessRequest method. This method is called by ASP.NET when your handler executes. HTTP Handler exists inside ASP.NET. Therefore, it has access to the application context including the session state , application state and identity of the user making the request.</p>
 
 <p><div><script src='https://gist.github.com/9468699.js'></script>
 <noscript><pre><code>public class MyImageHandler : IHttpHandler
@@ -66,7 +63,7 @@ requires you to implement that IsResusable property to indicate whether your han
 }</code></pre></noscript></div>
 </p>
 
-<h2>Registering custome HTTP Handler using web.config file</h2>
+<h2>Registering custom HTTP Handler using web.config file</h2>
 
 <p><div><script src='https://gist.github.com/9468923.js'></script>
 <noscript><pre><code>&lt;configuration&gt;
