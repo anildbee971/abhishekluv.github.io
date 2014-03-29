@@ -33,40 +33,60 @@
         <lastmod>2014-03-12T20:31:48+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.abhishekluv.in/basics-of-orchard-cms-module-development/</loc>
-        <lastmod>2014-02-07T22:31:56+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.abhishekluv.in/aspnet-mvc-websites/</loc>
-        <lastmod>2014-02-07T22:31:56+05:30</lastmod>
-    </url>
-    <url>
         <loc>http://www.abhishekluv.in/mumbai-orchard-cms-user-group/</loc>
         <lastmod>2014-03-19T09:20:20+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.abhishekluv.in/orchard-cms-for-absolute-beginners/</loc>
-        <lastmod>2014-02-09T10:49:15+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/</loc>
         <lastmod>2014-03-12T20:31:48+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.abhishekluv.in/aspnet-web-pages-using-webmatrix/</loc>
+        <loc>http://www.abhishekluv.in/training/basics-of-orchard-cms-module-development/</loc>
+        <lastmod>2014-02-07T22:31:56+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/training/orchard-cms-for-absolute-beginners/</loc>
+        <lastmod>2014-02-09T10:49:15+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/training/aspnet-web-pages-using-webmatrix/</loc>
         <lastmod>2014-02-10T06:54:07+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/training/</loc>
-        <lastmod>2014-03-19T09:21:30+05:30</lastmod>
+        <lastmod>2014-03-29T11:11:34+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.abhishekluv.in/orchard-cms-websites/</loc>
+        <loc>http://www.abhishekluv.in/training/basics-of-git-and-github/</loc>
+        <lastmod>2014-02-09T10:48:59+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/training/csharp-of-absolute-beginners/</loc>
+        <lastmod>2014-02-09T10:48:23+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/training/aspnet-mvc-for-absolute-beginners/</loc>
+        <lastmod>2014-02-09T10:48:28+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/services/aspnet-mvc-websites/</loc>
+        <lastmod>2014-02-07T22:31:56+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/services/orchard-cms-websites/</loc>
         <lastmod>2014-02-07T22:31:56+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/services/</loc>
-        <lastmod>2014-03-19T09:18:02+05:30</lastmod>
+        <lastmod>2014-03-29T11:13:10+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/services/orchard-cms-themes/</loc>
+        <lastmod>2014-02-07T22:31:56+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/services/deploy-to-hosting-server/</loc>
+        <lastmod>2014-03-29T11:09:43+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/blog/archives/</loc>
@@ -109,16 +129,8 @@
         <lastmod>2014-03-19T09:27:31+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.abhishekluv.in/basics-of-git-and-github/</loc>
-        <lastmod>2014-02-09T10:48:59+05:30</lastmod>
-    </url>
-    <url>
         <loc>http://www.abhishekluv.in/portfolio/</loc>
         <lastmod>2014-03-19T09:19:23+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.abhishekluv.in/orchard-cms-themes/</loc>
-        <lastmod>2014-02-07T22:31:56+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/contact-me/</loc>
@@ -131,13 +143,5 @@
     <url>
         <loc>http://www.abhishekluv.in/deploy-to-hosting-server/</loc>
         <lastmod>2014-02-07T22:31:56+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.abhishekluv.in/csharp-of-absolute-beginners/</loc>
-        <lastmod>2014-02-09T10:48:23+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://www.abhishekluv.in/aspnet-mvc-for-absolute-beginners/</loc>
-        <lastmod>2014-02-09T10:48:28+05:30</lastmod>
     </url>
 </urlset>
