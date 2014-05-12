@@ -4,7 +4,7 @@
   <title><![CDATA[Category: orchardcms | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchardcms/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-03-31T21:52:01+05:30</updated>
+  <updated>2014-05-12T11:19:01+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,81 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Theme Development for Beginners - Udemy Course]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/04/26/orchard-cms-theme-development-for-beginners-udemy-course/"/>
+    <updated>2014-04-26T10:52:41+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/04/26/orchard-cms-theme-development-for-beginners-udemy-course</id>
+    <content type="html"><![CDATA[<p>After the success of my first online course <a href="https://www.udemy.com/orchard-cms-for-absolute-beginners" title="https://www.udemy.com/orchard-cms-for-absolute-beginners">&#8220;Orchard CMS for Absolute Beginners&#8221;</a> currently having 1300+ students, I&#8217;m back with my latest online course on Orchard CMS for Theme Development &#8220;Orchard CMS Theme Developement for Beginners&#8221;.</p>
+
+
+
+
+<!-- more -->
+
+
+
+
+<p>This course will be a little more advanced than my previous course on Orchard CMS. So, <a href="https://www.udemy.com/orchard-cms-for-absolute-beginners" title="https://www.udemy.com/orchard-cms-for-absolute-beginners">basic knowledge of Orchard CMS</a> is required.</p>
+
+
+
+
+<h2>Course Requirements</h2>
+
+
+
+
+<ol>
+<li>Basic Knowledge of Orchard CMS</li>
+<li>Microsoft Visual Studio 2012 or Higher</li>
+<li>Msysgit is required for cloning the Orchard CMS Source Code Project</li>
+<li>Basic Knowledge of HTML &amp; Twitter Bootstrap CSS Classes</li>
+</ol>
+
+
+
+
+<h2>In this course, You will learn the following things</h2>
+
+
+
+
+<ol>
+<li>Get Started with Orchard CMS Theme Development</li>
+<li>How to use Orchard CMS Command-Line Scaffolding</li>
+<li>How to create themes in Orchard CMS</li>
+<li>What are Shapes and How to override Shapes in Orchard</li>
+<li>What are Shape Templates</li>
+<li>What are Part Templates (Overriding Content Parts)</li>
+<li>What are EditorTemplates (Overriding EditorTemplate for Content Parts)</li>
+<li>How to override Widgets</li>
+<li>Placement.info : Placing shapes in a specific zone with a weight</li>
+<li>Placement.info : Matching(DisplayType, ContentType, Path)</li>
+</ol>
+
+
+
+
+<h2>Target Audience</h2>
+
+
+
+
+<ol>
+<li>Web Developers having interest in Orchard CMS Theme Development</li>
+<li>Web Designers</li>
+<li>Orchard Newbies</li>
+</ol>
+
+
+
+
+<p><a href="https://www.udemy.com/orchard-cms-theme-development-for-beginners" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mumbai Orchard CMS User Group]]></title>
