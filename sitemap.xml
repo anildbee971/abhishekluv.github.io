@@ -49,10 +49,6 @@
         <lastmod>2014-05-27T12:51:45+05:30</lastmod>
     </url>
     <url>
-        <loc>http://www.abhishekluv.in/mumbai-orchard-cms-user-group/</loc>
-        <lastmod>2014-05-24T07:46:48+05:30</lastmod>
-    </url>
-    <url>
         <loc>http://www.abhishekluv.in/</loc>
         <lastmod>2014-05-27T12:51:45+05:30</lastmod>
     </url>
@@ -139,5 +135,9 @@
     <url>
         <loc>http://www.abhishekluv.in/robots.txt</loc>
         <lastmod>2014-02-07T22:31:56+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/orchard-cms-india/</loc>
+        <lastmod>2014-05-31T16:57:49+05:30</lastmod>
     </url>
 </urlset>
