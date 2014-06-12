@@ -4,7 +4,7 @@
   <title><![CDATA[Category: orchard | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchard/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-06-11T07:13:07+05:30</updated>
+  <updated>2014-06-13T00:41:02+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Week 1 : Installation]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/06/13/orchard-cms-week-1-installation/"/>
+    <updated>2014-06-13T00:37:26+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/06/13/orchard-cms-week-1-installation</id>
+    <content type="html"><![CDATA[<p>Orchard CMS Weekly Videos</p>
+
+<p>Orchard CMS Week 1 : Installation</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/s8LHmMqwqF4" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard CMS Book : Getting Started]]></title>
