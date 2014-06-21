@@ -59,12 +59,18 @@
         <lastmod>2014-06-13T23:03:43+05:30</lastmod>
     </url>
     <url>
+        <loc>
+            http://www.abhishekluv.in/blog/2014/06/21/orchard-cms-tutorial-week-2-site-settings/
+        </loc>
+        <lastmod>2014-06-21T16:24:14+05:30</lastmod>
+    </url>
+    <url>
         <loc>http://www.abhishekluv.in/orchard-cms-weekly-tutorials/</loc>
-        <lastmod>2014-06-13T23:13:01+05:30</lastmod>
+        <lastmod>2014-06-21T16:26:55+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/</loc>
-        <lastmod>2014-06-13T23:03:43+05:30</lastmod>
+        <lastmod>2014-06-21T16:24:14+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/trainings/basics-of-orchard-cms-module-development/</loc>
@@ -96,7 +102,7 @@
     </url>
     <url>
         <loc>http://www.abhishekluv.in/blog/archives/</loc>
-        <lastmod>2014-06-13T23:03:43+05:30</lastmod>
+        <lastmod>2014-06-21T16:24:14+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/assets/bootstrap/docs/components.html</loc>
@@ -104,7 +110,7 @@
     </url>
     <url>
         <loc>http://www.abhishekluv.in/assets/bootstrap/docs/</loc>
-        <lastmod>2014-06-13T23:03:43+05:30</lastmod>
+        <lastmod>2014-06-21T16:24:14+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/assets/bootstrap/docs/customize.html</loc>
