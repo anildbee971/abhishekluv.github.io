@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: recipes | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/recipes/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2014-06-28T18:00:09+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Tutorial : Recipes in Orchard CMS]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/06/28/orchard-cms-tutorial-recipes-in-orchard-cms/"/>
+    <updated>2014-06-28T17:55:34+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/06/28/orchard-cms-tutorial-recipes-in-orchard-cms</id>
+    <content type="html"><![CDATA[<p>Recipes in Orchard are a huge productivity boost when installing Orchard CMS on a client's server,
+because it avoids the Orchard Web Developer from having to manually configure Orchard CMS instance.</p>
+
+<!-- more -->
+
+
+<h2>What is a Recipe</h2>
+
+<p>Orchard simplifies the process of setting up a new website by letting you use website recipes. A recipe is an XML file that contains the startup configuration for an Orchard website. When you start Orchard for the first time, you can select a recipe that best matches the type of site you want to set up.</p>
+
+<p>For example, if you want your website to be a blog, you can select the Blog recipe, and much of the configuration work will be done for you.</p>
+
+<p>You can create your own recipes and customize the process of setting a website and configuring Orchard features. Recipes can also instruct Orchard to download and install modules and themes from the Orchard Gallery during website setup.</p>
+
+<p>This course describes how to use recipes, how to create custom recipes, export or import recipes, how to create a website using a custom recipe.</p>
+
+<blockquote><p><em>docs.orchardproject.net</em></p></blockquote>
+
+<p><a href="https://www.udemy.com/orchard-cms-tutorial-recipes-in-orchard-cms/" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
+
+]]></content>
+  </entry>
+  
+</feed>
