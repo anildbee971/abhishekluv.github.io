@@ -4,7 +4,7 @@
   <title><![CDATA[Category: orchardcms | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchardcms/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-07-09T23:54:20+05:30</updated>
+  <updated>2014-07-13T22:31:39+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Tutorial Week 5 : Taxonomies]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/07/13/orchard-cms-tutorial-week-5-taxonomies/"/>
+    <updated>2014-07-13T22:28:14+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/07/13/orchard-cms-tutorial-week-5-taxonomies</id>
+    <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+
+<p>Orchard CMS Tutorial Week 5 : Taxonomies</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/j20Ekd1WRBQ" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard CMS Tutorial Week 4 : Users, Roles and Permissions]]></title>
@@ -95,22 +114,6 @@ because it avoids the Orchard Web Developer from having to manually configure Or
 
 <iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/s8LHmMqwqF4" frameborder="0" allowfullscreen></iframe>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS Book : Getting Started]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/06/11/orchard-cms-book-getting-started/"/>
-    <updated>2014-06-11T07:06:08+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/06/11/orchard-cms-book-getting-started</id>
-    <content type="html"><![CDATA[<p><a href="https://leanpub.com/orchardcmsgettingstarted">Orchard CMS Book : Getting Started</a></p>
-
-<p>Learn the fundamentals of Orchard CMS from Beginner to Advanced</p>
-
-<!-- more -->
-
-
-<p><img src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/myorchardcmsbook.PNG" alt="Orchard CMS Book : Getting Started" /></p>
 ]]></content>
   </entry>
   
