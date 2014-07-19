@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: widgets | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/widgets/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2014-07-19T21:41:18+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+    <updated>2014-07-19T21:36:24+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+    <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+
+<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+</feed>

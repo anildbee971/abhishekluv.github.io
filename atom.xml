@@ -4,7 +4,7 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-07-16T12:16:22+05:30</updated>
+  <updated>2014-07-19T21:41:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+    <updated>2014-07-19T21:36:24+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+    <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+
+<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard CMS Tutorial : Workflows in Orchard CMS]]></title>
