@@ -56,13 +56,13 @@
         <loc>
             http://www.abhishekluv.in/blog/2014/06/13/orchard-cms-tutorial-week-1-installation/
         </loc>
-        <lastmod>2014-06-13T23:03:43+05:30</lastmod>
+        <lastmod>2014-07-26T13:54:07+05:30</lastmod>
     </url>
     <url>
         <loc>
             http://www.abhishekluv.in/blog/2014/06/21/orchard-cms-tutorial-week-2-site-settings/
         </loc>
-        <lastmod>2014-06-21T16:24:14+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:08+05:30</lastmod>
     </url>
     <url>
         <loc>
@@ -72,17 +72,17 @@
     </url>
     <url>
         <loc>http://www.abhishekluv.in/blog/2014/06/29/orchard-cms-tutorial-week-3-comments/</loc>
-        <lastmod>2014-07-07T00:01:00+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:14+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/blog/2014/07/06/orchard-cms-tutorial-week-4-users/</loc>
-        <lastmod>2014-07-07T00:01:47+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:21+05:30</lastmod>
     </url>
     <url>
         <loc>
             http://www.abhishekluv.in/blog/2014/07/13/orchard-cms-tutorial-week-5-taxonomies/
         </loc>
-        <lastmod>2014-07-13T22:29:05+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:27+05:30</lastmod>
     </url>
     <url>
         <loc>
@@ -94,15 +94,25 @@
         <loc>
             http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/
         </loc>
-        <lastmod>2014-07-19T21:38:13+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:33+05:30</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/
+        </loc>
+        <lastmod>2014-07-26T13:49:09+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner/</loc>
+        <lastmod>2014-07-26T13:48:58+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/orchard-cms-weekly-tutorials/</loc>
-        <lastmod>2014-07-19T21:40:51+05:30</lastmod>
+        <lastmod>2014-07-26T13:57:01+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/</loc>
-        <lastmod>2014-07-19T21:38:13+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:33+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/trainings/basics-of-orchard-cms-module-development/</loc>
@@ -134,7 +144,7 @@
     </url>
     <url>
         <loc>http://www.abhishekluv.in/blog/archives/</loc>
-        <lastmod>2014-07-19T21:38:13+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:33+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/assets/bootstrap/docs/components.html</loc>
@@ -142,7 +152,7 @@
     </url>
     <url>
         <loc>http://www.abhishekluv.in/assets/bootstrap/docs/</loc>
-        <lastmod>2014-07-19T21:38:13+05:30</lastmod>
+        <lastmod>2014-07-26T13:55:33+05:30</lastmod>
     </url>
     <url>
         <loc>http://www.abhishekluv.in/assets/bootstrap/docs/customize.html</loc>
