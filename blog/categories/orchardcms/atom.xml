@@ -4,7 +4,7 @@
   <title><![CDATA[Category: orchardcms | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchardcms/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-08-26T13:04:06+05:30</updated>
+  <updated>2014-08-26T20:58:57+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Orchard CMS using SQL Server]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server/"/>
+    <updated>2014-08-26T20:50:05+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server</id>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we'll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Orchard CMS using SQL Server CE]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server-ce/"/>
+    <updated>2014-08-26T20:47:32+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server-ce</id>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we'll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server CE(Compact Edition).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard Beginner - Comments in Orchard]]></title>
@@ -67,57 +85,6 @@
 <p><a href="http://orchardbeginner.com/">Orchard Beginner</a></p>
 
 <p><strong>Happy Orcharding!!</strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
-    <updated>2014-07-19T21:36:24+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
-    <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
-
-<p><a href="/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS Tutorial : Workflows in Orchard CMS]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/07/16/orchard-cms-tutorial-workflows-in-orchard-cms/"/>
-    <updated>2014-07-16T12:09:45+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/07/16/orchard-cms-tutorial-workflows-in-orchard-cms</id>
-    <content type="html"><![CDATA[<p>The Workflows Module in Orchard provides us tools to create custom workflows for events or activities like Content Created, Content Published, Content Removed, Send Email, Timer and many more.</p>
-
-<p>This course shows you how to get started with Workflows in Orchard CMS. And the course consists of 7 Demo tutorial videos on Workflows and how to use workflows to create your own custom workflows for the following things :</p>
-
-<!-- more -->
-
-
-<ul>
-<li><p>Custom Form Submission + Notification using Workflows</p></li>
-<li><p>Page Published if created by Admin if not Notify the administrator</p></li>
-<li><p>Closing Comments using Workflows</p></li>
-<li><p>Redirecting user after form submission using Workflows</p></li>
-<li><p>Assigning roles for new registering user using Workflows</p></li>
-<li><p>Comments Moderation Notification using Workflows</p></li>
-<li><p>Comments Removal User Notification using Workflows</p></li>
-</ul>
-
-
-<blockquote><p>Happy Orcharding</p></blockquote>
-
-<p><a href="https://www.udemy.com/orchard-cms-tutorial-workflows-in-orchard-cms/" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
-
 ]]></content>
   </entry>
   
