@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: udemy | Abhishek Luv]]></title>
-  <link href="http://www.abhishekluv.in/blog/categories/udemy/atom.xml" rel="self"/>
+  <title><![CDATA[Category: pages | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/pages/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
   <updated>2014-08-27T20:41:23+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
@@ -75,22 +75,6 @@
 
 <p><a href="https://www.udemy.com/learn-how-to-host-static-websites-using-github-pages" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS for Absolute Beginners - Udemy course]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/01/07/orchard-cms-for-absolute-beginners-udemy-course/"/>
-    <updated>2014-01-07T17:34:46+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/01/07/orchard-cms-for-absolute-beginners-udemy-course</id>
-    <content type="html"><![CDATA[<p>Orchard CMS for Absolute Beginners is a course about the latest open-source .NET Content Management System which is written in ASP.NET platform using the ASP.NET MVC framework.</p>
-
-<!-- more -->
-
-
-<p><a href="http://rkl.net.in/orchardcms" title="Orchard CMS for Absolute Beginners - Udemy Course">Orchard CMS for Absolute Beginners - Udemy Course</a></p>
-
-<p>Grab it and do share it with your friends.</p>
 ]]></content>
   </entry>
   

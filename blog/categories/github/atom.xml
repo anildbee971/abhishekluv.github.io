@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-08-26T21:04:56+05:30</updated>
+  <updated>2014-08-27T20:41:23+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn How to Host Static Websites using GitHub Pages(Udemy Course)]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/"/>
+    <updated>2014-08-27T20:30:18+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages</id>
+    <content type="html"><![CDATA[<p>
+          GitHub Pages are public webpages freely hosted and easily published through the GitHub website. You can create and publish them online using the Automatic Page Generator. If you prefer to work locally, you can use the GitHub for Mac and Windows apps.
+</p>
+
+
+<p>
+          In this course you'll learn how to host a static website using GitHub Pages at no cost. You'll need to purchase your own Domain Name which costs around $10 to $12 yearly that's it.
+</p>
+
+
+<!-- more -->
+
+
+<p>
+          A lot of people who are scared to get their First Website online now can have their website online right away using GitHub Pages.
+</p>
+
+
+
+
+<p>
+          In this course you'll learn the following things:
+</p>
+
+
+<ul>
+    <li>Getting Started with GitHub</li>
+    <li>How to create Repositories and Organizations</li>
+    <li>How to use GitHub Pages</li>
+    <li>Types of GitHub Pages</li>
+    <li>How to use the Git Extensions Software</li>
+    <li>How to Host Static Websites using GitHub Pages</li>
+</ul>
+
+
+<p>
+    <strong>Note : Course is about GitHub Pages only and not about Designing Websites. This course only covers the Hosting part and not Designing.</strong>
+</p>
+
+
+<p>
+          Thank You
+</p>
+
+
+<p>
+          Abhishek Luv
+</p>
+
+
+<p>
+    <strong>Happy Learning!</strong>
+</p>
+
+
+<p><a href="https://www.udemy.com/learn-how-to-host-static-websites-using-github-pages" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Command-Line &amp; GitHub Basics]]></title>
