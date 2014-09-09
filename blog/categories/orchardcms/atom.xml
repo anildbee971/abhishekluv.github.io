@@ -4,7 +4,7 @@
   <title><![CDATA[Category: orchardcms | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchardcms/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-09-07T23:31:56+05:30</updated>
+  <updated>2014-09-09T13:32:25+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard Beginner : Content Parts in Orchard]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/09/09/orchard-beginner-content-parts-in-orchard/"/>
+    <updated>2014-09-09T13:29:33+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/09/09/orchard-beginner-content-parts-in-orchard</id>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A content part is a piece of reusable functionality or UI (or both) that can be appended to any content type in Orchard.</p>
+
+<p>Content parts may not store any corresponding data (in this case, they only add functionality by using existing data) in the database or they can even load data from an external data source (like a webservice).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard Beginner : Content Types in Orchard]]></title>
@@ -48,15 +59,6 @@
     <updated>2014-08-26T20:47:32+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server-ce</id>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we'll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server CE(Compact Edition).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner - Comments in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard/"/>
-    <updated>2014-08-26T12:26:38+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Comments are what make a blog/website more interactive and more social. In this post we'll be talking about how to handle and moderate comments for your Orchard website. Let's get started.</p>
 ]]></content>
   </entry>
   
