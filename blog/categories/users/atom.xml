@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: users, | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/users/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2014-09-13T21:27:10+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard Beginner : Creating New Users in Orchard]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard/"/>
+    <updated>2014-09-13T21:23:31+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard</id>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard.</p>
+
+<p>Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
+]]></content>
+  </entry>
+  
+</feed>

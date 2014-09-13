@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: orchardcms | Abhishek Luv]]></title>
+  <title><![CDATA[Category: orchardcms, | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchardcms/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-09-11T20:02:02+05:30</updated>
+  <updated>2014-09-13T21:27:10+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -14,53 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Content Fields in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/11/orchard-beginner-content-fields-in-orchard/"/>
-    <updated>2014-09-11T12:50:18+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/11/orchard-beginner-content-fields-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Content fields are bits of information that can store basic data, like the common .NET classes, e.g. strings, integers and dates.</p>
+    <title type="html"><![CDATA[Orchard Beginner : Creating New Users in Orchard]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard/"/>
+    <updated>2014-09-13T21:23:31+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard</id>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard.</p>
 
-<p>Content fields can be attached to a content part in any quantity you like from the Admin UI, just make sure every field has a unique name. That means that unlike with parts, you can have a specific type of field attached multiple times.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Content Parts in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/09/orchard-beginner-content-parts-in-orchard/"/>
-    <updated>2014-09-09T13:29:33+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/09/orchard-beginner-content-parts-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A content part is a piece of reusable functionality or UI (or both) that can be appended to any content type in Orchard.</p>
-
-<p>Content parts may not store any corresponding data (in this case, they only add functionality by using existing data) in the database or they can even load data from an external data source (like a webservice).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Content Types in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard/"/>
-    <updated>2014-09-04T20:56:34+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Content Type is a blueprint of how content items of that type look like: it defines the set of content parts that make up the content types.</p>
-
-<p>A content type only consists of content parts, even if it seems that you can directly attach content fields to a content type from the admin UI. When you attach fields from the admin UI in reality an invisible part is created that has the same name as the content type(e.g. a Page part is created for the Page content type) and the fields get attached to that.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Content Items in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/03/orchard-beginner-content-items-in-orchard/"/>
-    <updated>2014-09-03T12:41:28+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/03/orchard-beginner-content-items-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Content Items are instances of Content Types, just like objects are instances of classes. Content Items are the heart and soul of Orchard i.e. they store all the data you need to handle and display.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Installing Orchard CMS using SQL Server]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server/"/>
-    <updated>2014-08-26T20:50:05+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we'll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server.</p>
+<p>Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
 ]]></content>
   </entry>
   
