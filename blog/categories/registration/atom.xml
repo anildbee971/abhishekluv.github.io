@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: registration | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/registration/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2014-09-16T12:50:24+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard Beginner : New User Registration in Orchard]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard/"/>
+    <updated>2014-09-16T12:47:26+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard</id>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
+
+<p>In order to enable site visitors to register on your Orchard website , the User settings have to be changed.</p>
+]]></content>
+  </entry>
+  
+</feed>
