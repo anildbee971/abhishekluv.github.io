@@ -4,7 +4,7 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-09-22T16:34:25+05:30</updated>
+  <updated>2014-09-26T13:48:40+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -16,380 +16,19 @@
   
 <entry>
   
-	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/recipes-in-orchard"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-09-22T16:31:54+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/22/orchard-beginner-recipes-in-orchard</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Recipes is one of the most useful feature in Orchard. Orchard Recipes allow you to setup your site with additional pre-configured options, features and settings out of the box.</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p>Orchard simplifies the process of setting up a new website by letting you use website recipes.</p>
-
-<p>A recipe is an XML file that contains the start-up configuration for an Orchard website. When you start Orchard for the first time, you can select a recipe that best matches the type of site you want to set up.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/recipes-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner : Creating New Roles in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/creating-roles-in-orchard"/>
-	
-  <updated>2014-09-18T12:45:16+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/18/orchard-beginner-creating-new-roles-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new roles and assign roles from the Admin UI to any existing user or a new user.</p>
-
-<p>Let&#8217;s create a new role and add a new user to the newly created role.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/creating-roles-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner : New User Registration in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/new-user-registration-in-orchard"/>
-	
-  <updated>2014-09-16T12:47:26+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
-
-<p>In order to enable site visitors to register on your Orchard website , the User settings have to be changed.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/new-user-registration-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner : Creating New Users in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/creating-new-users-in-orchard"/>
-	
-  <updated>2014-09-13T21:23:31+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard.</p>
-
-<p>Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/creating-new-users-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner : Content Fields in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/content-fields-in-orchard"/>
-	
-  <updated>2014-09-11T12:50:18+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/11/orchard-beginner-content-fields-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Content fields are bits of information that can store basic data, like the common .NET classes, e.g. strings, integers and dates.</p>
-
-<p>Content fields can be attached to a content part in any quantity you like from the Admin UI, just make sure every field has a unique name. That means that unlike with parts, you can have a specific type of field attached multiple times.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/content-fields-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner : Content Parts in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/content-parts-in-orchard"/>
-	
-  <updated>2014-09-09T13:29:33+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/09/orchard-beginner-content-parts-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A content part is a piece of reusable functionality or UI (or both) that can be appended to any content type in Orchard.</p>
-
-<p>Content parts may not store any corresponding data (in this case, they only add functionality by using existing data) in the database or they can even load data from an external data source (like a webservice).</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/content-parts-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner : Content Types in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/content-types-in-orchard"/>
-	
-  <updated>2014-09-04T20:56:34+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Content Type is a blueprint of how content items of that type look like: it defines the set of content parts that make up the content types.</p>
-
-<p>A content type only consists of content parts, even if it seems that you can directly attach content fields to a content type from the admin UI. When you attach fields from the admin UI in reality an invisible part is created that has the same name as the content type(e.g. a Page part is created for the Page content type) and the fields get attached to that.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/content-types-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner : Content Items in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/content-items-in-orchard"/>
-	
-  <updated>2014-09-03T12:41:28+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/09/03/orchard-beginner-content-items-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Content Items are instances of Content Types, just like objects are instances of classes. Content Items are the heart and soul of Orchard i.e. they store all the data you need to handle and display.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/content-items-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Learn How to Host Static Websites using GitHub Pages(Udemy Course)]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/"/>
-	
-  <updated>2014-08-27T20:30:18+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages</id>
-  
-  <content type="html"><![CDATA[<p>
-          GitHub Pages are public webpages freely hosted and easily published through the GitHub website. You can create and publish them online using the Automatic Page Generator. If you prefer to work locally, you can use the GitHub for Mac and Windows apps.
-</p>
-
-
-<p>
-          In this course you&#8217;ll learn how to host a static website using GitHub Pages at no cost. You&#8217;ll need to purchase your own Domain Name which costs around $10 to $12 yearly that&#8217;s it.
-</p>
-
-
-<!-- more -->
-
-
-<p>
-          A lot of people who are scared to get their First Website online now can have their website online right away using GitHub Pages.
-</p>
-
-
-
-
-<p>
-          In this course you&#8217;ll learn the following things:
-</p>
-
-
-<ul>
-    <li>Getting Started with GitHub</li>
-    <li>How to create Repositories and Organizations</li>
-    <li>How to use GitHub Pages</li>
-    <li>Types of GitHub Pages</li>
-    <li>How to use the Git Extensions Software</li>
-    <li>How to Host Static Websites using GitHub Pages</li>
-</ul>
-
-
-<p>
-    <strong>Note : Course is about GitHub Pages only and not about Designing Websites. This course only covers the Hosting part and not Designing.</strong>
-</p>
-
-
-<p>
-          Thank You
-</p>
-
-
-<p>
-          Abhishek Luv
-</p>
-
-
-<p>
-    <strong>Happy Learning!</strong>
-</p>
-
-
-<p><a href="https://www.udemy.com/learn-how-to-host-static-websites-using-github-pages" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/">Permalink</a>]]></content>
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Creating Blogs and Blog Posts in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/creating-blogs-and-blog-posts-in-orchard"/>
-	
-  <updated>2014-08-26T20:57:10+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/creating-blogs-and-blog-posts-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Every Content Management System has features like Pages, Blogs and Blog Posts. In this post we&#8217;ll be talking about how to create a Blog and Blog Post in Orchard. Let&#8217;s get started.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/creating-blogs-and-blog-posts-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Creating Pages in Orchard CMS ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/creating-pages-in-orchard-cms"/>
-	
-  <updated>2014-08-26T20:56:07+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/creating-pages-in-orchard-cms</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Every Content Management System has features like Pages, Blogs and Blog Posts. In this post we&#8217;ll be talking about how to create Pages in Orchard. Let&#8217;s get started.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/creating-pages-in-orchard-cms">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard CMS Gallery ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/orchard-cms-gallery"/>
-	
-  <updated>2014-08-26T20:54:56+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-cms-gallery</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Gallery is the most important part of any Content Management System, Let it be WordPress, Drupal , Joomla or in our case Orchard.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/orchard-cms-gallery">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[General Site Settings in Orchard CMS ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/general-site-settings-in-orchard-cms"/>
-	
-  <updated>2014-08-26T20:53:33+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/general-site-settings-in-orchard-cms</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn about the General Site Settings in Orchard CMS.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/general-site-settings-in-orchard-cms">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Installing Orchard CMS using IIS and SQL Server ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/installing-orchard-cms-using-iis-and-sql-server"/>
-	
-  <updated>2014-08-26T20:51:35+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-iis-and-sql-server</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn how to install Orchard CMS using IIS 8 and SQL Server.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/installing-orchard-cms-using-iis-and-sql-server">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Installing Orchard CMS using SQL Server ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/installing-orchard-cms-using-sql-server"/>
-	
-  <updated>2014-08-26T20:50:05+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/installing-orchard-cms-using-sql-server">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Installing Orchard CMS using SQL Server CE ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/installation-orchard-cms-using-sql-server-ce"/>
-	
-  <updated>2014-08-26T20:47:32+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server-ce</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server CE(Compact Edition).</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/installation-orchard-cms-using-sql-server-ce">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard Beginner - Comments in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
-	<link href="http://orchardbeginner.com/blog/comments-in-orchard"/>
-	
-  <updated>2014-08-26T12:26:38+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard</id>
-  
-  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Comments are what make a blog/website more interactive and more social. In this post we&#8217;ll be talking about how to handle and moderate comments for your Orchard website. Let&#8217;s get started.</p>
-<a rel="full-article" href="http://orchardbeginner.com/blog/comments-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Welcome To Orchard Beginner]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner/"/>
-	
-  <updated>2014-07-26T13:45:03+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner</id>
-  
-  <content type="html"><![CDATA[<p><strong>Orchard Beginner</strong> is created with the aim to provide users and developers to have a Beginner&#8217;s Guide to learn the ins and outs of Orchard.</p>
-
-<p>We begin with the Basics of Orchard i.e. Talking about <strong>Basic site management</strong>, <strong>User management</strong> and then we step into more important features of Orchard like <strong>Queries</strong>, <strong>Projector</strong>, <strong>Taxonomies</strong>, <strong>Custom Forms</strong>, <strong>Workflows</strong> and <strong>Recipes</strong>.</p>
-
-<!-- more-->
-
-
-<p>After that we&#8217;ll talk about how to <strong>Get Started</strong> with <strong>Theme Development</strong> in Orchard and later on <strong>Module Development</strong> too.</p>
-
-<p>Again <strong>Welcome To Orchard Beginner</strong>.</p>
-
-<p><a href="http://orchardbeginner.com/">Orchard Beginner</a></p>
-
-<p><strong>Happy Orcharding!!</strong></p>
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner/">Permalink</a>]]></content>
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Discontinuing Orchard CMS Weekly Videos]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/"/>
-	
-  <updated>2014-07-26T13:43:17+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos</id>
-  
-  <content type="html"><![CDATA[<p>Hello there,</p>
-
-<p>I&#8217;ll be discontinuing the Orchard CMS Weekly Tutorial Videos. Let me Welcome you to Orchard Beginner.</p>
-
-<p><strong>Orchard Beginner</strong> is created with the aim to provide users and developers to have a Beginner&#8217;s Guide to learn the ins and outs of Orchard.</p>
-
-<!-- more-->
-
-
-<p>We begin with the Basics of Orchard i.e. Talking about <strong>Basic site management</strong>, <strong>User management</strong> and then we step into more important features of Orchard like <strong>Queries</strong>, <strong>Projector</strong>, <strong>Taxonomies</strong>, <strong>Custom Forms</strong>, <strong>Workflows</strong> and <strong>Recipes</strong>.</p>
-
-<p>After that we&#8217;ll talk about how to <strong>Get Started</strong> with <strong>Theme Development</strong> in Orchard and later on <strong>Module Development</strong> too.</p>
-
-<p>Again <strong>Welcome To Orchard Beginner</strong>.</p>
-
-<p><a href="http://orchardbeginner.com/">Orchard Beginner</a></p>
-
-<p><strong>Happy Orcharding!!</strong></p>
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Permalink</a>]]></content>
-	
-</entry>
-
-<entry>
-  
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
-	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
-  
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
-
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
-	
-</entry>
-
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -739,33 +378,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -1115,33 +744,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -1491,33 +1110,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -1867,33 +1476,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -2243,33 +1842,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -2619,33 +2208,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -2995,33 +2574,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -3371,33 +2940,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -3747,33 +3306,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -4123,33 +3672,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -4499,33 +4038,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -4875,33 +4404,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -5251,33 +4770,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -5627,33 +5136,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -6003,33 +5502,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -6379,33 +5868,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -6755,33 +6234,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -7131,33 +6600,23 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
-
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
-
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
 	
 </entry>
 
-  
-  
 <entry>
   
 	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
@@ -7507,28 +6966,369 @@
 	
 </entry>
 
+  
+  
 <entry>
   
-	<title type="html"><![CDATA[Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones]]></title>
-	<link href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/"/>
+	<title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/custom-forms-in-orchard"/>
 	
-  <updated>2014-07-19T21:36:24+05:30</updated>
-  <id>http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones</id>
+  <updated>2014-09-26T13:43:43+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
   
-  <content type="html"><![CDATA[<p>Orchard CMS Weekly Tutorial Videos</p>
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
 
-<p><a href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/custom-forms-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
 
-<p>Orchard CMS Tutorial Week 6 : Layers, Widgets, Zones</p>
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : Recipes in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/recipes-in-orchard"/>
+	
+  <updated>2014-09-22T16:31:54+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/22/orchard-beginner-recipes-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Recipes is one of the most useful feature in Orchard. Orchard Recipes allow you to setup your site with additional pre-configured options, features and settings out of the box.</p>
+
+<p>Orchard simplifies the process of setting up a new website by letting you use website recipes.</p>
+
+<p>A recipe is an XML file that contains the start-up configuration for an Orchard website. When you start Orchard for the first time, you can select a recipe that best matches the type of site you want to set up.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/recipes-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : Creating New Roles in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/creating-roles-in-orchard"/>
+	
+  <updated>2014-09-18T12:45:16+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/18/orchard-beginner-creating-new-roles-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new roles and assign roles from the Admin UI to any existing user or a new user.</p>
+
+<p>Let&#8217;s create a new role and add a new user to the newly created role.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/creating-roles-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : New User Registration in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/new-user-registration-in-orchard"/>
+	
+  <updated>2014-09-16T12:47:26+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
+
+<p>In order to enable site visitors to register on your Orchard website , the User settings have to be changed.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/new-user-registration-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : Creating New Users in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/creating-new-users-in-orchard"/>
+	
+  <updated>2014-09-13T21:23:31+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard.</p>
+
+<p>Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/creating-new-users-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : Content Fields in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/content-fields-in-orchard"/>
+	
+  <updated>2014-09-11T12:50:18+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/11/orchard-beginner-content-fields-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Content fields are bits of information that can store basic data, like the common .NET classes, e.g. strings, integers and dates.</p>
+
+<p>Content fields can be attached to a content part in any quantity you like from the Admin UI, just make sure every field has a unique name. That means that unlike with parts, you can have a specific type of field attached multiple times.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/content-fields-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : Content Parts in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/content-parts-in-orchard"/>
+	
+  <updated>2014-09-09T13:29:33+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/09/orchard-beginner-content-parts-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A content part is a piece of reusable functionality or UI (or both) that can be appended to any content type in Orchard.</p>
+
+<p>Content parts may not store any corresponding data (in this case, they only add functionality by using existing data) in the database or they can even load data from an external data source (like a webservice).</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/content-parts-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : Content Types in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/content-types-in-orchard"/>
+	
+  <updated>2014-09-04T20:56:34+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Content Type is a blueprint of how content items of that type look like: it defines the set of content parts that make up the content types.</p>
+
+<p>A content type only consists of content parts, even if it seems that you can directly attach content fields to a content type from the admin UI. When you attach fields from the admin UI in reality an invisible part is created that has the same name as the content type(e.g. a Page part is created for the Page content type) and the fields get attached to that.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/content-types-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner : Content Items in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/content-items-in-orchard"/>
+	
+  <updated>2014-09-03T12:41:28+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/09/03/orchard-beginner-content-items-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Content Items are instances of Content Types, just like objects are instances of classes. Content Items are the heart and soul of Orchard i.e. they store all the data you need to handle and display.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/content-items-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Learn How to Host Static Websites using GitHub Pages(Udemy Course)]]></title>
+	<link href="http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/"/>
+	
+  <updated>2014-08-27T20:30:18+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages</id>
+  
+  <content type="html"><![CDATA[<p>
+          GitHub Pages are public webpages freely hosted and easily published through the GitHub website. You can create and publish them online using the Automatic Page Generator. If you prefer to work locally, you can use the GitHub for Mac and Windows apps.
+</p>
+
+
+<p>
+          In this course you&#8217;ll learn how to host a static website using GitHub Pages at no cost. You&#8217;ll need to purchase your own Domain Name which costs around $10 to $12 yearly that&#8217;s it.
+</p>
+
 
 <!-- more -->
 
 
+<p>
+          A lot of people who are scared to get their First Website online now can have their website online right away using GitHub Pages.
+</p>
 
 
-<iframe width="650" height="350" src="http://www.abhishekluv.in//www.youtube.com/embed/YFufJlOi3X0" frameborder="0" allowfullscreen></iframe>
 
-<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/19/orchard-cms-tutorial-week-6-layers-widgets-zones/">Permalink</a>]]></content>
+
+<p>
+          In this course you&#8217;ll learn the following things:
+</p>
+
+
+<ul>
+    <li>Getting Started with GitHub</li>
+    <li>How to create Repositories and Organizations</li>
+    <li>How to use GitHub Pages</li>
+    <li>Types of GitHub Pages</li>
+    <li>How to use the Git Extensions Software</li>
+    <li>How to Host Static Websites using GitHub Pages</li>
+</ul>
+
+
+<p>
+    <strong>Note : Course is about GitHub Pages only and not about Designing Websites. This course only covers the Hosting part and not Designing.</strong>
+</p>
+
+
+<p>
+          Thank You
+</p>
+
+
+<p>
+          Abhishek Luv
+</p>
+
+
+<p>
+    <strong>Happy Learning!</strong>
+</p>
+
+
+<p><a href="https://www.udemy.com/learn-how-to-host-static-websites-using-github-pages" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
+
+<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/">Permalink</a>]]></content>
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Creating Blogs and Blog Posts in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/creating-blogs-and-blog-posts-in-orchard"/>
+	
+  <updated>2014-08-26T20:57:10+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/creating-blogs-and-blog-posts-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Every Content Management System has features like Pages, Blogs and Blog Posts. In this post we&#8217;ll be talking about how to create a Blog and Blog Post in Orchard. Let&#8217;s get started.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/creating-blogs-and-blog-posts-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Creating Pages in Orchard CMS ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/creating-pages-in-orchard-cms"/>
+	
+  <updated>2014-08-26T20:56:07+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/creating-pages-in-orchard-cms</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Every Content Management System has features like Pages, Blogs and Blog Posts. In this post we&#8217;ll be talking about how to create Pages in Orchard. Let&#8217;s get started.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/creating-pages-in-orchard-cms">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard CMS Gallery ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/orchard-cms-gallery"/>
+	
+  <updated>2014-08-26T20:54:56+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-cms-gallery</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Gallery is the most important part of any Content Management System, Let it be WordPress, Drupal , Joomla or in our case Orchard.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/orchard-cms-gallery">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[General Site Settings in Orchard CMS ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/general-site-settings-in-orchard-cms"/>
+	
+  <updated>2014-08-26T20:53:33+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/general-site-settings-in-orchard-cms</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn about the General Site Settings in Orchard CMS.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/general-site-settings-in-orchard-cms">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Installing Orchard CMS using IIS and SQL Server ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/installing-orchard-cms-using-iis-and-sql-server"/>
+	
+  <updated>2014-08-26T20:51:35+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-iis-and-sql-server</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn how to install Orchard CMS using IIS 8 and SQL Server.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/installing-orchard-cms-using-iis-and-sql-server">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Installing Orchard CMS using SQL Server ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/installing-orchard-cms-using-sql-server"/>
+	
+  <updated>2014-08-26T20:50:05+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/installing-orchard-cms-using-sql-server">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Installing Orchard CMS using SQL Server CE ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/installation-orchard-cms-using-sql-server-ce"/>
+	
+  <updated>2014-08-26T20:47:32+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server-ce</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&#8217;ll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server CE(Compact Edition).</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/installation-orchard-cms-using-sql-server-ce">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Orchard Beginner - Comments in Orchard ]]></title><!-- add in a glyph or [link-post] here so people know where they're ending up -->
+	<link href="http://orchardbeginner.com/blog/comments-in-orchard"/>
+	
+  <updated>2014-08-26T12:26:38+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard</id>
+  
+  <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Comments are what make a blog/website more interactive and more social. In this post we&#8217;ll be talking about how to handle and moderate comments for your Orchard website. Let&#8217;s get started.</p>
+<a rel="full-article" href="http://orchardbeginner.com/blog/comments-in-orchard">Permalink</a>]]></content><!-- add in a glyph or some way to denote that the permalink goes back to your site -->
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Welcome To Orchard Beginner]]></title>
+	<link href="http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner/"/>
+	
+  <updated>2014-07-26T13:45:03+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner</id>
+  
+  <content type="html"><![CDATA[<p><strong>Orchard Beginner</strong> is created with the aim to provide users and developers to have a Beginner&#8217;s Guide to learn the ins and outs of Orchard.</p>
+
+<p>We begin with the Basics of Orchard i.e. Talking about <strong>Basic site management</strong>, <strong>User management</strong> and then we step into more important features of Orchard like <strong>Queries</strong>, <strong>Projector</strong>, <strong>Taxonomies</strong>, <strong>Custom Forms</strong>, <strong>Workflows</strong> and <strong>Recipes</strong>.</p>
+
+<!-- more-->
+
+
+<p>After that we&#8217;ll talk about how to <strong>Get Started</strong> with <strong>Theme Development</strong> in Orchard and later on <strong>Module Development</strong> too.</p>
+
+<p>Again <strong>Welcome To Orchard Beginner</strong>.</p>
+
+<p><a href="http://orchardbeginner.com/">Orchard Beginner</a></p>
+
+<p><strong>Happy Orcharding!!</strong></p>
+<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner/">Permalink</a>]]></content>
+	
+</entry>
+
+<entry>
+  
+	<title type="html"><![CDATA[Discontinuing Orchard CMS Weekly Videos]]></title>
+	<link href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/"/>
+	
+  <updated>2014-07-26T13:43:17+05:30</updated>
+  <id>http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos</id>
+  
+  <content type="html"><![CDATA[<p>Hello there,</p>
+
+<p>I&#8217;ll be discontinuing the Orchard CMS Weekly Tutorial Videos. Let me Welcome you to Orchard Beginner.</p>
+
+<p><strong>Orchard Beginner</strong> is created with the aim to provide users and developers to have a Beginner&#8217;s Guide to learn the ins and outs of Orchard.</p>
+
+<!-- more-->
+
+
+<p>We begin with the Basics of Orchard i.e. Talking about <strong>Basic site management</strong>, <strong>User management</strong> and then we step into more important features of Orchard like <strong>Queries</strong>, <strong>Projector</strong>, <strong>Taxonomies</strong>, <strong>Custom Forms</strong>, <strong>Workflows</strong> and <strong>Recipes</strong>.</p>
+
+<p>After that we&#8217;ll talk about how to <strong>Get Started</strong> with <strong>Theme Development</strong> in Orchard and later on <strong>Module Development</strong> too.</p>
+
+<p>Again <strong>Welcome To Orchard Beginner</strong>.</p>
+
+<p><a href="http://orchardbeginner.com/">Orchard Beginner</a></p>
+
+<p><strong>Happy Orcharding!!</strong></p>
+<a rel="full-article" href="http://www.abhishekluv.in/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Permalink</a>]]></content>
 	
 </entry>
 
