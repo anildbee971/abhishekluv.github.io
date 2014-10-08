@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: pages | Abhishek Luv]]></title>
+  <title><![CDATA[Category: Pages | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/pages/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Learn How to Host Static Websites using GitHub Pages(Udemy Course)]]></title>
+    <title type="html"><![CDATA[Learn How to Host Static Websites Using GitHub Pages(Udemy Course)]]></title>
     <link href="http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/"/>
     <updated>2014-08-27T20:30:18+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages</id>

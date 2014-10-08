@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: comments | Abhishek Luv]]></title>
+  <title><![CDATA[Category: Comments | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/comments/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -18,7 +18,7 @@
     <link href="http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard/"/>
     <updated>2014-08-26T12:26:38+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Comments are what make a blog/website more interactive and more social. In this post we'll be talking about how to handle and moderate comments for your Orchard website. Let's get started.</p>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Comments are what make a blog/website more interactive and more social. In this post we&rsquo;ll be talking about how to handle and moderate comments for your Orchard website. Let&rsquo;s get started.</p>
 ]]></content>
   </entry>
   

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: ASP.NET | Abhishek Luv]]></title>
+  <title><![CDATA[Category: ASP.NET | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/asp-dot-net/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Creating custom HTTP Module in ASP.NET]]></title>
+    <title type="html"><![CDATA[Creating Custom HTTP Module in ASP.NET]]></title>
     <link href="http://www.abhishekluv.in/blog/2014/03/12/creating-custom-http-module-in-asp-dot-net/"/>
     <updated>2014-03-12T20:22:12+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/03/12/creating-custom-http-module-in-asp-dot-net</id>
-    <content type="html"><![CDATA[<p>The HTTP module's code is executed every time a page is requested from the server or a response is sent back to a requestor. HTTP Modules are like the old Internet Server API(ISAPI Filters). All ASP.NET module are managed i.e. they execute within the CLR. ASP.NET itself uses HTTP Modules for things such as session state and caching.</p>
+    <content type="html"><![CDATA[<p>The HTTP module&rsquo;s code is executed every time a page is requested from the server or a response is sent back to a requestor. HTTP Modules are like the old Internet Server API(ISAPI Filters). All ASP.NET module are managed i.e. they execute within the CLR. ASP.NET itself uses HTTP Modules for things such as session state and caching.</p>
 
 <!-- more -->
 

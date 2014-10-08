@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: india | Abhishek Luv]]></title>
+  <title><![CDATA[Category: India | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/india/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -20,7 +20,7 @@
     <id>http://www.abhishekluv.in/blog/2014/05/27/orchard-cms-project-india-community-website-launched</id>
     <content type="html"><![CDATA[<p>Hello Orcharders,</p>
 
-<p>I'm glad to launch a community website for Orchard CMS in India.</p>
+<p>I&rsquo;m glad to launch a community website for Orchard CMS in India.</p>
 
 <!-- more -->
 

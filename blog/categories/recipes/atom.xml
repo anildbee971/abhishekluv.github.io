@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: recipes | Abhishek Luv]]></title>
+  <title><![CDATA[Category: Recipes | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/recipes/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -31,7 +31,7 @@
     <link href="http://www.abhishekluv.in/blog/2014/06/28/orchard-cms-tutorial-recipes-in-orchard-cms/"/>
     <updated>2014-06-28T17:55:34+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/06/28/orchard-cms-tutorial-recipes-in-orchard-cms</id>
-    <content type="html"><![CDATA[<p>Recipes in Orchard are a huge productivity boost when installing Orchard CMS on a client's server,
+    <content type="html"><![CDATA[<p>Recipes in Orchard are a huge productivity boost when installing Orchard CMS on a client&rsquo;s server,
 because it avoids the Orchard Web Developer from having to manually configure Orchard CMS instance.</p>
 
 <!-- more -->

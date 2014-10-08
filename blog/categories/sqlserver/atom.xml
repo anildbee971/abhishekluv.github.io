@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: sqlserver | Abhishek Luv]]></title>
+  <title><![CDATA[Category: Sqlserver | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/sqlserver/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Installing Orchard CMS using SQL Server]]></title>
+    <title type="html"><![CDATA[Installing Orchard CMS Using SQL Server]]></title>
     <link href="http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server/"/>
     <updated>2014-08-26T20:50:05+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we'll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server.</p>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&rsquo;ll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server.</p>
 ]]></content>
   </entry>
   

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: control | Abhishek Luv]]></title>
+  <title><![CDATA[Category: Control | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/control/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -36,7 +36,7 @@
 <p>There are four types of Object stores</p>
 
 <ul>
-<li><p>Blobs: A blob holds a file's data but does not contain any metadata about the file or even its name.</p></li>
+<li><p>Blobs: A blob holds a file&rsquo;s data but does not contain any metadata about the file or even its name.</p></li>
 <li><p>Trees: Its records blob identifiers, path names and a bit of metadata for all the files in one directory. It can also recursively reference other subtrees.</p></li>
 <li><p>Commits: A commits object holds metadata for each change introduced into the repository, including the author, committer, commit data, and log message.</p></li>
 <li><p>Tags: A tag object assigns an arbitrary human readable name to a specific object usually a commit.</p></li>
@@ -47,7 +47,7 @@
 
 <p>The index is a temporary and dynamic binary file that describes the directory structure of the entire repository.</p>
 
-<p>Index captures a version of the project's overall structure at some moment in time. As the developer, we execute Git commands to stage changes in the index. Changes usually add, delete or edit some files or set of files. The index records and retains those changes, keeping them safe until your are ready to commit them. You can also remove or replace changes in the index.</p>
+<p>Index captures a version of the project&rsquo;s overall structure at some moment in time. As the developer, we execute Git commands to stage changes in the index. Changes usually add, delete or edit some files or set of files. The index records and retains those changes, keeping them safe until your are ready to commit them. You can also remove or replace changes in the index.</p>
 
 <h3>Content-Addressable Names</h3>
 
@@ -62,18 +62,18 @@
 
 <h2>File Management and The Index</h2>
 
-<p>Remote Repository(master) &lt;-> Index(Staging happens here) &lt;-> Local Repository (local)</p>
+<p>Remote Repository(master) &lt;&ndash;> Index(Staging happens here) &lt;&ndash;> Local Repository (local)</p>
 
 <h3>Index</h3>
 
-<p>Git's Index doesn't contain any file content: it simply tracks what you want to commit when you run git commit. Git checks the index rather than your working directory to discover what to commit.</p>
+<p>Git&rsquo;s Index doesn&rsquo;t contain any file content: it simply tracks what you want to commit when you run git commit. Git checks the index rather than your working directory to discover what to commit.</p>
 
 <p>You can query the state of the index at any time with the command <code>git status</code></p>
 
 <h3>File Classification in Git</h3>
 
 <ul>
-<li>Tracked : Any file that's already there in the repository or any file that is staged</li>
+<li>Tracked : Any file that&rsquo;s already there in the repository or any file that is staged</li>
 <li>Ignored : file to be ignored by git object store and git index</li>
 <li>Untracked : An untracked file is any file not found in either of the previous two categories</li>
 </ul>
@@ -178,7 +178,7 @@ tag</p>
 
 <p><code>git commit --all</code></p>
 
-<p>causes it to automatically stage all unstaged, tracked file changes - including removal of tracked files from the working copy before it performs the commit.</p>
+<p>causes it to automatically stage all unstaged, tracked file changes &ndash; including removal of tracked files from the working copy before it performs the commit.</p>
 
 <h3>using git rm</h3>
 

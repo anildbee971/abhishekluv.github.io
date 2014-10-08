@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: tutorials | Abhishek Luv]]></title>
+  <title><![CDATA[Category: Tutorials | ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/tutorials/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-07T11:28:02+05:30</updated>
+  <updated>2014-10-08T23:15:18+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -14,18 +14,18 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Welcome To Orchard Beginner]]></title>
+    <title type="html"><![CDATA[Welcome to Orchard Beginner]]></title>
     <link href="http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner/"/>
     <updated>2014-07-26T13:45:03+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner</id>
-    <content type="html"><![CDATA[<p><strong>Orchard Beginner</strong> is created with the aim to provide users and developers to have a Beginner's Guide to learn the ins and outs of Orchard.</p>
+    <content type="html"><![CDATA[<p><strong>Orchard Beginner</strong> is created with the aim to provide users and developers to have a Beginner&rsquo;s Guide to learn the ins and outs of Orchard.</p>
 
 <p>We begin with the Basics of Orchard i.e. Talking about <strong>Basic site management</strong>, <strong>User management</strong> and then we step into more important features of Orchard like <strong>Queries</strong>, <strong>Projector</strong>, <strong>Taxonomies</strong>, <strong>Custom Forms</strong>, <strong>Workflows</strong> and <strong>Recipes</strong>.</p>
 
 <!-- more-->
 
 
-<p>After that we'll talk about how to <strong>Get Started</strong> with <strong>Theme Development</strong> in Orchard and later on <strong>Module Development</strong> too.</p>
+<p>After that we&rsquo;ll talk about how to <strong>Get Started</strong> with <strong>Theme Development</strong> in Orchard and later on <strong>Module Development</strong> too.</p>
 
 <p>Again <strong>Welcome To Orchard Beginner</strong>.</p>
 
@@ -116,7 +116,7 @@
 
 <p><a href="/blog/2014/07/26/discontinuing-orchard-cms-weekly-videos/">Discontinued</a></p>
 
-<p>Orchard CMS Tutorial Week 4 - Users, Roles and Permissions</p>
+<p>Orchard CMS Tutorial Week 4 &ndash; Users, Roles and Permissions</p>
 
 <!-- more -->
 
