@@ -4,7 +4,7 @@
   <title><![CDATA[ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-10-23T08:12:27+05:30</updated>
+  <updated>2014-11-03T17:01:36+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,79 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Mumbai Workshop : Beginner to Advanced]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/11/03/orchard-cms-workshop-beginner-to-advanced/"/>
+    <updated>2014-11-03T16:27:15+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/11/03/orchard-cms-workshop-beginner-to-advanced</id>
+    <content type="html"><![CDATA[<p><strong>How will you benefit from this workshop?</strong></p>
+
+<p>You will get a good working knowledge of Orchard CMS and its admin panel and how to use Orchard CMS as an advance user.</p>
+
+<p>After completing this workshop you will be able to download Orchard, Install it locally and remotely on a live web server, use the Orchard admin panel very efficiently, Install new themes and modules from the gallery, create pages, blogs and pretty much everything that a content manager will do to manage his content using Orchard CMS. After understanding the basics of Orchard we&rsquo;ll dive into more advance topics and features like Content Types, Content Parts, Content Fields, Content Items, Taxonomies, Queries and Projector, Zones, Widgets, Layers, Layer Rules, Navigation, Recipes, Workflows and many more..</p>
+
+<!-- more -->
+
+
+<p><strong>Note</strong> : No coding will be done in this workshop.</p>
+
+<p><strong>Workshop requirements?</strong></p>
+
+<p>A Laptop</p>
+
+<p>In order to join this workshop you will need to install the following things on your laptop :</p>
+
+<p>Microsoft WebMatrix 3</p>
+
+<p>SQL Server 2012 Express</p>
+
+<p>IIS 7.5/ 8 / 8.1</p>
+
+<p>Any web browser</p>
+
+<p><strong>What things you will be learning in this workshop?</strong></p>
+
+<p>• Getting started with Orchard CMS</p>
+
+<p>• Learn how to Install Orchard CMS on your local IIIS</p>
+
+<p>• Learn about all the Orchard CMS Terminologies</p>
+
+<p>• Learn how to use the Orchard CMS Admin Panel</p>
+
+<p>• Learn how to host an Orchard CMS website on to a live web server</p>
+
+<p>• How to use Recipes in Orchard CMS</p>
+
+<p>• How to create Custom Recipes in Orchard CMS</p>
+
+<p>• Exporting and Importing Recipes in Orchard CMS</p>
+
+<p>• How to create Production Ready Websites using Recipes in Orchard CMS</p>
+
+<p>• How to use Workflows</p>
+
+<p>• How to create Custom Workflows in Orchard CMS</p>
+
+<p>• DotNest(dotnest.com) : The Saas Provider for Orchard CMS(like wordpress.com)</p>
+
+<p>This workshop is also featured on Orchard Beginner</p>
+
+<p><strong>Bonus Offer</strong> :</p>
+
+<p>I&rsquo;m pleased to announce a Bonus Offer with this workshop. After successfully completing this workshop , you will be given Free access to two online courses &ldquo;<a href="https://www.udemy.com/orchard-cms-tutorial-recipes-in-orchard-cms/">Recipes in Orchard CMS</a>&rdquo; and &ldquo;<a href="https://www.udemy.com/orchard-cms-tutorial-workflows-in-orchard-cms">Workflows in Orchard CMS</a>&rdquo;  worth $100. You&rsquo;ll be given free coupons after the workshop.</p>
+
+<p><strong>Who is Abhishek Luv?</strong></p>
+
+<p>Abhishek Luv is an Orchard Dojo Trainer and a Contributor to the Official Orchard CMS Documentation and has created numerous Orchard CMS tutorials. Interests Asp.net MVC, Orchard CMS. You can see Abhishek&rsquo;s tutorials on Udemy (<a href="https://www.udemy.com/u/abhishekluv">https://www.udemy.com/u/abhishekluv</a>) and Orchard Beginner (<a href="http://orchardbeginner.com">http://orchardbeginner.com</a>). Also visit Abhishek&rsquo;s trainer profile on Orchard Dojo.</p>
+
+<p><a href="http://www.meetup.com/orchard-cms-mumbai-user-group/events/217287092/" target="_blank" class="btn btn-primary btn-lg">Register Now</a></p>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Orchard CMS Workshop in Mumbai]]></title>
@@ -318,28 +391,6 @@
     <updated>2014-08-26T12:26:38+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard</id>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Comments are what make a blog/website more interactive and more social. In this post we&rsquo;ll be talking about how to handle and moderate comments for your Orchard website. Let&rsquo;s get started.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome to Orchard Beginner]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner/"/>
-    <updated>2014-07-26T13:45:03+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/07/26/welcome-to-orchard-beginner</id>
-    <content type="html"><![CDATA[<p><strong>Orchard Beginner</strong> is created with the aim to provide users and developers to have a Beginner&rsquo;s Guide to learn the ins and outs of Orchard.</p>
-
-<p>We begin with the Basics of Orchard i.e. Talking about <strong>Basic site management</strong>, <strong>User management</strong> and then we step into more important features of Orchard like <strong>Queries</strong>, <strong>Projector</strong>, <strong>Taxonomies</strong>, <strong>Custom Forms</strong>, <strong>Workflows</strong> and <strong>Recipes</strong>.</p>
-
-<!-- more-->
-
-
-<p>After that we&rsquo;ll talk about how to <strong>Get Started</strong> with <strong>Theme Development</strong> in Orchard and later on <strong>Module Development</strong> too.</p>
-
-<p>Again <strong>Welcome To Orchard Beginner</strong>.</p>
-
-<p><a href="http://orchardbeginner.com/">Orchard Beginner</a></p>
-
-<p><strong>Happy Orcharding!!</strong></p>
 ]]></content>
   </entry>
   
