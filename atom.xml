@@ -4,7 +4,7 @@
   <title><![CDATA[ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2014-11-29T16:43:33+05:30</updated>
+  <updated>2014-12-10T15:14:07+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS v1.9 Tutorials Coming Soon]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/12/10/orchard-cms-v1-dot-9-tutorials-coming-soon/"/>
+    <updated>2014-12-10T15:09:59+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/12/10/orchard-cms-v1-dot-9-tutorials-coming-soon</id>
+    <content type="html"><![CDATA[<p>Orchard CMS 1.9 Tutorials Coming Soon.</p>
+
+<p><strong>New Features in Orchard v1.9</strong></p>
+
+<p><a href="https://www.udemy.com/orchard-cms-for-absolute-beginners/">Orchard CMS Beginners Course</a></p>
+
+<!-- more -->
+
+
+<ul>
+<li>Draftable &amp; Indexable Widgets</li>
+<li>Dynamic Forms</li>
+<li>Dynamic Layouts</li>
+<li>Audit Trail</li>
+<li>New Caching Features</li>
+<li>Better Localization</li>
+<li>Culture Selector</li>
+<li>Improved Workflows</li>
+</ul>
+
+
+<p><a href="https://www.udemy.com/orchard-cms-for-absolute-beginners/">more</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard CMS Mumbai Workshop : Beginner to Advanced]]></title>
@@ -382,15 +412,6 @@
     <updated>2014-08-26T20:47:32+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server-ce</id>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&rsquo;ll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server CE(Compact Edition).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner - Comments in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard/"/>
-    <updated>2014-08-26T12:26:38+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-beginner-comments-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Comments are what make a blog/website more interactive and more social. In this post we&rsquo;ll be talking about how to handle and moderate comments for your Orchard website. Let&rsquo;s get started.</p>
 ]]></content>
   </entry>
   
