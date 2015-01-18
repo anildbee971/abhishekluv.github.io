@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Podcast | ASP.NET MVC and Orchard CMS Developer]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/podcast/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2015-01-18T09:59:59+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[India's First Software Development Podcast Show Launched]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/01/18/indias-first-software-development-podcast-show-launched/"/>
+    <updated>2015-01-18T09:56:04+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/01/18/indias-first-software-development-podcast-show-launched</id>
+    <content type="html"><![CDATA[<p>Welcome to my brand-new podcast show <a href="http://www.softwaredevelopmentpodcast.in/.">http://www.softwaredevelopmentpodcast.in/.</a> I am sure that each podcast will give you enormous value addition that will help you to take your life to the next level. You can learn and grow on the go. The purpose is to help you in your journey to success.</p>
+
+<p><a href="http://www.softwaredevelopmentpodcast.in/">India&rsquo;s First Software Development Podcast Show Launched</a></p>
+
+<p>Cheers,</p>
+
+<blockquote><p>Abhishek Luv</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

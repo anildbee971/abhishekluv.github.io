@@ -4,7 +4,7 @@
   <title><![CDATA[ASP.NET MVC and Orchard CMS Developer]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-01-10T16:57:40+05:30</updated>
+  <updated>2015-01-18T09:59:59+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[India's First Software Development Podcast Show Launched]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/01/18/indias-first-software-development-podcast-show-launched/"/>
+    <updated>2015-01-18T09:56:04+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/01/18/indias-first-software-development-podcast-show-launched</id>
+    <content type="html"><![CDATA[<p>Welcome to my brand-new podcast show <a href="http://www.softwaredevelopmentpodcast.in/.">http://www.softwaredevelopmentpodcast.in/.</a> I am sure that each podcast will give you enormous value addition that will help you to take your life to the next level. You can learn and grow on the go. The purpose is to help you in your journey to success.</p>
+
+<p><a href="http://www.softwaredevelopmentpodcast.in/">India&rsquo;s First Software Development Podcast Show Launched</a></p>
+
+<p>Cheers,</p>
+
+<blockquote><p>Abhishek Luv</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sanskrit Chants &amp; Prayers to Calm Ones Mind]]></title>
@@ -515,15 +530,6 @@ And blesses the aspirant with speedy salvation.</p></blockquote>
     <updated>2014-08-26T20:51:35+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-iis-and-sql-server</id>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&rsquo;ll learn how to install Orchard CMS using IIS 8 and SQL Server.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Installing Orchard CMS Using SQL Server]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server/"/>
-    <updated>2014-08-26T20:50:05+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/08/26/installing-orchard-cms-using-sql-server</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Today we&rsquo;ll learn how to install Orchard CMS using Microsoft WebMatrix and SQL Server.</p>
 ]]></content>
   </entry>
   
