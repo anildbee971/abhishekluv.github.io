@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[ASP.NET MVC and Orchard CMS Developer]]></title>
+  <title><![CDATA[ASP.NET MVC Developer & Orchard CMS Trainer]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-01-21T17:27:48+05:30</updated>
+  <updated>2015-02-03T22:14:05+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
