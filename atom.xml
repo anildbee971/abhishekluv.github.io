@@ -4,7 +4,7 @@
   <title><![CDATA[ASP.NET MVC Developer & Orchard CMS Trainer]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-03-04T21:12:57+05:30</updated>
+  <updated>2015-03-14T21:56:35+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn the Skill of Making Your Own Amazing Videos]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/03/14/learn-the-skill-of-making-your-own-amazing-videos-mumbai/"/>
+    <updated>2015-03-14T21:45:36+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/03/14/learn-the-skill-of-making-your-own-amazing-videos-mumbai</id>
+    <content type="html"><![CDATA[<p>Learn The Skill of Making Your Own Amazing Videos.</p>
+
+<p>Learn the 3 Do&rsquo;s for creating awesome and stunning looking videos.</p>
+
+<!-- more -->
+
+
+<ul>
+<li><p>Learn the basics of video creation</p></li>
+<li><p>Learn about editing videos</p></li>
+<li><p>How to make videos look professional (lighting, audio, what to wear when shooting etc.)</p></li>
+</ul>
+
+
+<iframe src="http://www.thevideotrainer.in/" width="900" height="800"></iframe>
+
+
+<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#109;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#x61;&#100;&#x6d;&#x69;&#x6e;&#x40;&#116;&#104;&#x65;&#118;&#105;&#100;&#101;&#111;&#116;&#114;&#x61;&#105;&#110;&#x65;&#114;&#x2e;&#x69;&#x6e;&#x2e;">&#x61;&#x64;&#x6d;&#x69;&#x6e;&#x40;&#116;&#x68;&#x65;&#x76;&#105;&#100;&#x65;&#111;&#116;&#114;&#97;&#105;&#110;&#101;&#114;&#x2e;&#105;&#x6e;&#x2e;</a></p>
+
+<p>Get more info @ <a href="http://rkl.net.in/tvt" target="_blank">The Video Trainer</a></p>
+
+<hr />
+
+<p>Abhishek Luv is a Software Engineer at Develop2Deploy and a Co-Founder at The Video Trainer where he helps people, master the basics of Video Making in just one day. <a href="http://about.me/abhishekluv" target="_blank">Get more info</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My First Orchard CMS Contribution]]></title>
@@ -547,15 +579,6 @@ And blesses the aspirant with speedy salvation.</p></blockquote>
     <updated>2014-08-26T20:56:07+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2014/08/26/creating-pages-in-orchard-cms</id>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Every Content Management System has features like Pages, Blogs and Blog Posts. In this post we&rsquo;ll be talking about how to create Pages in Orchard. Let&rsquo;s get started.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS Gallery]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/08/26/orchard-cms-gallery/"/>
-    <updated>2014-08-26T20:54:56+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/08/26/orchard-cms-gallery</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Gallery is the most important part of any Content Management System, Let it be WordPress, Drupal , Joomla or in our case Orchard.</p>
 ]]></content>
   </entry>
   
