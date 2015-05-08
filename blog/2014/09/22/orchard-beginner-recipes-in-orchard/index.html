@@ -35,13 +35,9 @@
   <!--<link href="/favicon.png" rel="icon">-->
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="ASP.NET MVC Developer & Orchard CMS Trainer" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
 
   
   <script type="text/javascript">
@@ -82,7 +78,6 @@
   <li><a href="/orchard-cms-india">Orchard CMS India</a></li>
   <li><a href="/testimonials">Testimonials</a></li>
   <li><a href="/hire-me">Hire Me</a></li>
-  <li><a href="/workshops">Workshops</a></li>
 </ul>
 
 </nav>
@@ -319,7 +314,7 @@
 
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script defer>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) {return;}
   js = d.createElement(s); js.id = id; js.async = true;
@@ -329,7 +324,7 @@
 
 
 
-  <script type="text/javascript">
+  <script type="text/javascript" defer>
     (function() {
       var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
       script.src = 'https://apis.google.com/js/plusone.js';
@@ -339,7 +334,7 @@
 
 
 
-  <script type="text/javascript">
+  <script type="text/javascript" defer>
     (function(){
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
@@ -374,5 +369,20 @@
 </script>
 
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/modernizr-2.0.js" async defer></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" async defer type="text/javascript"></script>
+  <script type="text/rocketscript">$(document).ready(function(){var font_settings=" <style type='text/css'>" + "@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700);" + " </style>"; $("head").append(font_settings);});</script>
+<script type="text/rocketscript">$(document).ready(function(){var font1_settings=" <style type='text/css'>" + "@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);" + " </style>"; $("head").append(font1_settings);});</script> 
+  <script async>
+function init() {
+var imgDefer = document.getElementsByTagName('img');
+for (var i=0; i<imgDefer.length; i++) {
+if(imgDefer[i].getAttribute('data-src')) {
+imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
 </body>
 </html>
