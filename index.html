@@ -796,13 +796,13 @@
   <script type="text/rocketscript">$(document).ready(function(){var font_settings=" <style type='text/css'>" + "@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700);" + " </style>"; $("head").append(font_settings);});</script>
 <script type="text/rocketscript">$(document).ready(function(){var font1_settings=" <style type='text/css'>" + "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);" + " </style>"; $("head").append(font1_settings);});</script> 
   <script>
-function init() {
-var imgDefer = document.getElementsByTagName('img');
-for (var i=0; i<imgDefer.length; i++) {
-if(imgDefer[i].getAttribute('data-src')) {
-imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-} } }
-window.onload = init;
-</script>
+	function init() {
+	var imgDefer = document.getElementsByTagName('img');
+	for (var i=0; i<imgDefer.length; i++) {
+	if(imgDefer[i].getAttribute('data-src')) {
+	imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+	} } }
+	window.onload = init;
+  </script>
 </body>
 </html>
