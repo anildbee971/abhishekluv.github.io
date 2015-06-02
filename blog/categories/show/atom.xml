@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Show | ASP.NET MVC Developer & Orchard CMS Trainer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/show/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-05-30T18:12:47+05:30</updated>
+  <updated>2015-06-02T07:42:32+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 3 : Tools for Web Development]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development/"/>
+    <updated>2015-06-02T07:39:42+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development</id>
+    <content type="html"><![CDATA[<p>Tools for Web Development on the Windows Platform.</p>
+
+<p>As a student or a newbie developer you should know what softwares should be used for web development on the Windows platform.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podcast Episode # 2 : Web Basics]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[ASP.NET MVC Developer & Orchard CMS Trainer]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-05-30T18:12:47+05:30</updated>
+  <updated>2015-06-02T07:42:32+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 3 : Tools for Web Development]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development/"/>
+    <updated>2015-06-02T07:39:42+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development</id>
+    <content type="html"><![CDATA[<p>Tools for Web Development on the Windows Platform.</p>
+
+<p>As a student or a newbie developer you should know what softwares should be used for web development on the Windows platform.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podcast Episode # 2 : Web Basics]]></title>
@@ -72,7 +83,7 @@
 </ul>
 
 
-<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#x6d;&#97;&#105;&#108;&#x74;&#x6f;&#x3a;&#97;&#x64;&#109;&#105;&#x6e;&#x40;&#116;&#104;&#101;&#x76;&#x69;&#100;&#x65;&#x6f;&#116;&#x72;&#97;&#105;&#110;&#x65;&#114;&#46;&#105;&#110;&#x2e;">&#97;&#100;&#109;&#105;&#110;&#x40;&#116;&#x68;&#x65;&#118;&#105;&#100;&#x65;&#111;&#116;&#114;&#x61;&#105;&#110;&#x65;&#114;&#x2e;&#x69;&#x6e;&#x2e;</a></p>
+<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#97;&#x64;&#x6d;&#105;&#110;&#64;&#116;&#x68;&#x65;&#x76;&#105;&#x64;&#x65;&#x6f;&#x74;&#114;&#97;&#x69;&#110;&#x65;&#114;&#x2e;&#x69;&#110;&#46;">&#97;&#x64;&#109;&#105;&#x6e;&#x40;&#116;&#104;&#101;&#x76;&#105;&#100;&#x65;&#x6f;&#x74;&#114;&#97;&#105;&#110;&#x65;&#114;&#46;&#x69;&#x6e;&#46;</a></p>
 
 <p>Get more info @ <a href="http://rkl.net.in/tvt" target="_blank">The Video Trainer</a></p>
 
@@ -524,15 +535,6 @@ And blesses the aspirant with speedy salvation.</p></blockquote>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Content Type is a blueprint of how content items of that type look like: it defines the set of content parts that make up the content types.</p>
 
 <p>A content type only consists of content parts, even if it seems that you can directly attach content fields to a content type from the admin UI. When you attach fields from the admin UI in reality an invisible part is created that has the same name as the content type(e.g. a Page part is created for the Page content type) and the fields get attached to that.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Content Items in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/03/orchard-beginner-content-items-in-orchard/"/>
-    <updated>2014-09-03T12:41:28+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/03/orchard-beginner-content-items-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Content Items are instances of Content Types, just like objects are instances of classes. Content Items are the heart and soul of Orchard i.e. they store all the data you need to handle and display.</p>
 ]]></content>
   </entry>
   
