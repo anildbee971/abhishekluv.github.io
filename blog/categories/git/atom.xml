@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Git | ASP.NET MVC Developer & Orchard CMS Trainer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-06-02T07:42:32+05:30</updated>
+  <updated>2015-06-18T17:10:21+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 4 : Source Control and Basics of Git &amp; GitHub]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github/"/>
+    <updated>2015-06-18T17:03:51+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github</id>
+    <content type="html"><![CDATA[<p>Are you new to source control? Today’s show is on Source control and the basics of Git &amp; GitHub.</p>
+
+<p>Revision control, source control or source code management plays a very important role in today’s software development process.</p>
+
+<p>Students and developers should use source control for their projects because it allows distributed work in teams of any size, at different locations while avoiding any source code changes.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Command-Line &amp; GitHub Basics]]></title>

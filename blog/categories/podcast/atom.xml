@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Podcast | ASP.NET MVC Developer & Orchard CMS Trainer]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/podcast/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-06-02T07:42:32+05:30</updated>
+  <updated>2015-06-18T17:10:21+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 5 : Basics of Client-Side Web Programming]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming/"/>
+    <updated>2015-06-18T17:08:19+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming</id>
+    <content type="html"><![CDATA[<p>Basics of Client-Side Web Programming. As a student or a newbie web developer learning client-side web development can get you overwhelmed.</p>
+
+<p>So, today’s podcast show is on the basics of client-side web programming.</p>
+
+<p>Client-Side web development has improved a lot over these years. The days of creating a web page using “td tr th table” tags have gone.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 4 : Source Control and Basics of Git &amp; GitHub]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github/"/>
+    <updated>2015-06-18T17:03:51+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github</id>
+    <content type="html"><![CDATA[<p>Are you new to source control? Today’s show is on Source control and the basics of Git &amp; GitHub.</p>
+
+<p>Revision control, source control or source code management plays a very important role in today’s software development process.</p>
+
+<p>Students and developers should use source control for their projects because it allows distributed work in teams of any size, at different locations while avoiding any source code changes.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podcast Episode # 3 : Tools for Web Development]]></title>
@@ -43,21 +69,6 @@
     <content type="html"><![CDATA[<p>The Ugly Truth: Computer Institutes fooling innocent parents &amp; students in India.</p>
 
 <p>Are you a parent or a student who is frustrated by computer institutes fooling you in the name of job assistance and useless certificates that they provide?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[India's First Software Development Podcast Show Launched]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/01/18/indias-first-software-development-podcast-show-launched/"/>
-    <updated>2015-01-18T09:56:04+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/01/18/indias-first-software-development-podcast-show-launched</id>
-    <content type="html"><![CDATA[<p>Welcome to my brand-new podcast show <a href="http://www.softwaredevelopmentpodcast.in/.">http://www.softwaredevelopmentpodcast.in/.</a> I am sure that each podcast will give you enormous value addition that will help you to take your life to the next level. You can learn and grow on the go. The purpose is to help you in your journey to success.</p>
-
-<p><a href="http://www.softwaredevelopmentpodcast.in/">India&rsquo;s First Software Development Podcast Show Launched</a></p>
-
-<p>Cheers,</p>
-
-<blockquote><p>Abhishek Luv</p></blockquote>
 ]]></content>
   </entry>
   
