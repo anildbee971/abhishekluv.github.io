@@ -4,7 +4,7 @@
   <title><![CDATA[Freelance .NET Web Developer in Mumbai]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-06-18T23:40:31+05:30</updated>
+  <updated>2015-06-20T12:46:09+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 6 : Frameworks &amp; Languages for Web Development]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development/"/>
+    <updated>2015-06-20T12:43:23+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development</id>
+    <content type="html"><![CDATA[<p>SDP Show # 6 : Frameworks and languages for Web Development. Before choosing web development as your career you should really know what frameworks and programming languages suites your interest.</p>
+
+<p>There are many programming languages and frameworks on which a web application is developed. So today’s podcast show is on Frameworks and Programming Languages.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Reviewed Entity Framework Tutorial : Packt Publications]]></title>
@@ -129,7 +140,7 @@
 </ul>
 
 
-<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x61;&#100;&#x6d;&#x69;&#x6e;&#x40;&#x74;&#104;&#x65;&#118;&#105;&#x64;&#101;&#111;&#116;&#x72;&#97;&#105;&#110;&#x65;&#114;&#46;&#x69;&#x6e;&#46;">&#97;&#x64;&#109;&#105;&#110;&#x40;&#x74;&#104;&#x65;&#118;&#x69;&#100;&#101;&#x6f;&#x74;&#114;&#97;&#105;&#x6e;&#101;&#x72;&#46;&#x69;&#x6e;&#46;</a></p>
+<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#x61;&#x64;&#109;&#x69;&#110;&#64;&#x74;&#x68;&#101;&#x76;&#105;&#100;&#101;&#x6f;&#116;&#x72;&#x61;&#x69;&#110;&#101;&#x72;&#46;&#x69;&#110;&#x2e;">&#97;&#100;&#x6d;&#105;&#110;&#x40;&#116;&#x68;&#101;&#x76;&#x69;&#100;&#101;&#x6f;&#x74;&#114;&#x61;&#x69;&#110;&#101;&#x72;&#x2e;&#x69;&#110;&#46;</a></p>
 
 <p>Get more info @ <a href="http://rkl.net.in/tvt" target="_blank">The Video Trainer</a></p>
 
@@ -537,17 +548,6 @@ And blesses the aspirant with speedy salvation.</p></blockquote>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
 
 <p>In order to enable site visitors to register on your Orchard website , the User settings have to be changed.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Creating New Users in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard/"/>
-    <updated>2014-09-13T21:23:31+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard.</p>
-
-<p>Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
 ]]></content>
   </entry>
   

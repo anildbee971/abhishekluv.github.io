@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Podcast | Freelance .NET Web Developer in Mumbai]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/podcast/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-06-18T23:40:31+05:30</updated>
+  <updated>2015-06-20T12:46:09+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 6 : Frameworks &amp; Languages for Web Development]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development/"/>
+    <updated>2015-06-20T12:43:23+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development</id>
+    <content type="html"><![CDATA[<p>SDP Show # 6 : Frameworks and languages for Web Development. Before choosing web development as your career you should really know what frameworks and programming languages suites your interest.</p>
+
+<p>There are many programming languages and frameworks on which a web application is developed. So today’s podcast show is on Frameworks and Programming Languages.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podcast Episode # 5 : Basics of Client-Side Web Programming]]></title>
@@ -58,17 +69,6 @@
     <content type="html"><![CDATA[<p>Web Basics that every Student &amp; Web Developer should know.</p>
 
 <p>As a student and a web developer we usually browse the web all the time. But do we really know how the Web works under the hood or what are the pieces of technology that makes the web so easy to use and consume the oceanic information from it.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Podcast Episode # 1 : Computer Institutes in India]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/05/28/sdp-episode-number-1-computer-institutes-in-india/"/>
-    <updated>2015-05-28T22:43:35+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/05/28/sdp-episode-number-1-computer-institutes-in-india</id>
-    <content type="html"><![CDATA[<p>The Ugly Truth: Computer Institutes fooling innocent parents &amp; students in India.</p>
-
-<p>Are you a parent or a student who is frustrated by computer institutes fooling you in the name of job assistance and useless certificates that they provide?</p>
 ]]></content>
   </entry>
   
