@@ -4,7 +4,7 @@
   <title><![CDATA[Freelance .NET Web Developer in Mumbai]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-06-28T11:45:54+05:30</updated>
+  <updated>2015-06-29T23:15:42+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 7 : Getting Open Sourced]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced/"/>
+    <updated>2015-06-29T23:11:37+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced</id>
+    <content type="html"><![CDATA[<p>SDP Show # 7 Getting Open Sourced. Open Source has changed the way we develop software’s. Let it be an enterprise level software or just a web content management system like WordPress, Joomla, Drupal or Orchard CMS.</p>
+
+<p>Modern applications are very rarely built from scratch. They are assembled using existing tools, components, libraries and frameworks which are openly available on the web.</p>
+
+<p>Open Sourced software’s and tools help you to make better use of developer time and intelligence so that they can concentrate on writing more business logic code and less of infrastructure code.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podcast Episode # 6 : Frameworks &amp; Languages for Web Development]]></title>
@@ -140,7 +153,7 @@
 </ul>
 
 
-<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#97;&#100;&#109;&#105;&#110;&#x40;&#116;&#x68;&#101;&#118;&#105;&#x64;&#101;&#111;&#x74;&#114;&#97;&#105;&#110;&#x65;&#x72;&#46;&#105;&#110;&#46;">&#97;&#x64;&#x6d;&#x69;&#110;&#64;&#x74;&#104;&#101;&#118;&#105;&#x64;&#101;&#111;&#x74;&#114;&#97;&#x69;&#110;&#101;&#114;&#46;&#x69;&#110;&#x2e;</a></p>
+<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#97;&#100;&#109;&#105;&#x6e;&#x40;&#x74;&#x68;&#x65;&#x76;&#105;&#100;&#101;&#x6f;&#116;&#x72;&#x61;&#105;&#x6e;&#101;&#x72;&#46;&#105;&#x6e;&#x2e;">&#x61;&#x64;&#x6d;&#105;&#110;&#x40;&#116;&#104;&#x65;&#118;&#x69;&#x64;&#x65;&#111;&#116;&#114;&#x61;&#105;&#110;&#101;&#x72;&#46;&#x69;&#x6e;&#x2e;</a></p>
 
 <p>Get more info @ <a href="http://rkl.net.in/tvt" target="_blank">The Video Trainer</a></p>
 
@@ -537,17 +550,6 @@ And blesses the aspirant with speedy salvation.</p></blockquote>
     <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new roles and assign roles from the Admin UI to any existing user or a new user.</p>
 
 <p>Let&rsquo;s create a new role and add a new user to the newly created role.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : New User Registration in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard/"/>
-    <updated>2014-09-16T12:47:26+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new users and assign roles directly from the Admin UI as well as allow site visitors to register from the front-end of the website.</p>
-
-<p>In order to enable site visitors to register on your Orchard website , the User settings have to be changed.</p>
 ]]></content>
   </entry>
   

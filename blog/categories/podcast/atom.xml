@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Podcast | Freelance .NET Web Developer in Mumbai]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/podcast/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-06-28T11:45:54+05:30</updated>
+  <updated>2015-06-29T23:15:42+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 7 : Getting Open Sourced]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced/"/>
+    <updated>2015-06-29T23:11:37+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced</id>
+    <content type="html"><![CDATA[<p>SDP Show # 7 Getting Open Sourced. Open Source has changed the way we develop software’s. Let it be an enterprise level software or just a web content management system like WordPress, Joomla, Drupal or Orchard CMS.</p>
+
+<p>Modern applications are very rarely built from scratch. They are assembled using existing tools, components, libraries and frameworks which are openly available on the web.</p>
+
+<p>Open Sourced software’s and tools help you to make better use of developer time and intelligence so that they can concentrate on writing more business logic code and less of infrastructure code.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podcast Episode # 6 : Frameworks &amp; Languages for Web Development]]></title>
@@ -58,17 +71,6 @@
     <content type="html"><![CDATA[<p>Tools for Web Development on the Windows Platform.</p>
 
 <p>As a student or a newbie developer you should know what softwares should be used for web development on the Windows platform.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Podcast Episode # 2 : Web Basics]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/05/28/sdp-episode-number-2-web-basics/"/>
-    <updated>2015-05-28T22:46:36+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/05/28/sdp-episode-number-2-web-basics</id>
-    <content type="html"><![CDATA[<p>Web Basics that every Student &amp; Web Developer should know.</p>
-
-<p>As a student and a web developer we usually browse the web all the time. But do we really know how the Web works under the hood or what are the pieces of technology that makes the web so easy to use and consume the oceanic information from it.</p>
 ]]></content>
   </entry>
   
