@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Website-widgets | Freelance .NET Web Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/website-widgets/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2015-07-22T12:44:51+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GetSiteControl : One-Stop Place for Website Widgets]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets/"/>
+    <updated>2015-07-22T12:22:20+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets</id>
+    <content type="html"><![CDATA[<p>Few weeks back I happened to visit a website called <a href="www.getsitecontrol.com">www.getsitecontrol.com</a> by chance. It has awesome features which every website needs for marketing purposes and for connecting with their target audience by creating widgets like a Survey Widget for conducting an online survey, Contact Widget for getting user feedbacks and suggestions, Promo Widgets for promoting offers and discounts to clients, Subscribe Widget for newsletter subscriptions, Follow and Share Widgets for getting social media exposure.</p>
+
+<!-- more -->
+
+
+<p>I am happy that I found <a href="www.getsitecontrol.com">www.getsitecontrol.com</a> for creating and managing widgets for my <a href="http://develop2deploy.com/">website</a>.</p>
+
+<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/getsitecontrol-interface.png" alt="GetSiteControl Dashboard"/></p>
+
+<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/sharewidget.png" alt="GetSiteControl Share Widget"/></p>
+
+<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/survey-and-contact-widget.png" alt="GetSiteControl Survery and Contact widget"/></p>
+
+<p>Visit <a href="www.getsitecontrol.com">www.getsitecontrol.com</a> now to get these AWESOME Widgets for your website.</p>
+]]></content>
+  </entry>
+  
+</feed>

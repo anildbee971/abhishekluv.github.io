@@ -4,7 +4,7 @@
   <title><![CDATA[Freelance .NET Web Developer in Mumbai]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-07-20T08:32:42+05:30</updated>
+  <updated>2015-07-22T12:44:51+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GetSiteControl : One-Stop Place for Website Widgets]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets/"/>
+    <updated>2015-07-22T12:22:20+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets</id>
+    <content type="html"><![CDATA[<p>Few weeks back I happened to visit a website called <a href="www.getsitecontrol.com">www.getsitecontrol.com</a> by chance. It has awesome features which every website needs for marketing purposes and for connecting with their target audience by creating widgets like a Survey Widget for conducting an online survey, Contact Widget for getting user feedbacks and suggestions, Promo Widgets for promoting offers and discounts to clients, Subscribe Widget for newsletter subscriptions, Follow and Share Widgets for getting social media exposure.</p>
+
+<!-- more -->
+
+
+<p>I am happy that I found <a href="www.getsitecontrol.com">www.getsitecontrol.com</a> for creating and managing widgets for my <a href="http://develop2deploy.com/">website</a>.</p>
+
+<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/getsitecontrol-interface.png" alt="GetSiteControl Dashboard"/></p>
+
+<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/sharewidget.png" alt="GetSiteControl Share Widget"/></p>
+
+<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/survey-and-contact-widget.png" alt="GetSiteControl Survery and Contact widget"/></p>
+
+<p>Visit <a href="www.getsitecontrol.com">www.getsitecontrol.com</a> now to get these AWESOME Widgets for your website.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podcast Episode # 7 : Getting Open Sourced]]></title>
@@ -153,7 +175,7 @@
 </ul>
 
 
-<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#97;&#100;&#x6d;&#105;&#x6e;&#64;&#x74;&#x68;&#101;&#x76;&#105;&#x64;&#101;&#111;&#116;&#114;&#97;&#x69;&#x6e;&#101;&#114;&#x2e;&#x69;&#x6e;&#46;">&#x61;&#x64;&#109;&#x69;&#110;&#x40;&#x74;&#104;&#101;&#118;&#x69;&#100;&#x65;&#x6f;&#116;&#x72;&#x61;&#x69;&#x6e;&#x65;&#x72;&#x2e;&#x69;&#110;&#46;</a></p>
+<p>Our video training and coaching helps corporates, entrepreneurs, trainers, and professionals make professional looking videos that are easy, simple and inexpensive. We would love to help you, reach us at <a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#97;&#x64;&#x6d;&#x69;&#x6e;&#x40;&#116;&#x68;&#x65;&#x76;&#105;&#x64;&#x65;&#111;&#116;&#114;&#x61;&#105;&#x6e;&#101;&#114;&#46;&#105;&#x6e;&#46;">&#x61;&#x64;&#109;&#105;&#110;&#64;&#116;&#x68;&#x65;&#x76;&#x69;&#x64;&#101;&#111;&#116;&#x72;&#97;&#x69;&#110;&#x65;&#x72;&#46;&#105;&#x6e;&#46;</a></p>
 
 <p>Get more info @ <a href="http://rkl.net.in/tvt" target="_blank">The Video Trainer</a></p>
 
@@ -539,17 +561,6 @@ And blesses the aspirant with speedy salvation.</p></blockquote>
 <p>Orchard simplifies the process of setting up a new website by letting you use website recipes.</p>
 
 <p>A recipe is an XML file that contains the start-up configuration for an Orchard website. When you start Orchard for the first time, you can select a recipe that best matches the type of site you want to set up.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Creating New Roles in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/18/orchard-beginner-creating-new-roles-in-orchard/"/>
-    <updated>2014-09-18T12:45:16+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/18/orchard-beginner-creating-new-roles-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Orchard.Users module provides user and role management features in Orchard. Orchard.Users module allows you to create new roles and assign roles from the Admin UI to any existing user or a new user.</p>
-
-<p>Let&rsquo;s create a new role and add a new user to the newly created role.</p>
 ]]></content>
   </entry>
   
