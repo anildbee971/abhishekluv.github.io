@@ -1,27 +1,2 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
-  <title><![CDATA[Category: Contenttypes | Freelance .NET Web Developer in Mumbai]]></title>
-  <link href="http://www.abhishekluv.in/blog/categories/contenttypes/atom.xml" rel="self"/>
-  <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-07-25T22:02:56+05:30</updated>
-  <id>http://www.abhishekluv.in/</id>
-  <author>
-    <name><![CDATA[Abhishek Luv]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
-
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner : Content Types in Orchard]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard/"/>
-    <updated>2014-09-04T20:56:34+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard</id>
-    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Content Type is a blueprint of how content items of that type look like: it defines the set of content parts that make up the content types.</p>
-
-<p>A content type only consists of content parts, even if it seems that you can directly attach content fields to a content type from the admin UI. When you attach fields from the admin UI in reality an invisible part is created that has the same name as the content type(e.g. a Page part is created for the Page content type) and the fields get attached to that.</p>
-]]></content>
-  </entry>
-  
-</feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Category: Contenttypes | Freelance .NET Web Developer in Mumbai]]></title><link href="http://www.abhishekluv.in/blog/categories/contenttypes/atom.xml" rel="self"/><link href="http://www.abhishekluv.in/"/><updated>2015-07-26T07:14:44+05:30</updated><id>http://www.abhishekluv.in/</id><author><name><![CDATA[Abhishek Luv]]></name></author><generator uri="http://octopress.org/">Octopress</generator><entry><title type="html"><![CDATA[Orchard Beginner : Content Types in Orchard]]></title><link href="http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard/"/><updated>2014-09-04T20:56:34+05:30</updated><id>http://www.abhishekluv.in/blog/2014/09/04/orchard-beginner-content-types-in-orchard</id><content type="html"><![CDATA[<p>Welcome to Orchard Beginner! A Content Type is a blueprint of how content items of that type look like: it defines the set of content parts that make up the content types.</p><p>A content type only consists of content parts, even if it seems that you can directly attach content fields to a content type from the admin UI. When you attach fields from the admin UI in reality an invisible part is created that has the same name as the content type(e.g. a Page part is created for the Page content type) and the fields get attached to that.</p>
+]]></content></entry></feed>

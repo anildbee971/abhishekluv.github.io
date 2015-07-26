@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
-  <title><![CDATA[Category: Custom | Freelance .NET Web Developer in Mumbai]]></title>
-  <link href="http://www.abhishekluv.in/blog/categories/custom/atom.xml" rel="self"/>
-  <link href="http://www.abhishekluv.in/"/>
-  <updated>2015-07-25T22:02:56+05:30</updated>
-  <id>http://www.abhishekluv.in/</id>
-  <author>
-    <name><![CDATA[Abhishek Luv]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
-
-  
-  <entry>
-    <title type="html"><![CDATA[Creating Custom HTTP Module in ASP.NET]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/03/12/creating-custom-http-module-in-asp-dot-net/"/>
-    <updated>2014-03-12T20:22:12+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/03/12/creating-custom-http-module-in-asp-dot-net</id>
-    <content type="html"><![CDATA[<p>The HTTP module&rsquo;s code is executed every time a page is requested from the server or a response is sent back to a requestor. HTTP Modules are like the old Internet Server API(ISAPI Filters). All ASP.NET module are managed i.e. they execute within the CLR. ASP.NET itself uses HTTP Modules for things such as session state and caching.</p>
-
-<!-- more -->
-
-
-<h2>Creating Custom HTTP Module</h2>
-
-<p>HTTP Modules can be created by implementing the IHttpModule interface. Next the IHttpModule.Init method has to be overriden to subscribe the application life cycle events like Application_BeginRequest, AuthenticationRequest, ProcessRequest, Application_EndRequest to the Init method. You need to register your custom HTTP Module by using the Web.config file. Every event in your HTTP Module is fired for each request.</p>
-
-<p><div><script src='https://gist.github.com/9508505.js'></script>
-<noscript><pre><code>using System;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Category: Custom | Freelance .NET Web Developer in Mumbai]]></title><link href="http://www.abhishekluv.in/blog/categories/custom/atom.xml" rel="self"/><link href="http://www.abhishekluv.in/"/><updated>2015-07-26T07:14:44+05:30</updated><id>http://www.abhishekluv.in/</id><author><name><![CDATA[Abhishek Luv]]></name></author><generator uri="http://octopress.org/">Octopress</generator><entry><title type="html"><![CDATA[Creating Custom HTTP Module in ASP.NET]]></title><link href="http://www.abhishekluv.in/blog/2014/03/12/creating-custom-http-module-in-asp-dot-net/"/><updated>2014-03-12T20:22:12+05:30</updated><id>http://www.abhishekluv.in/blog/2014/03/12/creating-custom-http-module-in-asp-dot-net</id><content type="html"><![CDATA[<p>The HTTP module&rsquo;s code is executed every time a page is requested from the server or a response is sent back to a requestor. HTTP Modules are like the old Internet Server API(ISAPI Filters). All ASP.NET module are managed i.e. they execute within the CLR. ASP.NET itself uses HTTP Modules for things such as session state and caching.</p><h2>Creating Custom HTTP Module</h2><p>HTTP Modules can be created by implementing the IHttpModule interface. Next the IHttpModule.Init method has to be overriden to subscribe the application life cycle events like Application_BeginRequest, AuthenticationRequest, ProcessRequest, Application_EndRequest to the Init method. You need to register your custom HTTP Module by using the Web.config file. Every event in your HTTP Module is fired for each request.</p><p><div><script src='https://gist.github.com/9508505.js'></script><noscript><pre><code>using System;
 using System.Web;
 using System.Diagnostics;
 
@@ -63,47 +33,16 @@ public class LogModule : IHttpModule {
 		// logging code
 		// End request logging
 	}
-}</code></pre></noscript></div>
-</p>
-
-<h2>Registering custom HTTP Module using web.config file(IIS7)</h2>
-
-<p><div><script src='https://gist.github.com/9508720.js'></script>
-<noscript><pre><code>&lt;configuration&gt;
+}</code></pre></noscript></div></p><h2>Registering custom HTTP Module using web.config file(IIS7)</h2><p><div><script src='https://gist.github.com/9508720.js'></script><noscript><pre><code>&lt;configuration&gt;
 	&lt;system.WebServer&gt;
 		&lt;modules&gt;
 			&lt;add name=&quot;LogModule&quot; type=&quot;LogModule&quot;/&gt;
 		&lt;/modules&gt;
 	&lt;/system.WebServer&gt;
-&lt;/configuration&gt;</code></pre></noscript></div>
-</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Creating Custom HTTP Handler in ASP.NET]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net/"/>
-    <updated>2014-03-10T22:19:07+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net</id>
-    <content type="html"><![CDATA[<p>HTTP Handler is a key to unlocking how HTTP requests are linked to your ASP.NET Pages.</p>
-
-<p>An HTTP Handler is an endpoint on the server that responds to requests for different resources. For Example, ASP.NET Page Handler is called when an ASPX page is requested from the sever. Similarly you can write your own custom handlers to be called when a resource with a specific file extension is requested of the server.</p>
-
-<!-- more -->
-
-
-<h2>Creating a Custom HTTP Handler</h2>
-
-<p>An HTTP Handler is code that executes when an HTTP request for a specific resource is made to the server.
-You can create custom handlers, register them with IIS.</p>
-
-<p>You can create a custom, Synchronous HTTP Handler by implementing the IHttpHandler interface. This interface
-requires you to implement the IsResusable property to indicate whether your handler can be resued to increase performance across requests.</p>
-
-<p>The IHttpHandler interface also requires you to implement the ProcessRequest method. This method is called by ASP.NET when your handler executes. HTTP Handler exists inside ASP.NET. Therefore, it has access to the application context including the session state , application state and identity of the user making the request.</p>
-
-<p><div><script src='https://gist.github.com/9468699.js'></script>
-<noscript><pre><code>public class MyImageHandler : IHttpHandler
+&lt;/configuration&gt;</code></pre></noscript></div></p>
+]]></content></entry><entry><title type="html"><![CDATA[Creating Custom HTTP Handler in ASP.NET]]></title><link href="http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net/"/><updated>2014-03-10T22:19:07+05:30</updated><id>http://www.abhishekluv.in/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net</id><content type="html"><![CDATA[<p>HTTP Handler is a key to unlocking how HTTP requests are linked to your ASP.NET Pages.</p><p>An HTTP Handler is an endpoint on the server that responds to requests for different resources. For Example, ASP.NET Page Handler is called when an ASPX page is requested from the sever. Similarly you can write your own custom handlers to be called when a resource with a specific file extension is requested of the server.</p><h2>Creating a Custom HTTP Handler</h2><p>An HTTP Handler is code that executes when an HTTP request for a specific resource is made to the server.
+You can create custom handlers, register them with IIS.</p><p>You can create a custom, Synchronous HTTP Handler by implementing the IHttpHandler interface. This interface
+requires you to implement the IsResusable property to indicate whether your handler can be resued to increase performance across requests.</p><p>The IHttpHandler interface also requires you to implement the ProcessRequest method. This method is called by ASP.NET when your handler executes. HTTP Handler exists inside ASP.NET. Therefore, it has access to the application context including the session state , application state and identity of the user making the request.</p><p><div><script src='https://gist.github.com/9468699.js'></script><noscript><pre><code>public class MyImageHandler : IHttpHandler
 {
   public book IsReusable 
   {
@@ -127,21 +66,11 @@ requires you to implement the IsResusable property to indicate whether your hand
 		Response.Write(&quot;File not found&quot;);
 	}
   }
-}</code></pre></noscript></div>
-</p>
-
-<h2>Registering custom HTTP Handler using web.config file</h2>
-
-<p><div><script src='https://gist.github.com/9468923.js'></script>
-<noscript><pre><code>&lt;configuration&gt;
+}</code></pre></noscript></div></p><h2>Registering custom HTTP Handler using web.config file</h2><p><div><script src='https://gist.github.com/9468923.js'></script><noscript><pre><code>&lt;configuration&gt;
 	&lt;system.WebServer&gt;
 		&lt;handlers&gt;
 		&lt;add verb=&quot;*&quot; path=&quot;.jpg&quot; type=&quot;MyImageHandler&quot; name=&quot;MyImageHandler&quot;/&gt;
 		&lt;/handlers&gt;
 	&lt;/system.WebServer&gt;
-&lt;/configuration&gt;</code></pre></noscript></div>
-</p>
-]]></content>
-  </entry>
-  
-</feed>
+&lt;/configuration&gt;</code></pre></noscript></div></p>
+]]></content></entry></feed>
