@@ -1,6 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Category: Podcast | Freelance .NET Web Developer in Mumbai]]></title><link href="http://www.abhishekluv.in/blog/categories/podcast/atom.xml" rel="self"/><link href="http://www.abhishekluv.in/"/><updated>2015-07-26T08:47:39+05:30</updated><id>http://www.abhishekluv.in/</id><author><name><![CDATA[Abhishek Luv]]></name></author><generator uri="http://octopress.org/">Octopress</generator><entry><title type="html"><![CDATA[Podcast Episode # 7 : Getting Open Sourced]]></title><link href="http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced/"/><updated>2015-06-29T23:11:37+05:30</updated><id>http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced</id><content type="html"><![CDATA[<p>SDP Show # 7 Getting Open Sourced. Open Source has changed the way we develop software’s. Let it be an enterprise level software or just a web content management system like WordPress, Joomla, Drupal or Orchard CMS.</p><p>Modern applications are very rarely built from scratch. They are assembled using existing tools, components, libraries and frameworks which are openly available on the web.</p><p>Open Sourced software’s and tools help you to make better use of developer time and intelligence so that they can concentrate on writing more business logic code and less of infrastructure code.</p>
-]]></content></entry><entry><title type="html"><![CDATA[Podcast Episode # 6 : Frameworks &amp; Languages for Web Development]]></title><link href="http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development/"/><updated>2015-06-20T12:43:23+05:30</updated><id>http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development</id><content type="html"><![CDATA[<p>SDP Show # 6 : Frameworks and languages for Web Development. Before choosing web development as your career you should really know what frameworks and programming languages suites your interest.</p><p>There are many programming languages and frameworks on which a web application is developed. So today’s podcast show is on Frameworks and Programming Languages.</p>
-]]></content></entry><entry><title type="html"><![CDATA[Podcast Episode # 5 : Basics of Client-Side Web Programming]]></title><link href="http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming/"/><updated>2015-06-18T17:08:19+05:30</updated><id>http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming</id><content type="html"><![CDATA[<p>Basics of Client-Side Web Programming. As a student or a newbie web developer learning client-side web development can get you overwhelmed.</p><p>So, today’s podcast show is on the basics of client-side web programming.</p><p>Client-Side web development has improved a lot over these years. The days of creating a web page using “td tr th table” tags have gone.</p>
-]]></content></entry><entry><title type="html"><![CDATA[Podcast Episode # 4 : Source Control and Basics of Git &amp; GitHub]]></title><link href="http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github/"/><updated>2015-06-18T17:03:51+05:30</updated><id>http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github</id><content type="html"><![CDATA[<p>Are you new to source control? Today’s show is on Source control and the basics of Git &amp; GitHub.</p><p>Revision control, source control or source code management plays a very important role in today’s software development process.</p><p>Students and developers should use source control for their projects because it allows distributed work in teams of any size, at different locations while avoiding any source code changes.</p>
-]]></content></entry><entry><title type="html"><![CDATA[Podcast Episode # 3 : Tools for Web Development]]></title><link href="http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development/"/><updated>2015-06-02T07:39:42+05:30</updated><id>http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development</id><content type="html"><![CDATA[<p>Tools for Web Development on the Windows Platform.</p><p>As a student or a newbie developer you should know what softwares should be used for web development on the Windows platform.</p>
-]]></content></entry></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Podcast | Freelance .NET Web Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/podcast/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2015-07-26T16:45:24+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 7 : Getting Open Sourced]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced/"/>
+    <updated>2015-06-29T23:11:37+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced</id>
+    <content type="html"><![CDATA[<p>SDP Show # 7 Getting Open Sourced. Open Source has changed the way we develop software’s. Let it be an enterprise level software or just a web content management system like WordPress, Joomla, Drupal or Orchard CMS.</p>
+
+<p>Modern applications are very rarely built from scratch. They are assembled using existing tools, components, libraries and frameworks which are openly available on the web.</p>
+
+<p>Open Sourced software’s and tools help you to make better use of developer time and intelligence so that they can concentrate on writing more business logic code and less of infrastructure code.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 6 : Frameworks &amp; Languages for Web Development]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development/"/>
+    <updated>2015-06-20T12:43:23+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development</id>
+    <content type="html"><![CDATA[<p>SDP Show # 6 : Frameworks and languages for Web Development. Before choosing web development as your career you should really know what frameworks and programming languages suites your interest.</p>
+
+<p>There are many programming languages and frameworks on which a web application is developed. So today’s podcast show is on Frameworks and Programming Languages.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 5 : Basics of Client-Side Web Programming]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming/"/>
+    <updated>2015-06-18T17:08:19+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming</id>
+    <content type="html"><![CDATA[<p>Basics of Client-Side Web Programming. As a student or a newbie web developer learning client-side web development can get you overwhelmed.</p>
+
+<p>So, today’s podcast show is on the basics of client-side web programming.</p>
+
+<p>Client-Side web development has improved a lot over these years. The days of creating a web page using “td tr th table” tags have gone.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 4 : Source Control and Basics of Git &amp; GitHub]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github/"/>
+    <updated>2015-06-18T17:03:51+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github</id>
+    <content type="html"><![CDATA[<p>Are you new to source control? Today’s show is on Source control and the basics of Git &amp; GitHub.</p>
+
+<p>Revision control, source control or source code management plays a very important role in today’s software development process.</p>
+
+<p>Students and developers should use source control for their projects because it allows distributed work in teams of any size, at different locations while avoiding any source code changes.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Podcast Episode # 3 : Tools for Web Development]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development/"/>
+    <updated>2015-06-02T07:39:42+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development</id>
+    <content type="html"><![CDATA[<p>Tools for Web Development on the Windows Platform.</p>
+
+<p>As a student or a newbie developer you should know what softwares should be used for web development on the Windows platform.</p>
+]]></content>
+  </entry>
+  
+</feed>

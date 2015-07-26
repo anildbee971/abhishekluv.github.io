@@ -1,2 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Category: Book | Freelance .NET Web Developer in Mumbai]]></title><link href="http://www.abhishekluv.in/blog/categories/book/atom.xml" rel="self"/><link href="http://www.abhishekluv.in/"/><updated>2015-07-26T08:47:39+05:30</updated><id>http://www.abhishekluv.in/</id><author><name><![CDATA[Abhishek Luv]]></name></author><generator uri="http://octopress.org/">Octopress</generator><entry><title type="html"><![CDATA[Orchard CMS Book : Getting Started]]></title><link href="http://www.abhishekluv.in/blog/2014/06/11/orchard-cms-book-getting-started/"/><updated>2014-06-11T07:06:08+05:30</updated><id>http://www.abhishekluv.in/blog/2014/06/11/orchard-cms-book-getting-started</id><content type="html"><![CDATA[<p><a href="https://leanpub.com/orchardcmsgettingstarted">Orchard CMS Book : Getting Started</a></p><p>Learn the fundamentals of Orchard CMS from Beginner to Advanced</p> <p><img src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/myorchardcmsbook.PNG" alt="Orchard CMS Book : Getting Started" /></p>
-]]></content></entry></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Book | Freelance .NET Web Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/book/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2015-07-26T16:45:24+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Book : Getting Started]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/06/11/orchard-cms-book-getting-started/"/>
+    <updated>2014-06-11T07:06:08+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/06/11/orchard-cms-book-getting-started</id>
+    <content type="html"><![CDATA[<p><a href="https://leanpub.com/orchardcmsgettingstarted">Orchard CMS Book : Getting Started</a></p>
+
+<p>Learn the fundamentals of Orchard CMS from Beginner to Advanced</p>
+
+<!-- more -->
+
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/myorchardcmsbook.PNG" alt="Orchard CMS Book : Getting Started" /></p>
+]]></content>
+  </entry>
+  
+</feed>

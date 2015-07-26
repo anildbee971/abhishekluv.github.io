@@ -1,2 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Category: Customforms, | Freelance .NET Web Developer in Mumbai]]></title><link href="http://www.abhishekluv.in/blog/categories/customforms/atom.xml" rel="self"/><link href="http://www.abhishekluv.in/"/><updated>2015-07-26T08:47:39+05:30</updated><id>http://www.abhishekluv.in/</id><author><name><![CDATA[Abhishek Luv]]></name></author><generator uri="http://octopress.org/">Octopress</generator><entry><title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard]]></title><link href="http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard/"/><updated>2014-09-26T13:43:43+05:30</updated><id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id><content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p><p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
-]]></content></entry></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Customforms, | Freelance .NET Web Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/customforms/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2015-07-26T16:45:24+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard Beginner : Custom Forms in Orchard]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard/"/>
+    <updated>2014-09-26T13:43:43+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard</id>
+    <content type="html"><![CDATA[<p>Welcome to Orchard Beginner! Custom Forms feature in Orchard allows us to create custom forms like contact forms or content contributions.</p>
+
+<p>The Orchard.CustomForms Module/Feature is disabled by default and has dependencies on other modules like Contents, Orchard.Tokens, Orchard.Workflows.</p>
+]]></content>
+  </entry>
+  
+</feed>

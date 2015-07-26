@@ -1,2 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Category: EntityFramework | Freelance .NET Web Developer in Mumbai]]></title><link href="http://www.abhishekluv.in/blog/categories/entityframework/atom.xml" rel="self"/><link href="http://www.abhishekluv.in/"/><updated>2015-07-26T08:47:39+05:30</updated><id>http://www.abhishekluv.in/</id><author><name><![CDATA[Abhishek Luv]]></name></author><generator uri="http://octopress.org/">Octopress</generator><entry><title type="html"><![CDATA[Reviewed Mastering Entity Framework : Packt Publications]]></title><link href="http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications/"/><updated>2015-02-20T08:22:08+05:30</updated><id>http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications</id><content type="html"><![CDATA[<p>Last year in the month of November 2014 , Project Cordinators at Packt Publications requested me to review a book for them and that book was about Entity Framwork <a href="https://www.packtpub.com/application-development/mastering-entity-framework" target="_blank">&ldquo;Mastering Entity Framework&rdquo;</a><strike>still in Pre-Publication</strike> Published.</p><p>This was my first time and it was a great experience to review a book for Packt Publication that too a book of my interest &ldquo;Entity Framework&rdquo;.</p> <p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/main+page.PNG"/></p><p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/credit+page.PNG"/></p><p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/my+bio.PNG"/></p><hr /><p>Abhishek Luv is a Software Engineer at Develop2Deploy and a Co-Founder at The Video Trainer where he helps people, master the basics of Video Making in just one day. <a href="http://about.me/abhishekluv" target="_blank">Get more info</a></p>
-]]></content></entry></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: EntityFramework | Freelance .NET Web Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/entityframework/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2015-07-26T16:45:24+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reviewed Mastering Entity Framework : Packt Publications]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications/"/>
+    <updated>2015-02-20T08:22:08+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications</id>
+    <content type="html"><![CDATA[<p>Last year in the month of November 2014 , Project Cordinators at Packt Publications requested me to review a book for them and that book was about Entity Framwork <a href="https://www.packtpub.com/application-development/mastering-entity-framework" target="_blank">&ldquo;Mastering Entity Framework&rdquo;</a> <strike>still in Pre-Publication</strike> Published.</p>
+
+<p>This was my first time and it was a great experience to review a book for Packt Publication that too a book of my interest &ldquo;Entity Framework&rdquo;.</p>
+
+<!-- more -->
+
+
+<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/main+page.PNG"/></p>
+
+<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/credit+page.PNG"/></p>
+
+<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/my+bio.PNG"/></p>
+
+<hr />
+
+<p>Abhishek Luv is a Software Engineer at Develop2Deploy and a Co-Founder at The Video Trainer where he helps people, master the basics of Video Making in just one day. <a href="http://about.me/abhishekluv" target="_blank">Get more info</a></p>
+]]></content>
+  </entry>
+  
+</feed>

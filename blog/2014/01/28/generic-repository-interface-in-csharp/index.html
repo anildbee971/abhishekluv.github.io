@@ -1,9 +1,114 @@
 
-<!DOCTYPE html>   <html class="no-js" lang="en"> <head><meta charset="utf-8"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="http://www.abhishekluv.in/"><link rel="dns-prefetch" href="http://cdnjs.cloudflare.com/"><link rel="dns-prefetch" href="http://a.disquscdn.com/"><link rel="dns-prefetch" href="http://www.google-analytics.com/"><link rel="dns-prefetch" href="http://blogabhishek.disqus.com/"><link rel="prefetch" href="http://www.abhishekluv.in/stylesheets/screen.css"/><link rel="prefetch" href="http://www.abhishekluv.in/javascripts/octopress.js"/><title>Abhishek Luv - Generic Repository Interface in CSharp - Freelance .NET Web Developer in Mumbai</title><meta name="author" content="Abhishek Luv"><meta name="google-site-verification" content="pIKQr0q3kdbVl4XRFal7YqYVfcsQCW3bVbjNMTJX6lk" /><meta name="msvalidate.01" content="AB044181D6F525EFCE100DE6DBFBFEF3" /><meta property="og:site_name" content="Abhishek Luv - Generic Repository Interface in CSharp - Freelance .NET Web Developer in Mumbai"/><meta property="og:title" content="Abhishek Luv - Generic Repository Interface in CSharp - Freelance .NET Web Developer in Mumbai" /><meta property="og:url" content="http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/"/><meta property="og:image" content="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/abhishek.jpg"/><meta property="og:description" content="Abhishek Luv is a Freelance .NET Web Developer in Mumbai and has built websites and web applications using MS technologies like ASP.NET MVC, Entity Framework, Azure, Bootstrap and many more." /><meta name="keywords" content="Abhishek Luv, Freelance .NET Web Developer in Mumbai, ASP.NET MVC Developer in Mumbai, Orchard CMS Websites, Orchard CMS Tutorials, Orchard CMS Theme Tutorials, ASP.NET, ASP.NET MVC,Git,GitHub,Orchard CMS Recipes Tutorials, Orchard CMS Workflows Tutorials, Orchard Beginner, The Video Trainer, Video Training Mumbai, Video Coaching Mumbai, Rajiv Kumar Luv"><meta name="description" content="Abhishek Luv is a Freelance .NET Web Developer in Mumbai and has built websites and web applications using MS technologies like ASP.NET MVC, Entity Framework, Azure, Bootstrap and many more."><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/"><style type="text/css">
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="http://www.abhishekluv.in/">
+  <link rel="dns-prefetch" href="http://cdnjs.cloudflare.com/">
+  <link rel="dns-prefetch" href="http://a.disquscdn.com/">
+  <link rel="dns-prefetch" href="http://www.google-analytics.com/">
+  <link rel="dns-prefetch" href="http://blogabhishek.disqus.com/">
+  <link rel="prefetch" href="http://www.abhishekluv.in/stylesheets/screen.css"/>
+  <link rel="prefetch" href="http://www.abhishekluv.in/javascripts/octopress.js"/>
+  <title>Abhishek Luv - Generic Repository Interface in CSharp - Freelance .NET Web Developer in Mumbai</title>
+  <meta name="author" content="Abhishek Luv">
+  <meta name="google-site-verification" content="pIKQr0q3kdbVl4XRFal7YqYVfcsQCW3bVbjNMTJX6lk" />
+  <meta name="msvalidate.01" content="AB044181D6F525EFCE100DE6DBFBFEF3" />
+ <meta property="og:site_name" content="Abhishek Luv - Generic Repository Interface in CSharp - Freelance .NET Web Developer in Mumbai"/>
+ <meta property="og:title" content="Abhishek Luv - Generic Repository Interface in CSharp - Freelance .NET Web Developer in Mumbai" /> 
+
+<meta property="og:url" content="http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/"/>
+ <meta property="og:image" content="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/abhishek.jpg"/> 
+
+  <meta property="og:description" content="Abhishek Luv is a Freelance .NET Web Developer in Mumbai and has built websites and web applications using MS technologies like ASP.NET MVC, Entity Framework, Azure, Bootstrap and many more." />
+
+  <meta name="keywords" content="Abhishek Luv, Freelance .NET Web Developer in Mumbai, ASP.NET MVC Developer in Mumbai, Orchard CMS Websites, Orchard CMS Tutorials, Orchard CMS Theme Tutorials, ASP.NET, ASP.NET MVC,Git,GitHub,Orchard CMS Recipes Tutorials, Orchard CMS Workflows Tutorials, Orchard Beginner, The Video Trainer, Video Training Mumbai, Video Coaching Mumbai, Rajiv Kumar Luv">
+  <meta name="description" content="Abhishek Luv is a Freelance .NET Web Developer in Mumbai and has built websites and web applications using MS technologies like ASP.NET MVC, Entity Framework, Azure, Bootstrap and many more.">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="canonical" href="http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/">
+  <style type="text/css">
 html,body,div,span,h1,h2,p,a,ul,li,fieldset,article,aside,header,hgroup,nav,section,time{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ul{list-style:none}article,aside,header,hgroup,nav,section{display:block}a{color:#268bd2}aside.sidebar a{color:#222}a{-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s}html{background:#fff url('/images/line-tile.png?1412784644') top left}body>div{background:#f2f2f2 url('/images/noise.png?1412784644') top left;border-bottom:1px solid #f2f2f2}body>div>div{background:#fff url('/images/noise.png?1412784644') top left;border-right:1px solid #e0e0e0}body>header h1,h1,h2{font-family:"Open Sans",sans-serif}body>header h2,article header p.meta,aside.sidebar section{font-family:"Open Sans",sans-serif}body{font-family:"Noto Serif",serif}body>header h1{font-size:2.2em;font-family:"Open Sans",sans-serif;font-weight:normal;line-height:1.2em;margin-bottom:0.6667em}body>header h2{font-family:"Open Sans",sans-serif}body{line-height:1.5em;color:#222}h1{font-size:2.2em;line-height:1.2em}@media only screen and (min-width: 992px){body{font-size:1.15em}h1{font-size:2.6em;line-height:1.2em}}h1,h2{text-rendering:optimizelegibility;margin-bottom:1em;font-weight:bold}h2,section h1{font-size:1.5em}p,ul{margin-bottom:1.5em}ul{list-style-type:disc}ul{margin-left:1.3em}article a,aside.sidebar a{white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;white-space:pre-wrap;word-wrap:break-word}body>header,body>nav,body #content>div>article,aside.sidebar,#main,#content,.sidebar{*zoom:1}body>header:after,body>nav:after,#main:after,#content:after,.sidebar:after{content:"";display:table;clear:both}body{-webkit-text-size-adjust:none;max-width:1200px;position:relative;margin:0 auto}body>header,body>nav,body #content>div>article{padding-left:18px;padding-right:18px}@media only screen and (min-width: 480px){body>header,body>nav,body #content>div>article{padding-left:25px;padding-right:25px}}@media only screen and (min-width: 768px){body>header,body>nav,body #content>div>article{padding-left:35px;padding-right:35px}}@media only screen and (min-width: 992px){body>header,body>nav,body #content>div>article{padding-left:55px;padding-right:55px}}body>header{font-size:1em;padding-top:1.5em;padding-bottom:1.5em}#content{overflow:hidden}#content>div{width:100%}aside.sidebar{float:none;padding:0 18px 1px;background-color:#f7f7f7;border-top:1px solid #e0e0e0}.toggle-sidebar{display:none}@media only screen and (min-width: 550px){body>header{font-size:1em}}@media only screen and (min-width: 750px){aside.sidebar{float:none;width:auto;clear:left;margin:0;padding:0 35px 1px;background-color:#f7f7f7;border-top:1px solid #eaeaea}aside.sidebar section.odd,aside.sidebar section.even{float:left;width:48%}aside.sidebar section.odd{margin-left:0}aside.sidebar section.even{margin-left:4%}}@media only screen and (min-width: 768px){body{-webkit-text-size-adjust:auto}body>header{font-size:1.2em}#main{padding:0;margin:0 auto}#content{overflow:visible;margin-right:240px;position:relative}#content>div{padding-top:17.5px;padding-bottom:17.5px;float:left}aside.sidebar{width:210px;padding:0 15px 15px;background:none;clear:none;float:left;margin:0 -100% 0 0}aside.sidebar section{width:auto;margin-left:0}aside.sidebar section.odd,aside.sidebar section.even{float:none;width:auto;margin-left:0}}@media only screen and (min-width: 992px){body>header{font-size:1.3em}#content{margin-right:300px}#content>div{padding-top:27.5px;padding-bottom:27.5px}aside.sidebar{width:260px;padding:1.2em 20px 20px}}@media only screen and (min-width: 768px){ul{margin-left:0}}body>header{background:#fff}body>header h1{display:inline-block;margin:0}body>header h1 a{color:#268bd2;text-decoration:none}body>header h2{margin:.2em 0 0;font-size:1em;color:#aaa;font-weight:normal}body>nav{position:relative;background-color:#fff;background:none,#fff;border-top:1px solid #fff;border-bottom:1px solid #bfbfbf;padding-top:.35em;padding-bottom:.35em}body>nav fieldset.mobile-nav{float:left;width:48%}body>nav fieldset.mobile-nav select{width:100%;font-size:.8em;border:1px solid #888}body>nav ul{display:none}@media only screen and (min-width: 550px){body>nav{font-size:.9em}body>nav ul{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;float:left;display:block;padding-top:.15em}body>nav ul li{list-style-image:none;list-style-type:none;margin-left:0;white-space:nowrap;display:inline;float:left;padding-left:0;padding-right:0}body>nav ul li:first-child{padding-left:0}body>nav ul li:last-child{padding-right:0}body>nav ul.subscription{margin-left:.8em;float:right}body>nav ul li{margin:0}body>nav a{color:#268bd2;font-family:"Open Sans",sans-serif;text-shadow:#fff 0 1px;float:left;text-decoration:none;font-size:1.1em;padding:.1em 0;line-height:1.5em}body>nav li+li{border-left:1px solid #e3e3e3;margin-left:.8em}body>nav li+li a{padding-left:.8em;border-left:1px solid #fff}body>nav fieldset.mobile-nav{display:none}}.maskImage ul.subscription{position:relative;top:.2em}article{padding-top:1em}article header{position:relative;padding-top:2em;padding-bottom:1em;margin-bottom:1em;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') bottom left repeat-x}article header h1{margin:0}article header h1 a{text-decoration:none}article header p{font-size:.9em;color:#aaa;margin:0}article header p.meta{text-transform:uppercase;position:absolute;top:0}@media only screen and (min-width: 768px){article header{margin-bottom:1.5em;padding-bottom:1em;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') bottom left repeat-x}}#content .blog-index{padding-top:0;padding-bottom:0}#content .blog-index article{padding-top:2em}#content .blog-index article header{background:none;padding-bottom:0}#content .blog-index article h1{font-size:2.2em}#content .blog-index article h1 a{color:inherit}aside.sidebar section h1,aside.sidebar li{-webkit-box-shadow:#fff 0 1px;-moz-box-shadow:#fff 0 1px;box-shadow:#fff 0 1px}aside.sidebar{overflow:hidden;color:#4b4b4b;text-shadow:#fff 0 1px}aside.sidebar section{font-size:.8em;line-height:1.4em;margin-bottom:1.5em}aside.sidebar section h1{margin:1.5em 0 0;padding-bottom:.2em;border-bottom:1px solid #e0e0e0}aside.sidebar section h1+p{padding-top:.4em}aside.sidebar ul{margin-bottom:0.5em;margin-left:0}aside.sidebar li{list-style:none;padding:.5em 0;margin:0;border-bottom:1px solid #e0e0e0}aside.sidebar a{color:inherit;-webkit-transition:color 0.5s;-moz-transition:color 0.5s;-o-transition:color 0.5s;transition:color 0.5s}@media only screen and (min-width: 768px){.toggle-sidebar{outline:none;position:absolute;right:-10px;top:0;bottom:0;display:inline-block;text-decoration:none;color:#cecece;width:9px;cursor:pointer}.toggle-sidebar:after{position:absolute;right:-11px;top:0;width:20px;font-size:1.2em;line-height:1.1em;padding-bottom:.15em;-moz-border-radius-bottomright:0.3em;-webkit-border-bottom-right-radius:0.3em;border-bottom-right-radius:0.3em;text-align:center;background:#fff url('/images/noise.png?1412784644') top left;border-bottom:1px solid #e0e0e0;border-right:1px solid #e0e0e0;content:"\00BB";text-indent:-1px}}html{background:#fff}body{line-height:1.8em;font-size:1.1em;max-width:1320px}body>div{background:#fff!important;border-bottom:2px solid #f2f2f2}body>div>div{border-right:2px solid #f2f2f2;background:#fff!important}body>nav{border-bottom:2px solid #f2f2f2}body>nav li+li{border-left:2px solid #f2f2f2}body>nav a{font-family:"Noto Serif",serif}body>header h1 a{font-weight:bold}body #content .blog-index article header h1{margin:0}body #content .blog-index article header h1 a{text-decoration:none}body aside.sidebar{background:#fff;border-left:2px solid #f2f2f2;height:100%}body .toggle-sidebar{display:none}@media only screen and (max-width: 749px){aside.sidebar{padding-top:15px;padding-bottom:15px}}@media only screen and (min-width: 750px){aside.sidebar{border-top:0px solid black}}@media only screen and (min-width: 992px){body{font-size:1.3em}}.meta{font-family:"Noto Serif",serif}::-webkit-input-placeholder{color:#268bd2}:-moz-placeholder{color:#268bd2}::-moz-placeholder{color:#268bd2}:-ms-input-placeholder{color:#268bd2}
-</style><script type="text/javascript" async src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" charset="utf-8"></script> <link href="/atom.xml" rel="alternate" title="Freelance .NET Web Developer in Mumbai" type="application/atom+xml"></head><body   ><header role="banner"><hgroup><h1><a href="/" title="Abhishek Luv is a Freelance .NET Web Developer in Mumbai">Freelance .NET Web Developer in Mumbai</a></h1><h2>Hello! I'm a Freelancer Developing web applications using ASP.NET MVC, Entity Framework, Bootstrap & Azure</h2></hgroup></header><nav role="navigation"><ul class="subscription" data-subscription="rss"></ul><ul class="main-navigation"><li><a href="/">Home</a></li><li><a href="/about">About Me</a></li><li><a href="/blog/archives">Archives</a></li><li><a href="https://github.com/abhishekluv?tab=contributions&period=monthly" target="_blank">GitHub</a></li><li><a href="/online-courses">Online Courses</a></li><li><a href="/open-source-contributions">Open Source Contributions</a></li><li><a href="/contact-me">Contact</a></li><li><a href="/hire-me">Hire Me</a></li></ul></nav><div id="main"><div id="content"><div><article class="hentry" role="article"><header class="page-header"><p class="meta text-muted text-uppercase"><time datetime="2014-01-28T14:05:21+05:30" pubdate data-updated="true">Jan 28<span>th</span>, 2014</time>
+</style>
+  <script type="text/javascript" async src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" charset="utf-8"></script>
+  <!--<link href="/favicon.png" rel="icon">-->	
+  <link href="/atom.xml" rel="alternate" title="Freelance .NET Web Developer in Mumbai" type="application/atom+xml">
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/" title="Abhishek Luv is a Freelance .NET Web Developer in Mumbai">Freelance .NET Web Developer in Mumbai</a></h1>
+  
+    <h2>Hello! I'm a Freelancer Developing web applications using ASP.NET MVC, Entity Framework, Bootstrap & Azure</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  
+  
+</ul>
+
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about">About Me</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="https://github.com/abhishekluv?tab=contributions&period=monthly" target="_blank">GitHub</a></li>
+  <li><a href="/online-courses">Online Courses</a></li>
+  <li><a href="/open-source-contributions">Open Source Contributions</a></li>
+  <li><a href="/contact-me">Contact</a></li>
+  <li><a href="/hire-me">Hire Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
         
-           | <a href="#disqus_thread" data-disqus-identifier="http://www.abhishekluv.in">Comments</a></p><h1 class="entry-title">Generic Repository Interface in CSharp</h1></header><div class="entry-content clearfix"><p>Repository pattern are intended to create an abstraction layer between Data Access layer and business layer so it can help to insulate application from changes in the data store and can facilitate automated unit testing or test-driven development.</p> <div><script src='https://gist.github.com/8664063.js'></script><noscript><pre><code>public interface IRepository&lt;T&gt; : IDisposable where T : class
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-28T14:05:21+05:30" pubdate data-updated="true">Jan 28<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread" data-disqus-identifier="http://www.abhishekluv.in">Comments</a>
+        
+      </p>
+    
+    
+	
+    <h1 class="entry-title">Generic Repository Interface in CSharp</h1>
+	
+
+  </header>
+
+
+<div class="entry-content clearfix"><p>Repository pattern are intended to create an abstraction layer between Data Access layer and business layer so it can help to insulate application from changes in the data store and can facilitate automated unit testing or test-driven development.</p>
+
+<!-- more -->
+
+
+
+
+<div><script src='https://gist.github.com/8664063.js'></script>
+<noscript><pre><code>public interface IRepository&lt;T&gt; : IDisposable where T : class
     {
         IQueryable&lt;T&gt; All();
 
@@ -23,57 +128,252 @@ html,body,div,span,h1,h2,p,a,ul,li,fieldset,article,aside,header,hgroup,nav,sect
         IQueryable&lt;T&gt; FindAll(Expression&lt;Func&lt;T, bool&gt;&gt; predicate, int index, int size);
 
         int Update(T t);       
-    }</code></pre></noscript></div></div><footer><p class="meta"><span class="byline author vcard">Posted by <span class="fn">Abhishek Luv</span></span><time datetime="2014-01-28T14:05:21+05:30" pubdate data-updated="true">Jan 28<span>th</span>, 2014</time><span class="categories"><a class='category' href='/blog/categories/csharp/'>CSharp</a>, <a class='category' href='/blog/categories/generic/'>Generic</a>, <a class='category' href='/blog/categories/interface/'>Interface</a>, <a class='category' href='/blog/categories/repository/'>Repository</a></span></p><div class="sharing"></div><p class="meta"><a class="basic-alignment left" href="/blog/2014/01/07/orchard-cms-for-absolute-beginners-udemy-course/" title="Previous Post: Orchard CMS for Absolute Beginners - Udemy course">&laquo; Orchard CMS for Absolute Beginners - Udemy course</a><a class="basic-alignment right" href="/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net/" title="Next Post: Creating Custom HTTP Handler in ASP.NET">Creating Custom HTTP Handler in ASP.NET &raquo;</a></p></footer></article><section><h1>Comments</h1><div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div></section></div><aside class="sidebar"><section><h1>About Me</h1><p>Freelance .NET Web Developer <br/>& <br/><a href="http://www.thevideotrainer.in/" target="_blank" title="Co-Founder, The Video Trainer">Co-Founder, The Video Trainer</a><br/>& <br/><a href="http://www.softwaredevelopmentpodcast.in/" target="_blank" title="Podcast Host at Software Development Podcast">Podcast Host at Software Development Podcast</a></p></section><section><h1>Recent Posts</h1><ul id="recent_posts"><li class="post"><a href="/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets/">GetSiteControl : One-Stop Place for Website Widgets</a></li><li class="post"><a href="/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced/">Podcast Episode # 7 : Getting Open Sourced</a></li><li class="post"><a href="/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development/">Podcast Episode # 6 : Frameworks &amp; Languages for Web Development</a></li><li class="post"><a href="/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/">Reviewed Entity Framework Tutorial : Packt Publications</a></li><li class="post"><a href="/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming/">Podcast Episode # 5 : Basics of Client-Side Web Programming</a></li><li class="post"><a href="/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github/">Podcast Episode # 4 : Source Control and Basics of Git &amp; GitHub</a></li><li class="post"><a href="/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development/">Podcast Episode # 3 : Tools for Web Development</a></li><li class="post"><a href="/blog/2015/05/28/sdp-episode-number-2-web-basics/">Podcast Episode # 2 : Web Basics</a></li><li class="post"><a href="/blog/2015/05/28/sdp-episode-number-1-computer-institutes-in-india/">Podcast Episode # 1 : Computer Institutes in India</a></li><li class="post"><a href="/blog/2015/05/06/orchard-cms-community-contribution/">Orchard CMS Community Contribution</a></li><li class="post"><a href="/blog/2015/03/14/learn-the-skill-of-making-your-own-amazing-videos-mumbai/">Learn the Skill of Making Your Own Amazing Videos</a></li><li class="post"><a href="/blog/2015/03/02/my-first-orchard-cms-contribution/">My First Orchard CMS Contribution</a></li><li class="post"><a href="/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications/">Reviewed Mastering Entity Framework : Packt Publications</a></li><li class="post"><a href="/blog/2015/01/18/indias-first-software-development-podcast-show-launched/">India's First Software Development Podcast Show Launched</a></li><li class="post"><a href="/blog/2014/12/20/sanskrit-chants-and-prayers-to-calm-ones-mind/">Sanskrit Chants &amp; Prayers to Calm Ones Mind</a></li><li class="post"><a href="/blog/2014/12/10/orchard-cms-v1-dot-9-tutorials-coming-soon/">Orchard CMS v1.9 Tutorials Coming Soon</a></li><li class="post"><a href="/blog/2014/11/03/orchard-cms-workshop-beginner-to-advanced/">Orchard CMS Mumbai Workshop : Beginner to Advanced</a></li><li class="post"><a href="/blog/2014/10/15/first-orchard-cms-workshop-in-mumbai/">First Orchard CMS Workshop in Mumbai</a></li><li class="post"><a href="/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard/">Orchard Beginner : Custom Forms in Orchard</a></li><li class="post"><a href="/blog/2014/09/22/orchard-beginner-recipes-in-orchard/">Orchard Beginner : Recipes in Orchard</a></li><li class="post"><a href="/blog/2014/09/18/orchard-beginner-creating-new-roles-in-orchard/">Orchard Beginner : Creating New Roles in Orchard</a></li><li class="post"><a href="/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard/">Orchard Beginner : New User Registration in Orchard</a></li><li class="post"><a href="/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard/">Orchard Beginner : Creating New Users in Orchard</a></li><li class="post"><a href="/blog/2014/09/11/orchard-beginner-content-fields-in-orchard/">Orchard Beginner : Content Fields in Orchard</a></li><li class="post"><a href="/blog/2014/09/09/orchard-beginner-content-parts-in-orchard/">Orchard Beginner : Content Parts in Orchard</a></li><li class="post"><a href="/blog/2014/09/04/orchard-beginner-content-types-in-orchard/">Orchard Beginner : Content Types in Orchard</a></li><li class="post"><a href="/blog/2014/09/03/orchard-beginner-content-items-in-orchard/">Orchard Beginner : Content Items in Orchard</a></li><li class="post"><a href="/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/">Learn How to Host Static Websites Using GitHub Pages(Udemy Course)</a></li><li class="post"><a href="/blog/2014/08/26/creating-blogs-and-blog-posts-in-orchard/">Creating Blogs and Blog Posts in Orchard</a></li><li class="post"><a href="/blog/2014/08/26/creating-pages-in-orchard-cms/">Creating Pages in Orchard CMS</a></li></ul></section></aside></div></div><footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Abhishek Luv <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.abhishekluv.in%2F&tab=mobile" target="_blank">My Google PageSpeed Score</a></p></footer><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script type="text/javascript">
-      var disqus_shortname = 'blogabhishek';
+    }</code></pre></noscript></div>
+
+
+
+</div>
+
+
+
+
+
+  <footer>
+    <p class="meta">
       
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Abhishek Luv</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-28T14:05:21+05:30" pubdate data-updated="true">Jan 28<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/csharp/'>CSharp</a>, <a class='category' href='/blog/categories/generic/'>Generic</a>, <a class='category' href='/blog/categories/interface/'>Interface</a>, <a class='category' href='/blog/categories/repository/'>Repository</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/01/07/orchard-cms-for-absolute-beginners-udemy-course/" title="Previous Post: Orchard CMS for Absolute Beginners - Udemy course">&laquo; Orchard CMS for Absolute Beginners - Udemy course</a>
+      
+	
+
+
+      
+        <a class="basic-alignment right" href="/blog/2014/03/10/creating-custom-http-handler-in-asp-dot-net/" title="Next Post: Creating Custom HTTP Handler in ASP.NET">Creating Custom HTTP Handler in ASP.NET &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+  <aside class="sidebar">
+   
+  
+    <section>
+  <h1>About Me</h1>
+ <p>Freelance .NET Web Developer <br/>& <br/><a href="http://www.thevideotrainer.in/" target="_blank" title="Co-Founder, The Video Trainer">Co-Founder, The Video Trainer</a><br/>& <br/><a href="http://www.softwaredevelopmentpodcast.in/" target="_blank" title="Podcast Host at Software Development Podcast">Podcast Host at Software Development Podcast</a></p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets/">GetSiteControl : One-Stop Place for Website Widgets</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/29/podcast-episode-number-7-getting-open-sourced/">Podcast Episode # 7 : Getting Open Sourced</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/20/podcast-episode-number-6-frameworks-and-languages-for-web-development/">Podcast Episode # 6 : Frameworks &amp; Languages for Web Development</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/">Reviewed Entity Framework Tutorial : Packt Publications</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/18/podcast-episode-number-5-basics-of-client-side-web-programming/">Podcast Episode # 5 : Basics of Client-Side Web Programming</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/18/podcast-episode-number-4-source-control-and-basics-of-git-and-github/">Podcast Episode # 4 : Source Control and Basics of Git &amp; GitHub</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/02/podcast-episode-number-3-tools-for-web-development/">Podcast Episode # 3 : Tools for Web Development</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/28/sdp-episode-number-2-web-basics/">Podcast Episode # 2 : Web Basics</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/28/sdp-episode-number-1-computer-institutes-in-india/">Podcast Episode # 1 : Computer Institutes in India</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/06/orchard-cms-community-contribution/">Orchard CMS Community Contribution</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/03/14/learn-the-skill-of-making-your-own-amazing-videos-mumbai/">Learn the Skill of Making Your Own Amazing Videos</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/03/02/my-first-orchard-cms-contribution/">My First Orchard CMS Contribution</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications/">Reviewed Mastering Entity Framework : Packt Publications</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/18/indias-first-software-development-podcast-show-launched/">India's First Software Development Podcast Show Launched</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/12/20/sanskrit-chants-and-prayers-to-calm-ones-mind/">Sanskrit Chants &amp; Prayers to Calm Ones Mind</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/12/10/orchard-cms-v1-dot-9-tutorials-coming-soon/">Orchard CMS v1.9 Tutorials Coming Soon</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/03/orchard-cms-workshop-beginner-to-advanced/">Orchard CMS Mumbai Workshop : Beginner to Advanced</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/15/first-orchard-cms-workshop-in-mumbai/">First Orchard CMS Workshop in Mumbai</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/26/orchard-beginner-custom-forms-in-orchard/">Orchard Beginner : Custom Forms in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/22/orchard-beginner-recipes-in-orchard/">Orchard Beginner : Recipes in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/18/orchard-beginner-creating-new-roles-in-orchard/">Orchard Beginner : Creating New Roles in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/16/orchard-beginner-new-user-registration-in-orchard/">Orchard Beginner : New User Registration in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/13/orchard-beginner-creating-new-users-in-orchard/">Orchard Beginner : Creating New Users in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/11/orchard-beginner-content-fields-in-orchard/">Orchard Beginner : Content Fields in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/09/orchard-beginner-content-parts-in-orchard/">Orchard Beginner : Content Parts in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/04/orchard-beginner-content-types-in-orchard/">Orchard Beginner : Content Types in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/03/orchard-beginner-content-items-in-orchard/">Orchard Beginner : Content Items in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/27/learn-how-to-host-static-websites-using-github-pages/">Learn How to Host Static Websites Using GitHub Pages(Udemy Course)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/26/creating-blogs-and-blog-posts-in-orchard/">Creating Blogs and Blog Posts in Orchard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/26/creating-pages-in-orchard-cms/">Creating Pages in Orchard CMS</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Abhishek Luv <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.abhishekluv.in%2F&tab=mobile" target="_blank">My Google PageSpeed Score</a>
+</p>
+
+
+</footer>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'blogabhishek'; 
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/';
-        var disqus_url = 'http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/';
-        var disqus_script = 'embed.js';
+var disqus_identifier = 'http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/';var disqus_url = 'http://www.abhishekluv.in/blog/2014/01/28/generic-repository-interface-in-csharp/';var disqus_script = 'embed.js';
       
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+    (function () {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
-</script><script>
-  $(document).ready(function() {  
-  var stickyNavTop = $('nav').offset().top;  
-    
-  var stickyNav = function(){  
-  var scrollTop = $(window).scrollTop();  
-         
-  if (scrollTop > stickyNavTop) {   
-      $('nav').addClass('sticky');  
-  } else {  
-      $('nav').removeClass('sticky');   
-  }  
-  };  
-    
-  stickyNav();  
-    
-  $(window).scroll(function() {  
-      stickyNav();  
-  });  
-  });  
-</script><script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script><script src="/javascripts/octopress.js" async defer type="text/javascript"></script><script type="text/rocketscript">$(document).ready(function(){var font_settings=" <style type='text/css'>" + "@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700,900);" + " </style>"; $("head").append(font_settings);});</script><script>
-	function init() {
-	var imgDefer = document.getElementsByTagName('img');
-	for (var i=0; i<imgDefer.length; i++) {
-	if(imgDefer[i].getAttribute('data-src')) {
-	imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-	} } }
-	window.onload = init;
-  </script><script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-29282692-1']);
-    _gaq.push(['_trackPageview']);
+</script>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script><link rel="stylesheet" href="/stylesheets/screen.css" media="none" onload="if(media!='all')media='all'"></body></html>
+
+
+
+
+
+
+
+
+<script>$(document).ready(function(){var stickyNavTop=$('nav').offset().top; var stickyNav=function(){var scrollTop=$(window).scrollTop(); if (scrollTop > stickyNavTop){$('nav').addClass('sticky');}else{$('nav').removeClass('sticky');}}; stickyNav(); $(window).scroll(function(){stickyNav();});}); </script>
+
+
+  <script src="/javascripts/octopress.js" async defer type="text/javascript"></script><script type="text/rocketscript">$(document).ready(function(){var font_settings=" <style type='text/css'>" + "@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700,900);" + " </style>"; $("head").append(font_settings);});</script><script>function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init; </script><script type="text/javascript">var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-29282692-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})(); </script>
+<link rel="stylesheet" href="/stylesheets/screen.css" media="none" onload="if(media!='all')media='all'">
+</body>
+</html>
