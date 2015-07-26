@@ -1,4 +1,1 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://www.abhishekluv.in/sitemap.xml 
+User-agent: *Disallow:Sitemap: http://www.abhishekluv.in/sitemap.xml 
