@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.abhishekluv.in/blog/2015/08/20/reviewing-asp-dot-net-5-essentials-packt-publishing/</loc>
+    <lastmod>2015-08-20T16:57:30+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets/</loc>
     <lastmod>2015-07-22T17:36:38+05:30</lastmod>
   </url>
@@ -79,6 +83,18 @@
   </url>
   <url>
     <loc>http://www.abhishekluv.in/open-source-contributions/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/aspnet5/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/packt-publishing/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/book/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/review/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/page2/</loc>
