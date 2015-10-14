@@ -64,7 +64,13 @@
     <loc>http://www.abhishekluv.in/blog/archives/</loc>
   </url>
   <url>
+    <loc>http://www.abhishekluv.in/blog/</loc>
+  </url>
+  <url>
     <loc>http://www.abhishekluv.in/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/open-source-contributions/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/hire-me/</loc>
@@ -73,16 +79,13 @@
     <loc>http://www.abhishekluv.in/online-courses/</loc>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/about/</loc>
-  </url>
-  <url>
     <loc>http://www.abhishekluv.in/testimonials/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/thank-you/</loc>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/open-source-contributions/</loc>
+    <loc>http://www.abhishekluv.in/about/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/categories/aspnet5/</loc>
@@ -97,13 +100,13 @@
     <loc>http://www.abhishekluv.in/blog/categories/review/</loc>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/page2/</loc>
+    <loc>http://www.abhishekluv.in/blog/posts/2/</loc>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/page3/</loc>
+    <loc>http://www.abhishekluv.in/blog/posts/3/</loc>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/page4/</loc>
+    <loc>http://www.abhishekluv.in/blog/posts/4/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/404.html</loc>
