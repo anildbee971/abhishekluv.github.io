@@ -187,6 +187,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/12/21/receiving-email-notifications-for-new-subscribers-with-sendy/">Receiving Email Notifications for New Subscribers With Sendy.co</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/12/19/getting-healthy-fit-and-consistent/">Getting Healthy, Fit and Consistent</a>
       </li>
     
@@ -279,6 +283,12 @@
   
 
   <script src="http://dwz6w0xm5nwrx.cloudfront.net/js/deferfont.min.js"></script>
+
+  <script>
+$("#submit").click(function(){var name=document.getElementById("name").value;var email=document.getElementById("email").value;var mobilePhone=document.getElementById("Number").value;var service=document.getElementById("Service").value;var message=document.getElementById("Message").value;$.ajax({type:"POST",url:"https://mandrillapp.com/api/1.0/messages/send.json",data:{key:"KYTyK9hzFFJJXEIcy0Hcqw",message:{from_name:"Abhishek Luv Blog",from_email:"abhishek@abhishekluv.in",to:[{email:"abhishek.luv@outlook.com",name:"Abhishek Luv",type:"to"}],subject:"New Contact Request on Abhishek Luv by "+name+" Topic: "+subject,html:"New Contact Request on Abhishek Luv by "+"<br/>"+name+"<br/>"+email+"<br/>"+mobilePhone+"<br/>"+service+"<br/>"+message}}})});
+</script>
+
+
 </body>
 </html>
 
