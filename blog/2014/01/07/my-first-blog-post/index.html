@@ -38,6 +38,12 @@
   <link rel="canonical" href="http://www.abhishekluv.in/blog/2014/01/07/my-first-blog-post">
   <script src="http://dwz6w0xm5nwrx.cloudfront.net/js/asyncstyles.min.js"></script>
   <link href="/atom.xml" rel="alternate" title="Freelance ASP.NET MVC Developer in Mumbai" type="application/atom+xml">
+  <style>
+   *{
+        
+     font-family: "Ubuntu" !important;
+    }
+  </style>
 </head>
 
 <body   >
@@ -287,8 +293,11 @@
 
   
 
-  <script src="http://dwz6w0xm5nwrx.cloudfront.net/js/deferfont.min.js"></script>
+  <script>
+   function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;$(document).ready(function(){var n=$("nav").offset().top,a=function(){var a=$(window).scrollTop(),o=$("nav").hasClass("sticky");return a>n&&o?!0:void(a>n?($("nav").hide(),$("nav").addClass("sticky"),$("nav").fadeIn("2000")):$("nav").removeClass("sticky"))};a(),$(window).scroll(function(){a()})})
+ </script>
 
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
 </body>
 </html>
 

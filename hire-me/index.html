@@ -23,9 +23,9 @@
   <meta property="og:url" content="http://www.abhishekluv.in/hire-me/" />
   <meta property="og:image" content="https://dajgbgqiuncfc.cloudfront.net/tvt/abhishekluv.jpg" />
   
-  <meta property="og:description" content="Hire Me Web Application Development (.NET Only. No Desktop) Hello! I&rsquo;m a Freelancer Developing Web Applications using ASP.NET MVC, Entity &hellip;" />
+  <meta property="og:description" content="Hire Me Web Application Development (.NET Only. No Desktop) Hello! I&rsquo;m a Freelancer Developing Web Applications using ASP.NET MVC, Entity Framework, Bootstrap, Angularjs, SQL Server and others. Ping me a message if you need me as a freelance &hellip;" />
   
-  <meta name="description" content="Hire Me Web Application Development (.NET Only. No Desktop) Hello! I&rsquo;m a Freelancer Developing Web Applications using ASP.NET MVC, Entity &hellip;">
+  <meta name="description" content="Hire Me Web Application Development (.NET Only. No Desktop) Hello! I&rsquo;m a Freelancer Developing Web Applications using ASP.NET MVC, Entity Framework, Bootstrap, Angularjs, SQL Server and others. Ping me a message if you need me as a freelance &hellip;">
   <meta name="keywords" content="asp.net mvc developer in mumbai, .net web developer in mumbai, .net training in mumbai, asp.net mvc training in mumbai  "/>
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -36,6 +36,12 @@
   <link rel="canonical" href="http://www.abhishekluv.in/hire-me">
   <script src="http://dwz6w0xm5nwrx.cloudfront.net/js/asyncstyles.min.js"></script>
   <link href="/atom.xml" rel="alternate" title="Freelance ASP.NET MVC Developer in Mumbai" type="application/atom+xml">
+  <style>
+   *{
+        
+     font-family: "Ubuntu" !important;
+    }
+  </style>
 </head>
 
 <body   >
@@ -286,13 +292,16 @@
 
   
 
-  <script src="http://dwz6w0xm5nwrx.cloudfront.net/js/deferfont.min.js"></script>
+  <script>
+   function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;$(document).ready(function(){var n=$("nav").offset().top,a=function(){var a=$(window).scrollTop(),o=$("nav").hasClass("sticky");return a>n&&o?!0:void(a>n?($("nav").hide(),$("nav").addClass("sticky"),$("nav").fadeIn("2000")):$("nav").removeClass("sticky"))};a(),$(window).scroll(function(){a()})})
+ </script>
 
   <script>
 $("#submit").click(function(){var name=document.getElementById("name").value;var email=document.getElementById("email").value;var mobilePhone=document.getElementById("Number").value;var service=document.getElementById("Service").value;var message=document.getElementById("Message").value;$.ajax({type:"POST",url:"https://mandrillapp.com/api/1.0/messages/send.json",data:{key:"KYTyK9hzFFJJXEIcy0Hcqw",message:{from_name:"Abhishek Luv Blog",from_email:"abhishek@abhishekluv.in",to:[{email:"abhishek.luv@outlook.com",name:"Abhishek Luv",type:"to"}],subject:"New Contact Request on Abhishek Luv by "+name+" Topic: "+subject,html:"New Contact Request on Abhishek Luv by "+"<br/>"+name+"<br/>"+email+"<br/>"+mobilePhone+"<br/>"+service+"<br/>"+message}}})});
 </script>
 
 
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
 </body>
 </html>
 
