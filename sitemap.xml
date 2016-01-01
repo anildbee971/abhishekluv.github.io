@@ -73,7 +73,7 @@
     <lastmod>2014-01-07T17:01:28+05:30</lastmod>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/blog/archives/</loc>
+    <loc>http://www.abhishekluv.in/404.html</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/</loc>
@@ -82,10 +82,13 @@
     <loc>http://www.abhishekluv.in/</loc>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/open-source-contributions/</loc>
+    <loc>http://www.abhishekluv.in/blog/archives/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/hire-me/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/about/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/online-courses/</loc>
@@ -97,7 +100,7 @@
     <loc>http://www.abhishekluv.in/thank-you/</loc>
   </url>
   <url>
-    <loc>http://www.abhishekluv.in/about/</loc>
+    <loc>http://www.abhishekluv.in/open-source-contributions/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/categories/aspnet5/</loc>
@@ -110,9 +113,5 @@
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/categories/review/</loc>
-  </url>
-  <url>
-    <loc>http://www.abhishekluv.in/404.html</loc>
-    <lastmod>2015-08-05T10:57:14+05:30</lastmod>
   </url>
 </urlset>
