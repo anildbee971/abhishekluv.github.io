@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Newsletter-system | Freelance ASP.NET MVC Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/newsletter-system/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-01-03T11:50:25+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Receiving Email Notifications for New Subscribers With Sendy.co]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/12/21/receiving-email-notifications-for-new-subscribers-with-sendy/"/>
+    <updated>2015-12-21T07:36:22+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/12/21/receiving-email-notifications-for-new-subscribers-with-sendy</id>
+    <content type="html"><![CDATA[<p>Sendy is one of the best Emailer software out there on the web. I love Sendy.</p>
+
+<p>Sendy + Amazon SES = Awesomeness</p>
+
+<p>But sendy doesn&rsquo;t have a feature of receiving email notifications when new subscribers register on our websites.</p>
+
+<p>I have figured out to do it using an email service called &ldquo;Mandrill&rdquo; by sending email to myself using ajax calls.</p>
+
+<!-- more -->
+
+
+<p>Mandrill is an email infrastructure service. With the API of Mandrill, we can send email only by JavaScript.</p>
+
+<h2>Steps</h2>
+
+<ol>
+<li>Create a new <a href="https://mandrillapp.com/">Mandrill</a> account</li>
+<li>Get your Mandrill API Key</li>
+<li><a href="https://mandrillapp.com/settings/sending-domains">Verify</a> your Domain Name and Email Address</li>
+<li>Add TXT SPF and DKIM records for authentication for your Domain name</li>
+<li>Wait for the records to propagate</li>
+<li>Use the below given code with your API key to receive email notification after someone registers using the sendy form</li>
+</ol>
+
+
+<h2>Sample Sendy Subscribe Form</h2>
+
+<p>When we create a new list using sendy we get this subscribe form which we can embed on our websites for our users to subscribe.</p>
+
+<p><strong><em>Note : Your form code may differ.</em></strong></p>
+
+<script src="https://gist.github.com/abhishekluv/09e0449b0ed91b14a9d7.js"></script>
+
+
+<h2>jQuery code for receiving email notifications using Mandrill</h2>
+
+<p>The below given code checks all the input boxes and then sends a post request to mandrill with all the form input values using AJAX. Mandrill then replies back by sending  an email to you.</p>
+
+<script src="https://gist.github.com/abhishekluv/6164fa516a8f5ba6644a.js"></script>
+
+
+<p>In order to receive email notifications for every sendy form you will have to add the above javascript and jquery code for every sendy form and even alter the form IDs and javascript variables.</p>
+
+<p><strong><em>Note : Keep in mind that your API key is visible to anyone, so any malicious user may use your key to send out emails that can eat up your quota.</em></strong></p>
+]]></content>
+  </entry>
+  
+</feed>

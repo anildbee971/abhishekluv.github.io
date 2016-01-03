@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Orchard-cms-beginner-course | Freelance ASP.NET MVC Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/orchard-cms-beginner-course/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-01-03T11:50:25+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS for Absolute Beginner - Udemy Course]]></title>
+    <link href="http://www.abhishekluv.in/blog/2014/01/07/orchard-cms-for-absolute-beginner-udemy-course/"/>
+    <updated>2014-01-07T17:06:22+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2014/01/07/orchard-cms-for-absolute-beginner-udemy-course</id>
+    <content type="html"><![CDATA[<p>Orchard CMS for Absolute Beginners is a course about the latest open-source .NET Content Management System which is written in ASP.NET platform using the ASP.NET MVC framework.</p>
+
+<!-- more -->
+
+
+<p></p>
+
+<p><a href="http://rkl.net.in/orchardcms">Orchard CMS for Absolute Beginners – Udemy Course</a></p>
+
+<p>Grab it and do share it with your friends.</p>
+]]></content>
+  </entry>
+  
+</feed>

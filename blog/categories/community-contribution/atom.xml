@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Community-contribution | Freelance ASP.NET MVC Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/community-contribution/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-01-03T11:50:25+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Community Contribution]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/05/06/orchard-cms-community-contribution/"/>
+    <updated>2015-05-06T17:33:27+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/05/06/orchard-cms-community-contribution</id>
+    <content type="html"><![CDATA[<p>Feels great to be a contributor to the Orchard CMS Community.</p>
+
+
+
+
+<!-- more -->
+
+
+
+
+<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/orchard+contribution.PNG"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My First Orchard CMS Contribution]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/03/02/my-first-orchard-cms-contribution/"/>
+    <updated>2015-03-02T17:32:01+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/03/02/my-first-orchard-cms-contribution</id>
+    <content type="html"><![CDATA[<p>My First Orchard CMS Contribution though not a big one.</p>
+
+
+
+
+<!-- more -->
+
+
+
+
+<p>Added BCC and CC support for the Orchard.Email Module and the Send Email Workflow Activity.</p>
+
+
+
+
+<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/orchard+cms+contributions.PNG"/></p>
+
+]]></content>
+  </entry>
+  
+</feed>

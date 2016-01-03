@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 2015 | Freelance ASP.NET MVC Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/2015/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-01-03T11:50:25+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Plans for Year 2016]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/12/21/plans-for-year-2016/"/>
+    <updated>2015-12-21T17:49:01+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/12/21/plans-for-year-2016</id>
+    <content type="html"><![CDATA[<p>2016 is near by and this is the best time to plan for 2016.</p>
+
+<p>My plans for Year 2016</p>
+
+<!-- more -->
+
+
+<ul>
+<li><a href="/blog/2015/12/19/getting-healthy-fit-and-consistent/">Stay healthy, fit and in shape</a></li>
+<li>Complete the 10-day <a href="http://www.vridhamma.org/VRI-Introduction">Vipassana Meditation programme</a></li>
+<li>Get strong abs</li>
+<li>Develop a habit pattern to learn things faster</li>
+<li>Develop a habit pattern to stay consistent</li>
+<li>Get productive</li>
+<li>Note down and keep track of every task, work and blog about it online</li>
+<li>Create video tutorials for <a href="http://www.develop2deploy.com/">Develop2Deploy</a></li>
+<li>Organize quality <a href="http://www.meetup.com/Develop2Deploy-Coding-School-Mumbai/">Meetup events for students/freshers</a></li>
+<li>Become a better programmer</li>
+<li>Become more better at C# and MVC</li>
+<li>Continue <a href="http://www.softwaredevelopmentpodcast.in/">podcasting</a> where I left it in 2015</li>
+<li>Market about <a href="http://www.develop2deploy.com/">Develop2Deploy</a> and reach out to more students and freshers</li>
+<li>Visit <a href="http://www.vdarshan.com/dt/isha/ishatours.html">Isha Yoga Center, Coimbatore</a></li>
+<li>Blog more often on my blog</li>
+<li>Interview technical experts on my <a href="http://www.softwaredevelopmentpodcast.in/">podcast show</a></li>
+<li>Review more technical books</li>
+<li>Organize free online webinars for students and freshers</li>
+<li>Create free and premium video tutorials for <a href="http://www.orchardbeginner.com/">Orchard Beginner</a></li>
+<li>Contribute more to <a href="http://docs.orchardproject.net/Contributors">Orchard CMS Documentation</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Receiving Email Notifications for New Subscribers With Sendy.co]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/12/21/receiving-email-notifications-for-new-subscribers-with-sendy/"/>
+    <updated>2015-12-21T07:36:22+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/12/21/receiving-email-notifications-for-new-subscribers-with-sendy</id>
+    <content type="html"><![CDATA[<p>Sendy is one of the best Emailer software out there on the web. I love Sendy.</p>
+
+<p>Sendy + Amazon SES = Awesomeness</p>
+
+<p>But sendy doesn&rsquo;t have a feature of receiving email notifications when new subscribers register on our websites.</p>
+
+<p>I have figured out to do it using an email service called &ldquo;Mandrill&rdquo; by sending email to myself using ajax calls.</p>
+
+<!-- more -->
+
+
+<p>Mandrill is an email infrastructure service. With the API of Mandrill, we can send email only by JavaScript.</p>
+
+<h2>Steps</h2>
+
+<ol>
+<li>Create a new <a href="https://mandrillapp.com/">Mandrill</a> account</li>
+<li>Get your Mandrill API Key</li>
+<li><a href="https://mandrillapp.com/settings/sending-domains">Verify</a> your Domain Name and Email Address</li>
+<li>Add TXT SPF and DKIM records for authentication for your Domain name</li>
+<li>Wait for the records to propagate</li>
+<li>Use the below given code with your API key to receive email notification after someone registers using the sendy form</li>
+</ol>
+
+
+<h2>Sample Sendy Subscribe Form</h2>
+
+<p>When we create a new list using sendy we get this subscribe form which we can embed on our websites for our users to subscribe.</p>
+
+<p><strong><em>Note : Your form code may differ.</em></strong></p>
+
+<script src="https://gist.github.com/abhishekluv/09e0449b0ed91b14a9d7.js"></script>
+
+
+<h2>jQuery code for receiving email notifications using Mandrill</h2>
+
+<p>The below given code checks all the input boxes and then sends a post request to mandrill with all the form input values using AJAX. Mandrill then replies back by sending  an email to you.</p>
+
+<script src="https://gist.github.com/abhishekluv/6164fa516a8f5ba6644a.js"></script>
+
+
+<p>In order to receive email notifications for every sendy form you will have to add the above javascript and jquery code for every sendy form and even alter the form IDs and javascript variables.</p>
+
+<p><strong><em>Note : Keep in mind that your API key is visible to anyone, so any malicious user may use your key to send out emails that can eat up your quota.</em></strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Healthy, Fit and Consistent]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/12/19/getting-healthy-fit-and-consistent/"/>
+    <updated>2015-12-19T10:31:38+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/12/19/getting-healthy-fit-and-consistent</id>
+    <content type="html"><![CDATA[<p>It is not what we eat but what we digest and assimilate that adds to our health, strength and usefulness. Let&rsquo;s get Healthy, Fit and Consistent.</p>
+
+<p>This year starting from July, I made some changes in the way I manage my health and day-to-day activities.</p>
+
+<ul>
+<li>Saying No to few things</li>
+<li>Saying Yes to few things</li>
+<li>Giving body what it needs</li>
+<li>Developing a habit pattern</li>
+</ul>
+
+
+<p>I hope these things can be of some help for you too.</p>
+
+<!-- more -->
+
+
+<h2>Saying No to few things :</h2>
+
+<ul>
+<li>Aerated drinks</li>
+<li>Milk (Milk is best taken alone, or let alone)</li>
+<li>Tea</li>
+<li>Coffee</li>
+<li>Burgers</li>
+<li>Diet Aerated drinks</li>
+<li>Smoking</li>
+<li>Alcohol</li>
+<li>Meat</li>
+<li>Any Non-veg products</li>
+</ul>
+
+
+<h2>Saying Yes to few things :</h2>
+
+<ul>
+<li>Water(Depends. 3litres water every day)</li>
+<li>Leafy vegetables</li>
+<li>Green tea</li>
+<li>Dry fruits</li>
+<li>Fresh fruits</li>
+<li>Jaggery(better than white sugar)</li>
+<li>Dates(natural sweet)</li>
+</ul>
+
+
+<h2>Giving body what it needs</h2>
+
+<p>These are some of the things that I have altered in my everyday activity.</p>
+
+<p>Our body’s need these things more than foods :</p>
+
+<ul>
+<li>Oxygen : Doing vital diaphragmatic breathing</li>
+<li>Water : Having water and more liquid content</li>
+<li>Aerobic exercise : Doing exercise using Aerobic power (i.e. my breath)</li>
+<li>Breakfast : Starting my day with something live in the morning( Lime or any fruit juice)</li>
+<li>Structural support : While sitting on a chair I try not to sit on my thighs. Instead, I sit on my sit bone. Blood and Oxygen circulation should be normal while sitting. If we hunch or sit on our thighs, then our blood and oxygen circulation will not be proper.</li>
+<li>Properly combining my food</li>
+</ul>
+
+
+<p><em>It is not what we eat but what we digest and assimilate that adds to our health, strength and usefulness.</em></p>
+
+<h2>Developing a habit pattern</h2>
+
+<p>I have developed my own habit pattern which helps me to stay energetic and in balance the whole day. No backaches, No headaches, No leg numbness, No hands or wrist numbness.</p>
+
+<ul>
+<li>4:30am: Get up, having Lime juice with lukewarm water and with very little honey (You can avoid honey if required)</li>
+<li>5:00am: Colon cleansing (Potty time and productivity thinking time. Potty time is very imp.)</li>
+<li>5:30am to 6:30am: Exercise or 1hour Meditation (by concentrating on the breath or listening to Sanskrit mantras. With empty/half empty stomach)</li>
+<li>7:00am : Breaking the fast with an Oat Meal(Oats, Dry fruits, little jaggery)</li>
+<li>7:30am : Starting my work</li>
+<li>10:30am : Working and Having some fresh raw vegetables/fruits like(carrots, cucumber, apples, banana or others)</li>
+<li>12:00pm : Working and Having a glass of Green tea with Hot water, Lemon and very little honey</li>
+<li>2:00pm : Lunch time(dal, little rice, 3 roti’s, vegetables, vegetables with high fibre content)</li>
+<li>2:30pm : Back to my work</li>
+<li>5:00pm : Working and Having a glass of Green tea with Hot water(No lemon or honey)</li>
+<li>6:30pm to 7:30pm : 1hour Walking(<a href="#fitbit">Minimum 10,000 steps</a>. With empty/half empty stomach.)</li>
+<li>8:00pm: Having one Mosambi (Orange-Navel) fruit</li>
+<li>dinner before 9:00pm: Dinner time (dal, no rice, 2 roti’s, vegetables, and vegetables with high fibre content)</li>
+<li>10:00pm: time for bed.</li>
+</ul>
+
+
+<h2>Fitbit app</h2>
+
+<p>I use the Fitbit app with Motion Data to count the number of steps I have completed while walking.</p>
+
+<p><em>I&rsquo;m using the Fitbit app with my Microsoft 640 XL Windows Phone</em></p>
+
+<p><img src="" data-src="https://dajgbgqiuncfc.cloudfront.net/abhishek/fitbit+for+windowsphone.jpg" alt="Using Fitbit app with Motion Data" id="fitbit"/></p>
+
+<p>I hope these things can be of some help for you too.</p>
+
+<p>Stay healthy, Stay fit and Stay consistent.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reviewing ASP.NET 5 Essentials - Packt Publishing]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/08/20/reviewing-asp-dot-net-5-essentials-packt-publishing/"/>
+    <updated>2015-08-20T16:57:30+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/08/20/reviewing-asp-dot-net-5-essentials-packt-publishing</id>
+    <content type="html"><![CDATA[<p>Currently I&rsquo;m reviewing a book called &ldquo;ASP.NET 5 Essentials&rdquo; by PACKT Publishing.</p>
+
+<p>It&rsquo;s always fun reviewing books for PACKT Publishing.</p>
+
+<p>This is my third book as a technical reviewer.</p>
+
+<!-- more -->
+
+
+<h3>List of books reviewed</h3>
+
+<ol>
+<li><a href="http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications/">Reviewed Mastering Entity Framework : Packt Publications</a></li>
+<li><a href="http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/">Reviewed Entity Framework Tutorial : Packt Publications</a></li>
+<li>ASP.NET 5 Essentials (InProgress)</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reviewed Entity Framework Tutorial : Packt Publications]]></title>
+    <link href="http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/"/>
+    <updated>2015-06-18T17:34:34+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s always a great experience to review a book technically. You should do it too.</p>
+
+
+<p>Book will be released in August 2015.</p>
+
+
+
+
+<!-- more -->
+
+
+
+
+<p><a href="https://www.packtpub.com/application-development/entity-framework-tutorial-second-edition">Entity Framework Tutorial : Second Edition</a></p>
+
+
+<p><img src="" data-src="https://s3-ap-southeast-1.amazonaws.com/tvtstaticresource/img/EFTutsBookImage.png"/></p>
+
+]]></content>
+  </entry>
+  
+</feed>
