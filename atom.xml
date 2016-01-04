@@ -4,13 +4,37 @@
   <title><![CDATA[Freelance ASP.NET MVC Developer in Mumbai]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-01-03T11:50:25+05:30</updated>
+  <updated>2016-01-04T13:49:36+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard Beginner YouTube Channel Launched]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/01/04/orchard-beginner-youtube-channel-launched/"/>
+    <updated>2016-01-04T13:30:53+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/01/04/orchard-beginner-youtube-channel-launched</id>
+    <content type="html"><![CDATA[<p>Introducing the Orchard Beginner YouTube Channel.</p>
+
+<p>Orchard Beginner is created with the aim to provide users and developers to have a Beginner&rsquo;s Guide to learn the ins and outs of Orchard.</p>
+
+<!-- more -->
+
+
+<p>As I had mentioned in one of my <a href="http://www.abhishekluv.in/blog/2015/12/21/plans-for-year-2016/">previous post</a> that I will be keeping track of every task I do and blog about it online.</p>
+
+<p>Stay tuned!!</p>
+
+
+
+
+<iframe  width="720" height="315" src="https://www.youtube.com/embed/gDe33Bn41a8" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plans for Year 2016]]></title>

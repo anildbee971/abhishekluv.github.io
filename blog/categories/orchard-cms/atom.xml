@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Orchard-cms | Freelance ASP.NET MVC Developer in Mumbai]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchard-cms/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-01-03T11:50:25+05:30</updated>
+  <updated>2016-01-04T13:49:36+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard Beginner YouTube Channel Launched]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/01/04/orchard-beginner-youtube-channel-launched/"/>
+    <updated>2016-01-04T13:30:53+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/01/04/orchard-beginner-youtube-channel-launched</id>
+    <content type="html"><![CDATA[<p>Introducing the Orchard Beginner YouTube Channel.</p>
+
+<p>Orchard Beginner is created with the aim to provide users and developers to have a Beginner&rsquo;s Guide to learn the ins and outs of Orchard.</p>
+
+<!-- more -->
+
+
+<p>As I had mentioned in one of my <a href="/blog/2015/12/21/plans-for-year-2016/">previous post</a> that I will be keeping track of every task I do and blog about it online.</p>
+
+<p>Stay tuned!!</p>
+
+
+
+
+<iframe  width="720" height="315" src="https://www.youtube.com/embed/gDe33Bn41a8" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard CMS Community Contribution]]></title>
@@ -124,45 +148,6 @@
 
 
 <p><strong>Happy Orcharding!!</strong></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS Tutorial : Recipes in Orchard CMS]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/06/28/orchard-cms-tutorial-recipes-in-orchard-cms/"/>
-    <updated>2014-06-28T17:16:45+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/06/28/orchard-cms-tutorial-recipes-in-orchard-cms</id>
-    <content type="html"><![CDATA[<p>Recipes in Orchard are a huge productivity boost when installing Orchard CMS on a client&rsquo;s server,
-because it avoids the Orchard Web Developer from having to manually configure Orchard CMS instance.</p>
-
-
-
-
-<!-- more -->
-
-
-<p></p>
-
-<h2>What is a Recipe</h2>
-
-
-<p>Orchard simplifies the process of setting up a new website by letting you use website recipes. A recipe is an XML file that contains the startup configuration for an Orchard website. When you start Orchard for the first time, you can select a recipe that best matches the type of site you want to set up.</p>
-
-
-<p>For example, if you want your website to be a blog, you can select the Blog recipe, and much of the configuration work will be done for you.</p>
-
-
-<p>You can create your own recipes and customize the process of setting a website and configuring Orchard features. Recipes can also instruct Orchard to download and install modules and themes from the Orchard Gallery during website setup.</p>
-
-
-<p>This course describes how to use recipes, how to create custom recipes, export or import recipes, how to create a website using a custom recipe.</p>
-
-
-<blockquote><p><em>docs.orchardproject.net</em></p></blockquote>
-
-
-<p><a href="https://www.udemy.com/orchard-cms-tutorial-recipes-in-orchard-cms/" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
 
 ]]></content>
   </entry>
