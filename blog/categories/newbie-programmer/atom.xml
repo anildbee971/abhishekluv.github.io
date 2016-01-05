@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: 2016 | Freelance ASP.NET MVC Developer in Mumbai]]></title>
-  <link href="http://www.abhishekluv.in/blog/categories/2016/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Newbie-programmer | Freelance ASP.NET MVC Developer in Mumbai]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/newbie-programmer/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
   <updated>2016-01-05T10:00:49+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
@@ -109,68 +109,6 @@
 <p>Take Care!</p>
 
 <p>Abhishek Luv</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard Beginner YouTube Channel Launched]]></title>
-    <link href="http://www.abhishekluv.in/blog/2016/01/04/orchard-beginner-youtube-channel-launched/"/>
-    <updated>2016-01-04T13:30:53+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2016/01/04/orchard-beginner-youtube-channel-launched</id>
-    <content type="html"><![CDATA[<p>Introducing the Orchard Beginner YouTube Channel.</p>
-
-<p>Orchard Beginner is created with the aim to provide users and developers to have a Beginner&rsquo;s Guide to learn the ins and outs of Orchard.</p>
-
-<!-- more -->
-
-
-<p>As I had mentioned in one of my <a href="/blog/2015/12/21/plans-for-year-2016/">previous post</a> that I will be keeping track of every task I do and blog about it online.</p>
-
-<p>Stay tuned!!</p>
-
-
-
-
-<iframe  width="720" height="315" src="https://www.youtube.com/embed/gDe33Bn41a8" frameborder="0" allowfullscreen></iframe>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Plans for Year 2016]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/12/21/plans-for-year-2016/"/>
-    <updated>2015-12-21T17:49:01+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/12/21/plans-for-year-2016</id>
-    <content type="html"><![CDATA[<p>2016 is near by and this is the best time to plan for 2016.</p>
-
-<p>My plans for Year 2016</p>
-
-<!-- more -->
-
-
-<ul>
-<li><a href="/blog/2015/12/19/getting-healthy-fit-and-consistent/">Stay healthy, fit and in shape</a></li>
-<li>Complete the 10-day <a href="http://www.vridhamma.org/VRI-Introduction">Vipassana Meditation programme</a></li>
-<li>Get strong abs</li>
-<li>Develop a habit pattern to learn things faster</li>
-<li>Develop a habit pattern to stay consistent</li>
-<li>Get productive</li>
-<li>Note down and keep track of every task, work and blog about it online</li>
-<li>Create video tutorials for <a href="http://www.develop2deploy.com/">Develop2Deploy</a></li>
-<li>Organize quality <a href="http://www.meetup.com/Develop2Deploy-Coding-School-Mumbai/">Meetup events for students/freshers</a></li>
-<li>Become a better programmer</li>
-<li>Become more better at C# and MVC</li>
-<li>Continue <a href="http://www.softwaredevelopmentpodcast.in/">podcasting</a> where I left it in 2015</li>
-<li>Market about <a href="http://www.develop2deploy.com/">Develop2Deploy</a> and reach out to more students and freshers</li>
-<li>Visit <a href="http://www.vdarshan.com/dt/isha/ishatours.html">Isha Yoga Center, Coimbatore</a></li>
-<li>Blog more often on my blog</li>
-<li>Interview technical experts on my <a href="http://www.softwaredevelopmentpodcast.in/">podcast show</a></li>
-<li>Review more technical books</li>
-<li>Organize free online webinars for students and freshers</li>
-<li>Create free and premium video tutorials for <a href="http://www.orchardbeginner.com/">Orchard Beginner</a></li>
-<li>Contribute more to <a href="http://docs.orchardproject.net/Contributors">Orchard CMS Documentation</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
