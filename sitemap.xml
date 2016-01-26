@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.abhishekluv.in/blog/2016/01/26/orchard-beginner-module-1-getting-started-completed/</loc>
+    <lastmod>2016-01-26T13:33:24+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://www.abhishekluv.in/blog/2016/01/13/standing-and-sitting-with-pomodoro-technique/</loc>
     <lastmod>2016-01-13T17:31:42+05:30</lastmod>
   </url>
@@ -35,10 +39,6 @@
   <url>
     <loc>http://www.abhishekluv.in/blog/2015/08/20/reviewing-asp-dot-net-5-essentials-packt-publishing/</loc>
     <lastmod>2015-08-20T16:57:30+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets/</loc>
-    <lastmod>2015-07-22T17:36:38+05:30</lastmod>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/</loc>
@@ -235,6 +235,12 @@
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/categories/fitbit-badges/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/pomodoro-technique/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/standing-desk/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/posts/2/</loc>

@@ -4,13 +4,50 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-01-26T11:58:33+05:30</updated>
+  <updated>2016-01-26T13:40:48+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard Beginner Module 1 : Getting Started (Completed)]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/01/26/orchard-beginner-module-1-getting-started-completed/"/>
+    <updated>2016-01-26T13:33:24+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/01/26/orchard-beginner-module-1-getting-started-completed</id>
+    <content type="html"><![CDATA[<p>Orchard Beginner Module 1 : Getting Started completed.</p>
+
+<p>Orchard CMS Tutorials brought to you by Orchard Beginner <a href="http://orchardbeginner.com/">http://orchardbeginner.com/</a></p>
+
+<!-- more -->
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CbBuiHj0Qkg?list=PL8AwaH3ssiATad095YNAoaIxHVkoh4Yky" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+<p>New to Orchard CMS?</p>
+
+
+<p>Orchard CMS is a free, open source, community-focused Content Management System built on the ASP.NET MVC platform.</p>
+
+
+<p>Orchard is delivered under the .NET Foundation <a href="http://www.dotnetfoundation.org/orchard">http://www.dotnetfoundation.org/orchard</a>. For more info on Orchard visit the official website <a href="http://www.orchardproject.net/">http://www.orchardproject.net/</a>
+and for more Orchard CMS tutorials subscribe to <a href="https://www.youtube.com/channel/UCAQxeMbUaKePrVE3wbNZxjg">our Orchard Beginner YouTube channel</a> or bookmark Orchard Beginner website for future reference.</p>
+
+
+<p>Stay tuned.</p>
+
+<p>Take care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Standing and Sitting With Pomodoro Technique]]></title>
@@ -556,38 +593,6 @@
 <li><a href="http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/">Reviewed Entity Framework Tutorial : Packt Publications</a></li>
 <li>ASP.NET 5 Essentials (InProgress)</li>
 </ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GetSiteControl : One-Stop Place for Website Widgets]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets/"/>
-    <updated>2015-07-22T17:36:38+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/07/22/getsitecontrol-one-stop-place-for-website-widgets</id>
-    <content type="html"><![CDATA[<p>Few weeks back I happened to visit a website called <a href="https://getsitecontrol.com/?ref=20384">www.getsitecontrol.com</a> by chance. It has awesome features which every website needs for marketing purposes and for connecting with their target audience by creating widgets like a Survey Widget for conducting an online survey, Contact Widget for getting user feedbacks and suggestions, Promo Widgets for promoting offers and discounts to clients, Subscribe Widget for newsletter subscriptions, Follow and Share Widgets for getting social media exposure.</p>
-
-
-
-
-<!-- more -->
-
-
-
-
-<p>I am happy that I found <a href="https://getsitecontrol.com/?ref=20384">www.getsitecontrol.com</a> for creating and managing widgets for my <a href="http://develop2deploy.com/">website</a>.</p>
-
-
-<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/getsitecontrol-interface.png" alt="GetSiteControl Dashboard"/></p>
-
-
-<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/sharewidget.png" alt="GetSiteControl Share Widget"/></p>
-
-
-<p><img src="" data-src="http://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/survey-and-contact-widget.png" alt="GetSiteControl Survery and Contact widget"/></p>
-
-
-<p>Visit <a href="https://getsitecontrol.com/?ref=20384">www.getsitecontrol.com</a> now to get these AWESOME Widgets for your website.</p>
 
 ]]></content>
   </entry>
