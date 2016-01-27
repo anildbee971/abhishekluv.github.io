@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Orchard-beginner | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/orchard-beginner/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-01-27T22:39:08+05:30</updated>
+  <updated>2016-01-27T22:47:00+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Important Things to Do When Installing Orchard CMS for the First Time]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/01/27/important-things-to-do-when-installing-orchard-cms-for-the-first-time/"/>
+    <updated>2016-01-27T22:08:24+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/01/27/important-things-to-do-when-installing-orchard-cms-for-the-first-time</id>
+    <content type="html"><![CDATA[<p>Important things to do when installing <em>Orchard CMS</em> for the first time.</p>
+
+<!-- more -->
+
+
+<ul>
+<li>Giving write permissions to the following folders(App_Data,Modules,Themes,Media) applicable for IIS/Web Hosts only and not for WebMatrix and IIS express.</li>
+<li>Installing Orchard with a pre-defined recipe or with a custom recipe (optional)</li>
+<li>Remove Home page title and text</li>
+<li>Configure your site settings properly</li>
+<li>Configure your cache settings properly</li>
+<li>Configure the email module with valid SMTP details (so that the reset password works when you forget your password)</li>
+<li>Configure Antispam modules</li>
+<li>Enable warmup module for performance boost(Orchard creates static versions of specified pages)</li>
+<li>Hide the meta published part if you want to hide the published dates for pages using placement.info file in your custom theme</li>
+<li>Check if the version you&rsquo;re using is the latest version.</li>
+<li>Assigning administrator roles to the admin user</li>
+<li>Adding an email address for the admin user</li>
+<li>Enabling database and file system output cache(Optional/If required)</li>
+<li>Enabling Audit trail module to monitor backend activities on your website(optional)</li>
+<li>Remember to turn off unwanted modules</li>
+<li>Copy the settings.txt file and save it in a secure place (for future use/backup)</li>
+<li>Enabling import/export and creating a recipe of your website (for future use/backup)</li>
+</ul>
+
+
+<p>New to Orchard CMS?</p>
+
+
+<p>Orchard CMS is a free, open source, community-focused Content Management System built on the ASP.NET MVC platform.</p>
+
+
+<p>Orchard is delivered under the .NET Foundation <a href="http://www.dotnetfoundation.org/orchard">http://www.dotnetfoundation.org/orchard</a>. For more info on Orchard visit the official website <a href="http://www.orchardproject.net/">http://www.orchardproject.net/</a>
+and for more Orchard CMS tutorials subscribe to <a href="https://www.youtube.com/channel/UCAQxeMbUaKePrVE3wbNZxjg">Orchard Beginner YouTube channel.</a></p>
+
+
+<p>Stay tuned.</p>
+
+<p>Take care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard Beginner Module 1 : Getting Started (Completed)]]></title>
