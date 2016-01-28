@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.abhishekluv.in/blog/2016/01/28/ways-in-which-you-can-contribute-to-open-source-projects/</loc>
+    <lastmod>2016-01-28T16:49:57+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://www.abhishekluv.in/blog/2016/01/27/important-things-to-do-when-installing-orchard-cms-for-the-first-time/</loc>
     <lastmod>2016-01-27T22:08:24+05:30</lastmod>
   </url>
@@ -245,6 +249,12 @@
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/categories/standing-desk/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/contribute/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/open-source/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/posts/2/</loc>

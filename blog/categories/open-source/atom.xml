@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Open-source | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-01-28T18:19:52+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ways in Which You Can Contribute to Open Source Projects]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/01/28/ways-in-which-you-can-contribute-to-open-source-projects/"/>
+    <updated>2016-01-28T16:49:57+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/01/28/ways-in-which-you-can-contribute-to-open-source-projects</id>
+    <content type="html"><![CDATA[<p>I love open source projects and contributing to open source projects has helped me in many ways.</p>
+
+<h2>Benefits of contributing to open source projects:</h2>
+
+<ul>
+<li>Opportunity to meet new people online</li>
+<li>Community owners and contributors will trust you without meeting you in person</li>
+<li>Community appreciations</li>
+<li>and many more&hellip;</li>
+</ul>
+
+
+<p>Never contributed to any open source project?</p>
+
+<!-- more -->
+
+
+<p>No problem. Find an open source project in your area of interest and start contributing.</p>
+
+<p>Let me share my contributing experience and how I started contributing to an open source project called &ldquo;Orchard&rdquo;.</p>
+
+<p>BTW.</p>
+
+<p>Orchard CMS is a free, open source, community-focused Content Management System built on the ASP.NET MVC platform.</p>
+
+
+<p>Orchard is delivered under the .NET Foundation <a href="http://www.dotnetfoundation.org/orchard">http://www.dotnetfoundation.org/orchard</a>. For more info on Orchard visit the official website <a href="http://www.orchardproject.net/">http://www.orchardproject.net/</a>
+and for more Orchard CMS tutorials subscribe to <a href="https://www.youtube.com/channel/UCAQxeMbUaKePrVE3wbNZxjg">Orchard Beginner YouTube channel.</a></p>
+
+
+<p>Let&rsquo;s talk about the ways in which you can contribute to open source projects.</p>
+
+<ul>
+<li>Write documentations</li>
+<li>Create tutorials</li>
+<li>Create premium tutorials</li>
+<li>Contribute source code or Help find/fix bugs</li>
+<li>Spread the word and your knowledge</li>
+<li>Appreciating the community and not be a jerk</li>
+<li>Interview other open source contributors and share knowledge</li>
+</ul>
+
+
+<h2>Write documentations</h2>
+
+<p>Most open source projects lack good documentation and this is an opportunity for you as a newbie or an experienced developer to put in some efforts and start writing documentations for your favourite open source project.</p>
+
+<p>Most of the open source documentations are written in .md Markdown so make sure to learn Markdown before starting to contribute/fix documentations.</p>
+
+<p>Community owners and members really appreciate genuine contributors and might give write/push access to the documentation repository.</p>
+
+<p>For example:</p>
+
+<p><a href="http://docs.orchardproject.net/Contributors">http://docs.orchardproject.net/Contributors</a></p>
+
+<h2>Create tutorials</h2>
+
+<p>After writing some documentation and gaining some experience with an open source project you can move to the next level and start creating video tutorials which will ultimately help new community members and shorten the learning curve.</p>
+
+<p>Creating tutorials and uploading them on YouTube comes with added bonus i.e. <a href="http://orchardbeginner.com/">more traffic to your own blog or website</a> which can bring in some nice exposure for you as a contributor/developer.</p>
+
+<p>For example:</p>
+
+<p>It makes me feel so appreciated when other developers and contributors share my tutorial and course links on Stackoverflow.</p>
+
+<p><a href="http://stackoverflow.com/a/11452276">http://stackoverflow.com/a/11452276</a></p>
+
+<h2>Create premium tutorials</h2>
+
+<p>With uploading free tutorials on YouTube you can even start selling premium tutorials and courses via online platforms like Udemy.</p>
+
+<p>For example:</p>
+
+<p>After creating my first Orchard tutorial series I created 2 premium courses and the response I got from the community and subscribers were astonishing. All of my Orchard courses are listed on the official documentation website of Orchard.</p>
+
+<p><a href="http://docs.orchardproject.net/Documentation/Orchard-TV">http://docs.orchardproject.net/Documentation/Orchard-TV</a></p>
+
+<h2>Contribute source code or Help find/fix bugs</h2>
+
+<p>The number one way to help out is find/fix bugs for your favourite open source project. Found a bug fix it or let other community contributors know about it.</p>
+
+<p>Most of the open source projects are hosted on GitHub so make sure to learn Git and GitHub before creating issues/pull requests for your favourite open source project.</p>
+
+<p>For example:</p>
+
+<p>The community owners and members appreciated my contribution with a shout out.</p>
+
+<p><a href="http://docs.orchardproject.net/Documentation/Orchard-1-9.Release-Notes#Contributors">http://docs.orchardproject.net/Documentation/Orchard-1-9.Release-Notes#Contributors</a></p>
+
+<h2>Spread the word and your knowledge</h2>
+
+<p>You can go and tell the world about your favourite open source project. Tweet about it. Blog about it. Just help get the word out and make the project more popular.</p>
+
+<p><a href="http://orchardbeginner.com/">http://orchardbeginner.com/</a></p>
+
+<h2>Appreciating the community and not be a jerk</h2>
+
+<p>Never ever act like a jerk while interacting with the community contributors and members. Never try to take them for granted.</p>
+
+<h2>Interview other open source contributors and share knowledge</h2>
+
+<p>You can even interview other contributors of your favourite open source projects and share the knowledge.</p>
+
+<p>If you have any other ideas on how to contribute, please share them below in the comments.</p>
+
+<p>Stay tuned.</p>
+
+<p>Take care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
+  
+</feed>
