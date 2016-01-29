@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: January | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/january/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-01-29T22:51:27+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Monthly Review : January 2016]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/01/29/monthly-review-january-2016/"/>
+    <updated>2016-01-29T22:08:14+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/01/29/monthly-review-january-2016</id>
+    <content type="html"><![CDATA[<p>This is my first monthly review. Keeping a note of every task I have really helped myself to stay more focused and measure my progress in a better way.</p>
+
+<p><em>As I had mentioned in one of my <a href="/blog/2015/12/21/plans-for-year-2016/">previous post</a> that I will be keeping track of every task I do and blog about it online.</em></p>
+
+<!-- more -->
+
+
+<h2>Review for January 2016</h2>
+
+<ul>
+<li>Stopped using Facebook :P</li>
+<li>Finished listening to an audio book &ldquo;Living Health&rdquo; by Tony Robbins</li>
+<li>Launched <a href="https://www.youtube.com/channel/UCAQxeMbUaKePrVE3wbNZxjg">Orchard Beginner YouTube channel</a></li>
+<li>Completed and Uploaded <a href="https://www.youtube.com/channel/UCAQxeMbUaKePrVE3wbNZxjg/playlists?view=1&amp;flow=list&amp;sort=da">3 course modules for Orchard Beginner</a></li>
+<li>Finished reading a book called <a href="http://www.amazon.in/Your-Erroneous-Zones-Step-Step/dp/0060919760">&ldquo;Your Erroneous Zone&rdquo;</a> by Wayne dyer</li>
+<li>Integrated <a href="https://www.instamojo.com/">InstaMojo</a> with Develop2Deploy for accepting and receiving payments</li>
+<li>Completed 2 courses for Develop2Deploy(Sorry the Website and Courses are still offline and underdevelopment)</li>
+<li>Read a 35 page book <a href="http://www.amazon.in/gp/product/B00FIZ5G3I?psc=1&amp;redirect=true&amp;ref_=oh_aui_d_detailpage_o00_">&ldquo;The Opinionated Software Developer: What Twenty-Five Years of Slinging Code Has Taught Me&rdquo;</a> by Shawn Wildermuth</li>
+</ul>
+
+
+<p>Stay tuned.</p>
+
+<p>Take care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
+  
+</feed>
