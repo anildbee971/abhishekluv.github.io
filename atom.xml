@@ -4,13 +4,181 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-02-09T09:01:00+05:30</updated>
+  <updated>2016-02-17T23:04:08+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Efficiently Loading YouTube Player On-Demand Without Affecting Page Load Time]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/02/17/efficiently-loading-youtube-player-on-demand-without-affecting-page-load-time/"/>
+    <updated>2016-02-17T21:13:31+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/02/17/efficiently-loading-youtube-player-on-demand-without-affecting-page-load-time</id>
+    <content type="html"><![CDATA[<p>YouTube videos are great to watch but when it comes to displaying or rendering too many videos at the same time it can affect the loading time and speed of your website.</p>
+
+<p>In this, post we&rsquo;ll talk about how to efficiently load YouTube Player On-Demand without affecting the page load time and speed.</p>
+
+<!-- more -->
+
+
+<h2>Demo : Efficiently Loading YouTube Player On-Demand without affecting Page Load Time</h2>
+
+<div class="youtube-wrapper">
+  <div class="youtube-player" data-id="lsDi-ySV7OU" data-size="maxresdefault"></div>
+</div>
+
+
+
+
+<div class="youtube-wrapper">
+  <div class="youtube-player" data-id="lsDi-ySV7OU" data-size="maxresdefault"></div>
+</div>
+
+
+
+
+<div class="youtube-wrapper">
+  <div class="youtube-player" data-id="lsDi-ySV7OU" data-size="maxresdefault"></div>
+</div>
+
+
+<p>Here, we are displaying a play button on the YouTube thumbnail image to allow us to load the actual YouTube Player on-demand.</p>
+
+<h2>CSS Code</h2>
+
+<div><script src='https://gist.github.com/1ddbc25021a712fffd89.js'></script>
+<noscript><pre><code>&lt;style&gt;
+.youtube-wrapper {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  border: solid 1px;
+  margin: 20px auto;
+}
+
+.youtube-player {
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+img.youtube-thumb {
+  bottom: 0;
+  display: block;
+  left: 0;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  max-height: 100%;
+  top: 0;
+}
+
+div.play-button {
+  opacity: 0.5;
+  height: 72px;
+  width: 72px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  background: url(https://dajgbgqiuncfc.cloudfront.net/tvt/play-button.png) no-repeat;
+}
+
+div.play-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#youtube-iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+&lt;/style&gt;</code></pre></noscript></div>
+
+
+<p>The CSS code defines a class called youtube-wrapper for the outer div and youtube-player for the inner div and the iframe with a play button. The play button is embedded as a data URI.</p>
+
+<h2>JS Code</h2>
+
+<div><script src='https://gist.github.com/ecb2bba79bfc7a32ed6f.js'></script>
+<noscript><pre><code> window.onload = (function() {
+  var v = document.querySelectorAll(&quot;.youtube-player&quot;);
+  for (var n = 0; n &lt; v.length; n++) {
+   var p = document.createElement(&quot;div&quot;);
+   p.innerHTML = videoThumb(v[n].dataset.id, v[n].dataset.size);
+   p.onclick = videoIframe;
+   v[n].appendChild(p);
+  }
+ })();
+
+ function videoThumb(id, size) {
+  return &#39;&lt;img class=&quot;youtube-thumb&quot; src=&quot;//i.ytimg.com/vi/&#39; + id + &#39;/&#39; + size + &#39;.jpg &quot;&gt;&lt;div class=&quot;play-button&quot;&gt;&lt;/div&gt;&#39;;
+ }
+
+ function videoIframe() {
+  var iframe = document.createElement(&quot;iframe&quot;);
+  iframe.setAttribute(&quot;src&quot;, &quot;//www.youtube.com/embed/&quot; + this.parentNode.dataset.id + &quot;?autoplay=1&amp;autohide=2&amp;border=0&amp;wmode=opaque&amp;enablejsapi=1&amp;controls=&amp;showinfo=0&amp;rel=0&quot;);
+  iframe.setAttribute(&quot;frameborder&quot;, &quot;0&quot;);
+  iframe.setAttribute(&quot;id&quot;, &quot;youtube-iframe&quot;);
+  iframe.setAttribute(&quot;allowfullscreen&quot;, true);
+  this.parentNode.replaceChild(iframe, this);
+ }</code></pre></noscript></div>
+
+
+<p>The JS code defines two methods <code>videoThumb</code> and <code>videoFrame</code>.</p>
+
+<p><code>videoThumb</code> fetches and renders out YouTube video thumbail images for a specified YouTube videoid.</p>
+
+<p><code>videoFrame</code> creates an iframe tag and sets attributes like <code>src</code>, <code>allowfullscreen</code>, <code>frameborder</code> and others.</p>
+
+<p>And the last function is an iffy i.e. it can immediately invoke itself on <code>window.onload</code>.</p>
+
+<p>Iffy&rsquo;s job is to query the div tag with class youtube-player <code>div.youtubeplayer</code> using the <code>querySelectorAll</code> selector and then assign <code>data-id</code> and <code>data-size</code> attribute values by running a loop.</p>
+
+<h2>HTML Code</h2>
+
+<div><script src='https://gist.github.com/b57b295effac292099d7.js'></script>
+<noscript><pre><code>&lt;div class=&quot;youtube-wrapper&quot;&gt;
+    &lt;div class=&quot;youtube-player&quot; data-id=&quot;lsDi-ySV7OU&quot; data-size=&quot;maxresdefault&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre></noscript></div>
+
+
+<p>HTML code defines a class called youtube-wrapper for the outer div and youtube-player for the inner div.</p>
+
+<p>The inner div uses two <code>data-</code> attributes <code>data-id</code> and <code>data-size</code> to specify the YouTube videoid and the size for the YouTube video thumbnail image.</p>
+
+<p>We can improve the page loading speed a little more by reduce the DNS lookup and TCP handshake time for the YouTube video thumbnail image domain i.e. <code>i.ytimg.com</code>.</p>
+
+<p>And that can be done by using the following HTML tags :</p>
+
+<p><code>&lt;link rel="dns-prefetch" href="https://i.ytimg.com"&gt;</code></p>
+
+<p>This notifies the client that there are assets we&rsquo;ll need later from a specific URL so the browser can resolve the DNS as quickly as possible.</p>
+
+<p><code>&lt;link rel="preconnect" href="https://i.ytimg.com"&gt;</code></p>
+
+<p>Preconnect will resolve the DNS but it will also make the TCP handshake, and optional TLS negotiation.</p>
+
+<p>With all of the above steps we can efficiently load YouTube videos without affecting the page loading time and speed.</p>
+
+<p>Stay tuned.</p>
+
+<p>Take care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Monthly Review : January 2016]]></title>
@@ -1077,71 +1245,6 @@ And blesses the aspirant with speedy salvation.</p></blockquote>
 
 
 <p><a href="https://www.udemy.com/orchard-cms-for-absolute-beginners/">more</a></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Learn How to Host Unlimited Static Website for FREE : Udemy Course]]></title>
-    <link href="http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-unlimited-static-website-for-free-udemy-course/"/>
-    <updated>2014-08-27T17:19:37+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2014/08/27/learn-how-to-host-unlimited-static-website-for-free-udemy-course</id>
-    <content type="html"><![CDATA[<p>
-GitHub Pages are public webpages freely hosted and easily published through the GitHub website. You can create and publish them online using the Automatic Page Generator. If you prefer to work locally, you can use the GitHub for Mac and Windows apps.
-
-<!-- more --> 
-
-</p>
-
-
-<p>
-In this course you&#8217;ll learn how to host a static website using GitHub Pages at no cost. You&#8217;ll need to purchase your own Domain Name which costs around $10 to $12 yearly that&#8217;s it.
-</p>
-
-
-
-
-<p>
-A lot of people who are scared to get their First Website online now can have their website online right away using GitHub Pages.
-</p>
-
-
-<p>
-In this course you&#8217;ll learn the following things:
-</p>
-
-
-<ul>
-<li>Getting Started with GitHub</li>
-<li>How to create Repositories and Organizations</li>
-<li>How to use GitHub Pages</li>
-<li>Types of GitHub Pages</li>
-<li>How to use the Git Extensions Software</li>
-<li>How to Host Static Websites using GitHub Pages</li>
-</ul>
-
-
-<p>
-<strong>Note : Course is about GitHub Pages only and not about Designing Websites. This course only covers the Hosting part and not Designing.</strong>
-</p>
-
-
-<p>
-Thank You
-</p>
-
-
-<p>
-Abhishek Luv
-</p>
-
-
-<p>
-<strong>Happy Learning!</strong>
-</p>
-
-
-<p><a href="https://www.udemy.com/learn-how-to-host-static-websites-using-github-pages" target="_blank" class="btn btn-primary btn-lg">Join This Course</a></p>
 
 ]]></content>
   </entry>
