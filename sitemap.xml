@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.abhishekluv.in/blog/2016/02/27/visual-studio-keyboard-shortcuts-for-productivity/</loc>
+    <lastmod>2016-02-27T03:40:08+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://www.abhishekluv.in/blog/2016/02/25/javascript-beginner-series/</loc>
     <lastmod>2016-02-25T20:10:38+05:30</lastmod>
   </url>
@@ -273,6 +277,18 @@
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/categories/january/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/javascript/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/beginners/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/visual-studio/</loc>
+  </url>
+  <url>
+    <loc>http://www.abhishekluv.in/blog/categories/productivity/</loc>
   </url>
   <url>
     <loc>http://www.abhishekluv.in/blog/posts/2/</loc>

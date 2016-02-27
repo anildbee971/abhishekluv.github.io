@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Visual-studio | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/visual-studio/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-02-27T15:51:35+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Visual Studio Keyboard Shortcuts for Productivity]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/02/27/visual-studio-keyboard-shortcuts-for-productivity/"/>
+    <updated>2016-02-27T03:40:08+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/02/27/visual-studio-keyboard-shortcuts-for-productivity</id>
+    <content type="html"><![CDATA[<p>In this post, I&rsquo;ll be sharing the Visual Studio keyboard shortcuts that I use everyday and using keyboard shortcuts really helps me to become more productivity.</p>
+
+<!-- more -->
+
+
+<p><strong>1. Ctrl + .</strong> : U</p>
+
+<p><strong>2. Ctrl + ,</strong> : Allows you to Search and Navigate to a code file within your solution.</p>
+
+<p><strong>Ctrl + Q </strong> : Allows you to Access the Quick launch search bar.</p>
+
+<p><strong>Ctrl + ;</strong> : Allows yout to access Solution explorer search.</p>
+
+<p><strong>F5</strong> : To start with debugging.</p>
+
+<p><strong>Ctrl + F5</strong> : To start without debugging.</p>
+
+<p><strong>Ctrl + Shift + A</strong> : Allows you to open the Add New Item window.</p>
+
+<p><strong>F12 on a literal</strong> : Allows you to view a literal definition.</p>
+
+<p><strong>Shift + F12</strong> : Shows a list of files using a particular literal within a project.</p>
+
+<p><strong>Alt + F12</strong> : Allows you to have a peek look at a literal definition.</p>
+
+<p><strong>Ctrl + Tab</strong> : Browsing opened code files within Visual Studio.</p>
+
+<p>Thank you for reading.</p>
+
+<p>Stay tuned!</p>
+
+<p>Take care</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
+  
+</feed>

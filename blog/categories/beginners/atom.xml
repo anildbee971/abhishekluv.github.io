@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Beginners | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/beginners/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-02-27T15:51:35+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[JavaScript Beginner's Series : Part 1]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/02/25/javascript-beginner-series/"/>
+    <updated>2016-02-25T20:10:38+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/02/25/javascript-beginner-series</id>
+    <content type="html"><![CDATA[<p>Welcome to the JavaScript Beginner&rsquo;s Series.</p>
+
+<h2>Topics we&rsquo;ll be covering</h2>
+
+<p><strong>Part 1</strong></p>
+
+<ul>
+<li>JavaScript Overview</li>
+<li>Ways to add JavaScript code on a HTML page</li>
+<li>Variables, DataTypes, Operators and Expressions</li>
+</ul>
+
+
+<!-- more -->
+
+
+<p><strong>Part 2 (Coming Soon)</strong></p>
+
+<ul>
+<li>Conditional Statements : if, else, if else if, switch</li>
+<li>Looping Statements : while, do..while, for, for..in</li>
+</ul>
+
+
+<p><strong>Part 3 (Coming Soon)</strong></p>
+
+<ul>
+<li>Functions</li>
+<li>Arrays</li>
+<li>Understanding the Scope : Availability of variables globally or locally</li>
+</ul>
+
+
+<p><strong>Part 4 (Coming Soon)</strong></p>
+
+<ul>
+<li>Understanding Objects Literals</li>
+<li>Objects in JavaScripts : Number, Boolean, String, Date, Math</li>
+<li>Understanding the DOM : Document Object Model</li>
+</ul>
+
+
+<h2>JavaScript Beginner&rsquo;s Series : Part 1</h2>
+
+<h3>JavaScript Overview</h3>
+
+<p>JavaScript is the assembly language of the Web. JavaScript is a high-level, dynamic, untyped, and interpreted programming language.  Do not confuse JavaScript with Java.</p>
+
+<p>In this beginner&rsquo;s series, we&rsquo;ll be learning the basic building blocks of JavaScript that every beginner or a newbie needs to know.</p>
+
+<h3>Ways to add JavaScript code on a HTML page</h3>
+
+<p><strong>Adding JavaScript Code using the <code>&lt;script&gt;&lt;/script&gt;</code> tag with the <code>type</code> attribute</strong></p>
+
+<p><div><script src='https://gist.github.com/8edd49cd1e018dec570e.js'></script>
+<noscript><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        // your javascript code will go here
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></noscript></div>
+</p>
+
+<p><strong>Adding JavaScript file using the <code>src</code> attribute of the <code>&lt;script&gt;&lt;/script&gt;</code> tag in the <code>&lt;head&gt;&lt;/head&gt;</code> section</strong></p>
+
+<p><div><script src='https://gist.github.com/f122e9128c71db141ac1.js'></script>
+<noscript><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/Scripts/custom.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></noscript></div>
+</p>
+
+<p>JavaScript code or file is placed in the <code>&lt;head&gt;</code> section when you want to run some code on a click event somewhere on your web page.</p>
+
+<p><strong>Adding JavaScript code or file using the <code>&lt;script&gt;&lt;/script&gt;</code> tag in the <code>&lt;body&gt;&lt;/body&gt;</code> section</strong></p>
+
+<p><div><script src='https://gist.github.com/b047d396dcc4ba6d16d0.js'></script>
+<noscript><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+   
+    &lt;!-- adding JavaScript code using embedding code --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+    
+    &lt;/script&gt;
+
+    &lt;!-- adding JavaScript code using an external file --&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/Scripts/custom.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></noscript></div>
+</p>
+
+<p>JavaScript code or file is placed in the <code>&lt;body&gt;</code> section when you want to generate some content on the web page using some JavaScript code as soon as the page loads.</p>
+
+<h3>Variables, DataTypes, Operators and Expressions</h3>
+
+<p><strong>Variables</strong></p>
+
+<p><code>var</code> keyword is used to declare a variable in JavaScript. You should always use the <code>var</code> keyword to declare a variable in JavaScript.</p>
+
+<p>Types of variables in JavaScript :</p>
+
+<ul>
+<li>Global variables (Global Scope)</li>
+<li>Local and Block level variables (Local Scope)</li>
+</ul>
+
+
+<p>Variables in JavaScript are written in CamelCase for ex: <code>isItGlobal</code>.</p>
+
+<p>Let&rsquo;s look at some code.</p>
+
+<p><div><script src='https://gist.github.com/7822828e8f6a68e89a4a.js'></script>
+<noscript><pre><code>isItGlobal = &quot;variable with global scope&quot;; // this variable is global
+
+function localFunction() {
+    isItGlobal = &quot;variable with local scope&quot;; // this variable is local to the local Function
+    document.write(isItGlobal + &quot;&lt;br/&gt;&quot;);
+}
+
+document.write(isItGlobal + &quot;&lt;br/&gt;&quot;);
+localFunction();</code></pre></noscript></div>
+</p>
+
+<p><strong>Data Types</strong></p>
+
+<ul>
+<li>Numbers : eg: 157, 457</li>
+<li>Strings : eg: &ldquo;This is string&rdquo;, &lsquo;This is string&rsquo;</li>
+<li>Booleans : eg: true or false</li>
+<li>Undefined</li>
+</ul>
+
+
+<p>In JavaScript, datatype is inferred by the type of data or value assigned for a variable.</p>
+
+<p>For ex: If we assign 124 value to a variable <code>var myValue = 124</code>. The data type for <code>myValue</code> will be <code>Number</code>.</p>
+
+<p>Let&rsquo;s look at some code and find out the data type of a variable (using the typeof keyword).</p>
+
+<p><div><script src='https://gist.github.com/12def5fc1d24314305b1.js'></script>
+<noscript><pre><code>var myVariable = &quot;I&#39;m a variable&quot;;
+var myVariable2 = 1234;
+var myVariable3 = true;
+
+document.write(myVariable + &quot;&lt;br/&gt;&quot;);
+document.write(myVariable2 + &quot;&lt;br/&gt;&quot;);
+document.write(myVariable3 + &quot;&lt;br/&gt;&quot;);
+
+// Now let&#39;s look at the type of a given variable by using the typeof keyword
+
+document.write(&quot;myVariable is of type : &quot; + typeof myVariable + &quot;&lt;br/&gt;&quot;); 
+document.write(&quot;myVariable2 is of type : &quot; + typeof myVariable2 + &quot;&lt;br/&gt;&quot;);
+document.write(&quot;myVariable3 is of type : &quot; + typeof myVariable3 + &quot;&lt;br/&gt;&quot;);
+
+// Output
+//I&#39;m a variable
+//1234
+//true
+//myVariable is of type : string
+//myVariable2 is of type : number
+//myVariable3 is of type : boolean</code></pre></noscript></div>
+</p>
+
+<p><strong>Operators</strong></p>
+
+<p>Operators allows us to compute data in a programming language.</p>
+
+<p>JavaScript support the following types of operators :</p>
+
+<ul>
+<li>Arithmetic</li>
+<li>Comparison</li>
+<li>Logical</li>
+<li>Assignment</li>
+<li>Ternary</li>
+</ul>
+
+
+<p>In order for an operator to work it needs two operands.</p>
+
+<p>For ex:</p>
+
+<p><code>4 + 5 = 9</code> Here, 4 and 5 are the two operands and <code>+</code> is the operator.</p>
+
+<p><strong>Arithmetic Operator</strong></p>
+
+<p><div><script src='https://gist.github.com/557a912dea9e8b7a11d1.js'></script>
+<noscript><pre><code>var a = 50;
+var b = 20;
+
+document.write(&quot;add : &quot;, a + b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;sub : &quot;, a - b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;mul : &quot;, a * b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;div : &quot;, a / b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;modulus : &quot;, a % b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;increment : &quot;, ++a);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;decrement : &quot;, --b);</code></pre></noscript></div>
+</p>
+
+<p><strong>Comparison Operator</strong></p>
+
+<p><div><script src='https://gist.github.com/7ce55ae7931c868ca91f.js'></script>
+<noscript><pre><code>var a = 50;
+var b = 20;
+
+document.write(&quot;greater than : &quot;, a &gt; b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;less than : &quot;, a &lt; b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;not equal : &quot;, a != b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;equal too : &quot;, a == b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;greater than or equal too : &quot;, a &gt;= b);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(&quot;less than or equal too : &quot;, a &lt;= b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+// OutPut
+//greater than : true
+//less than : false
+//not equal : true
+//equal too : false
+//greater than or equal too : true
+//less than or equal too : false</code></pre></noscript></div>
+</p>
+
+<p><strong>Logical Operator</strong></p>
+
+<p><div><script src='https://gist.github.com/e46ce97071308ded879c.js'></script>
+<noscript><pre><code>var a = true;
+var b = false;
+
+document.write(&quot;a &amp;&amp; b : &quot;, a &amp;&amp; b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+
+document.write(&quot;a || b : &quot;, a || b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+document.write(&quot;logical not : &quot;, !(a &amp;&amp; b));
+document.write(&quot;&lt;br/&gt;&quot;);
+
+// OutPut
+//a &amp;&amp; b : false
+//a || b : true
+//a | b : true</code></pre></noscript></div>
+</p>
+
+<p><strong>Assignment Operator</strong></p>
+
+<p>The Assignment assigns values from the right side operand to the left side operand.</p>
+
+<p>+= (Add &amp; Assignment) : adds the right operand to the left operand and assigns the result to the left operand.</p>
+
+<p>-= (Subtract &amp; Assignment) : subtract the right operand to the left operand and assigns the result to the left operand.</p>
+
+<p>*= (Multiple &amp; Assignment) : Multiples the right operand to the left operand and assigns the result to the left operand.</p>
+
+<p>/= (Division &amp; Assignment) : Divides the right operand to the left operand and assigns the result to the left operand.</p>
+
+<p>%= (Modulus &amp; Assignment) : Modulus operation happens from right operand to left operand and assigns the result to the left operand.</p>
+
+<p><div><script src='https://gist.github.com/294352c796dbe108b330.js'></script>
+<noscript><pre><code>var a = 50;
+var b = 20;
+
+document.write(&quot;a = b = &gt; &quot;, a = b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+document.write(&quot;a = a + b = &gt; &quot;, a += b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+document.write(&quot;a = a - b = &gt; &quot;, a -= b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+document.write(&quot;a = a * b = &gt; &quot;, a *= b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+document.write(&quot;a = a / b = &gt; &quot;, a /= b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+document.write(&quot;a = a % b = &gt; &quot;, a %= b);
+document.write(&quot;&lt;br/&gt;&quot;);
+
+// Output
+//a = b = &gt; 20
+//a = a + b = &gt; 40
+//a = a - b = &gt; 20
+//a = a * b = &gt; 400
+//a = a / b = &gt; 20
+//a = a % b = &gt; 0</code></pre></noscript></div>
+</p>
+
+<p><strong>Ternary Operator</strong></p>
+
+<p>The Ternary operator first checks the expressions for a true or false value and then executes the given statements.</p>
+
+<p>For ex:</p>
+
+<p><div><script src='https://gist.github.com/7b6348e972f27f5c0269.js'></script>
+<noscript><pre><code>var someValue = 25;
+var myResult = &quot;&quot;;
+var myResult1 = &quot;&quot;;
+myResult = (someValue == 24) ? &quot;equal&quot; : &quot;not equal&quot;;
+myResult1 = (someValue == 25) ? &quot;equal&quot; : &quot;not equal&quot;;
+document.write(myResult);
+document.write(&quot;&lt;br/&gt;&quot;);
+document.write(myResult1);
+</code></pre></noscript></div>
+</p>
+
+<p><em>Part 2 coming soon</em></p>
+
+<p>Thank you for reading.</p>
+
+<p>Stay tuned!</p>
+
+<p>Take care</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
+  
+</feed>
