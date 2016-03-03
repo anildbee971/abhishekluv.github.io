@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Dillinger | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/dillinger/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-03-03T09:21:08+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using Dillinger as a FREE Markdown Editor]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/03/03/using-dillinger-as-a-free-markdown-editor/"/>
+    <updated>2016-03-03T07:09:38+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/03/03/using-dillinger-as-a-free-markdown-editor</id>
+    <content type="html"><![CDATA[<p>I just Love Markdown. I&rsquo;m a Markdown fan. Markdown is a plain text formatting syntax designed so that it can be converted to HTML. Markdown syntax  is pretty easy to learn and use. If you are a developer then you would have already used it.</p>
+
+<!-- more -->
+
+
+<p><strong>Why use Markdown</strong></p>
+
+<ul>
+<li>It&rsquo;s easy to learn and use</li>
+<li>It&rsquo;s fast : Faster than any rich-text editor</li>
+<li>It&rsquo;s clean : Generates perfectly-formed HTML</li>
+</ul>
+
+
+<p><strong>How can you use Markdown</strong></p>
+
+<ul>
+<li>For writing blog posts : Every blogging system has support to convert Markdown syntax into HTML</li>
+<li>For writing project documentations on GitHub</li>
+<li>For writing emails</li>
+<li>For taking notes and then exporting them as a PDF file or Styled HTML document</li>
+</ul>
+
+
+<p>I use <a href="http://markdownpad.com/">MarkdownPad</a> which is a Paid Markdown editor.</p>
+
+<p>Say Hello to <a href="http://dillinger.io/">Dillinger</a> a Free Online Markdown editor with amazing features.</p>
+
+<p><img src="http://i.imgur.com/NOpOxGa.png" alt="" /></p>
+
+<p><strong>Features of Dillinger</strong></p>
+
+<ul>
+<li>Autosave</li>
+<li>Word count</li>
+<li>Scroll sync : Scroll sync for markdown and preview windows</li>
+<li>Import markdown files from Dropbox, GitHub, Google and One Drive</li>
+<li>Export markdown files into HTML, Styled HTML and PDF</li>
+</ul>
+
+
+<p>If you are new to Markdown, then download this <a href="https://www.gitbook.com/download/pdf/book/gitbookio/markdown">Free PDF book on Markdown.</a></p>
+
+<p>Thank you for reading.</p>
+
+<p>Stay tuned!</p>
+
+<p>Take care</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
+  
+</feed>
