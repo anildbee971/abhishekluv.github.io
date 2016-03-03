@@ -4,13 +4,71 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-02-27T16:00:18+05:30</updated>
+  <updated>2016-03-03T09:13:49+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Using Dillinger as a FREE Markdown Editor]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/03/03/using-dillinger-as-a-free-markdown-editor/"/>
+    <updated>2016-03-03T07:09:38+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/03/03/using-dillinger-as-a-free-markdown-editor</id>
+    <content type="html"><![CDATA[<p>I just Love Markdown. I&rsquo;m a Markdown fan. Markdown is a plain text formatting syntax designed so that it can be converted to HTML. Markdown syntax  is pretty easy to learn and use. If you are a developer then you would have already used it.</p>
+
+<!-- more -->
+
+
+<p><strong>Why use Markdown</strong></p>
+
+<ul>
+<li>It&rsquo;s easy to learn and use</li>
+<li>It&rsquo;s fast : Faster than any rich-text editor</li>
+<li>It&rsquo;s clean : Generates perfectly-formed HTML</li>
+</ul>
+
+
+<p><strong>How can you use Markdown</strong></p>
+
+<ul>
+<li>For writing blog posts : Every blogging system has support to convert Markdown syntax into HTML</li>
+<li>For writing project documentations on GitHub</li>
+<li>For writing emails</li>
+<li>For taking notes and then exporting them as a PDF file or Styled HTML document</li>
+</ul>
+
+
+<p>I use <a href="http://markdownpad.com/">MarkdownPad</a> which is a Paid Markdown editor.</p>
+
+<p>Say Hello to <a href="http://dillinger.io/">Dillinger</a> a Free Online Markdown editor with amazing features.</p>
+
+<p><img src="http://i.imgur.com/NOpOxGa.png" alt="" /></p>
+
+<p><strong>Features of Dillinger</strong></p>
+
+<ul>
+<li>Autosave</li>
+<li>Word count</li>
+<li>Scroll sync : Scroll sync for markdown and preview windows</li>
+<li>Import markdown files from Dropbox, GitHub, Google and One Drive</li>
+<li>Export markdown files into HTML, Styled HTML and PDF</li>
+</ul>
+
+
+<p>If you are new to Markdown, then download this <a href="https://www.gitbook.com/download/pdf/book/gitbookio/markdown">Free PDF book on Markdown.</a></p>
+
+<p>Thank you for reading.</p>
+
+<p>Stay tuned!</p>
+
+<p>Take care</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Visual Studio Keyboard Shortcuts for Productivity]]></title>
@@ -1294,37 +1352,6 @@ and for more Orchard CMS tutorials subscribe to <a href="https://www.youtube.com
 
 
 <p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/orchard+cms+contributions.PNG"/></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reviewed Mastering Entity Framework : Packt Publications]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications/"/>
-    <updated>2015-02-20T17:28:37+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications</id>
-    <content type="html"><![CDATA[<p>Last year in the month of November 2014 , Project Cordinators at Packt Publications requested me to review a book for them and that book was about Entity Framwork <a href="https://www.packtpub.com/application-development/mastering-entity-framework" target="_blank">&ldquo;Mastering Entity Framework&rdquo;</a> Published.</p>
-
-
-
-
-<!-- more -->
-
-
-
-
-<p>This was my first time and it was a great experience to review a book for Packt Publication that too a book of my interest &ldquo;Entity Framework&rdquo;.</p>
-
-
-
-
-<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/main+page.PNG"/></p>
-
-
-<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/credit+page.PNG"/></p>
-
-
-<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/my+bio.PNG"/></p>
 
 ]]></content>
   </entry>
