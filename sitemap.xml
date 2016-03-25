@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://www.abhishekluv.in/blog/2016/03/25/monthly-review-feb-and-march-2016/</loc>
+<lastmod>2016-03-25T07:40:35+05:30</lastmod>
+</url>
+<url>
 <loc>http://www.abhishekluv.in/blog/2016/03/03/using-dillinger-as-a-free-markdown-editor/</loc>
 <lastmod>2016-03-03T07:09:38+05:30</lastmod>
 </url>
@@ -311,5 +315,11 @@
 </url>
 <url>
 <loc>http://www.abhishekluv.in/blog/categories/markdown-editor/</loc>
+</url>
+<url>
+<loc>http://www.abhishekluv.in/blog/categories/february/</loc>
+</url>
+<url>
+<loc>http://www.abhishekluv.in/blog/categories/march/</loc>
 </url>
 </urlset>

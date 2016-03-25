@@ -4,13 +4,48 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-03-22T07:42:55+05:30</updated>
+  <updated>2016-03-25T08:10:11+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Monthly Review : Feb &amp; March 2016]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/03/25/monthly-review-feb-and-march-2016/"/>
+    <updated>2016-03-25T07:40:35+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/03/25/monthly-review-feb-and-march-2016</id>
+    <content type="html"><![CDATA[<p>This is my second monthly review. Keeping a note of every task, I have really helped myself to stay more focused and measure my progress in a better way.</p>
+
+<p><em>As I had mentioned in one of my <a href="http://www.abhishekluv.in/blog/2015/12/21/plans-for-year-2016/">previous post</a> that I will be keeping track of every task I do and blog about it online.</em></p>
+
+<p>I couldn&rsquo;t post my last months monthly review due to flu :(</p>
+
+<!-- more -->
+
+
+<h2>Review for Feb &amp; March 2016</h2>
+
+<ul>
+<li>I was looking forward to this in the month of Feb but registration for a <a href="http://www.vridhamma.org/VRI-Introduction">10-day Vipassana Meditation programme was full</a> :(</li>
+<li>Stumbled upon a video <a href="https://www.youtube.com/watch?v=3aiJe6JiIPw">&ldquo;30 Day Mental Fast&rdquo; by Jerry Clark</a></li>
+<li>Finished listening an Audio book called <a href="http://www.proctorgallagherinstitute.com/success-puzzle/download">&ldquo;The Success Puzzle&rdquo; by Bob Proctor</a></li>
+<li>Worked on some freelancing projects</li>
+<li>Stumbled upon a video <a href="https://www.youtube.com/watch?v=L7kSyJ1nQ4s">&ldquo;The Success Triangle&rdquo; by Jerry Clark</a></li>
+<li>Started using Facebook after a 60Day Facebook Mental Fast :)</li>
+<li>Read a lot of articles about SEO. I&rsquo;ll be posting a post about SEO very soon.</li>
+</ul>
+
+
+<p>Stay tuned.</p>
+
+<p>Take care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using Dillinger as a FREE Markdown Editor]]></title>
@@ -504,7 +539,7 @@ document.write(myResult1);
     <link href="http://www.abhishekluv.in/blog/2016/01/29/monthly-review-january-2016/"/>
     <updated>2016-01-29T22:08:14+05:30</updated>
     <id>http://www.abhishekluv.in/blog/2016/01/29/monthly-review-january-2016</id>
-    <content type="html"><![CDATA[<p>This is my first monthly review. Keeping a note of every task I have really helped myself to stay more focused and measure my progress in a better way.</p>
+    <content type="html"><![CDATA[<p>This is my first monthly review. Keeping a note of every task, I have really helped myself to stay more focused and measure my progress in a better way.</p>
 
 <p><em>As I had mentioned in one of my <a href="http://www.abhishekluv.in/blog/2015/12/21/plans-for-year-2016/">previous post</a> that I will be keeping track of every task I do and blog about it online.</em></p>
 
@@ -1327,31 +1362,6 @@ and for more Orchard CMS tutorials subscribe to <a href="https://www.youtube.com
 
 
 <p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/orchard+contribution.PNG"/></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My First Orchard CMS Contribution]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/03/02/my-first-orchard-cms-contribution/"/>
-    <updated>2015-03-02T17:32:01+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/03/02/my-first-orchard-cms-contribution</id>
-    <content type="html"><![CDATA[<p>My First Orchard CMS Contribution though not a big one.</p>
-
-
-
-
-<!-- more -->
-
-
-
-
-<p>Added BCC and CC support for the Orchard.Email Module and the Send Email Workflow Activity.</p>
-
-
-
-
-<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/orchard+cms+contributions.PNG"/></p>
 
 ]]></content>
   </entry>
