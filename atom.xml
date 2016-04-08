@@ -4,13 +4,64 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-04-03T17:07:46+05:30</updated>
+  <updated>2016-04-08T17:26:19+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Theme Development Course Is FREE Now]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-theme-development-course-is-free-now/"/>
+    <updated>2016-04-08T17:18:12+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-theme-development-course-is-free-now</id>
+    <content type="html"><![CDATA[<p>Access to Orchard CMS Theme Development course is FREE and open to all.</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8AwaH3ssiARImeICwvOavU_Gna-Xza_7" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Recipes Course Is FREE Now]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-recipes-course-is-free-now/"/>
+    <updated>2016-04-08T17:17:56+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-recipes-course-is-free-now</id>
+    <content type="html"><![CDATA[<p>Access to Orchard CMS Recipes course is FREE and open to all.</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8AwaH3ssiASskvNYC69I-FKr3kjcBo8X" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Orchard CMS Workflows Course Is FREE Now]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-workflows-course-is-free-now/"/>
+    <updated>2016-04-08T17:17:46+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-workflows-course-is-free-now</id>
+    <content type="html"><![CDATA[<p>Access to Orchard CMS Workflows course is FREE and open to all.</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8AwaH3ssiASR5GeZtPvKnyOAGogyMnjt" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Monthly Review : Feb &amp; March 2016]]></title>
@@ -1293,77 +1344,6 @@ and for more Orchard CMS tutorials subscribe to <a href="https://www.youtube.com
 <p>I hope these things can be of some help for you too.</p>
 
 <p>Stay healthy, Stay fit and Stay consistent.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reviewing ASP.NET 5 Essentials - Packt Publishing]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/08/20/reviewing-asp-dot-net-5-essentials-packt-publishing/"/>
-    <updated>2015-08-20T16:57:30+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/08/20/reviewing-asp-dot-net-5-essentials-packt-publishing</id>
-    <content type="html"><![CDATA[<p>Currently I&rsquo;m reviewing a book called &ldquo;ASP.NET 5 Essentials&rdquo; by PACKT Publishing.</p>
-
-<p>It&rsquo;s always fun reviewing books for PACKT Publishing.</p>
-
-<p>This is my third book as a technical reviewer.</p>
-
-<!-- more -->
-
-
-<h3>List of books reviewed</h3>
-
-<ol>
-<li><a href="http://www.abhishekluv.in/blog/2015/02/20/reviewed-mastering-entity-framework-packt-publications/">Reviewed Mastering Entity Framework : Packt Publications</a></li>
-<li><a href="http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/">Reviewed Entity Framework Tutorial : Packt Publications</a></li>
-<li>ASP.NET 5 Essentials (InProgress)</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reviewed Entity Framework Tutorial : Packt Publications]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications/"/>
-    <updated>2015-06-18T17:34:34+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/06/18/reviewed-entity-framework-tutorial-packt-publications</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s always a great experience to review a book technically. You should do it too.</p>
-
-
-<p>Book will be released in August 2015.</p>
-
-
-
-
-<!-- more -->
-
-
-
-
-<p><a href="https://www.packtpub.com/application-development/entity-framework-tutorial-second-edition">Entity Framework Tutorial : Second Edition</a></p>
-
-
-<p><img src="" data-src="https://s3-ap-southeast-1.amazonaws.com/tvtstaticresource/img/EFTutsBookImage.png"/></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS Community Contribution]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/05/06/orchard-cms-community-contribution/"/>
-    <updated>2015-05-06T17:33:27+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/05/06/orchard-cms-community-contribution</id>
-    <content type="html"><![CDATA[<p>Feels great to be a contributor to the Orchard CMS Community.</p>
-
-
-
-
-<!-- more -->
-
-
-
-
-<p><img class="img-rounded" src="" data-src="https://s3-ap-southeast-1.amazonaws.com/abhishekluv/images/orchard+contribution.PNG"/></p>
-
 ]]></content>
   </entry>
   
