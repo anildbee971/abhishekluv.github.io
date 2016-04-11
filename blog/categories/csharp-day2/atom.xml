@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Csharp-day2 | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/csharp-day2/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-04-11T22:16:58+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learn C# in 7 Days : Day 2]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/"/>
+    <updated>2016-04-09T16:08:02+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2</id>
+    <content type="html"><![CDATA[<p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 2 of Learn C# in 7 Days. Checkout <a href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1/">Day 1</a> before starting with Day 2.</p>
+
+<!-- more -->
+
+
+<h2>Topics we&rsquo;ll be discussing</h2>
+
+<ul>
+<li>Classes</li>
+<li>Objects</li>
+<li>Constructor</li>
+<li>Methods with returns values</li>
+<li>Methods with Parameters and Arguments</li>
+<li>This keyword</li>
+<li>What is Object-Oriented Programming
+
+<ul>
+<li>Encapsulation</li>
+<li>Polymorphism</li>
+<li>Inheritance</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Classes</h2>
+
+<p>A class is a template for creating an object.</p>
+
+<pre><code>public class Employee
+{
+    // This is a constructor 
+    public Employee()
+    {
+
+    }
+    // This is the Data 
+    public string Name;
+    public int Age;
+
+    // This is a method which performs actions on the data
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+</code></pre>
+
+<h2>Objects</h2>
+
+<p>An Object is an instance of a class. In other word a snapshot or copy of a class having all the data and methods associated with it.</p>
+
+<pre><code>public class Program
+{
+    static void Main()
+    {
+        Employee abhishekluv = new Employee();
+        abhishekluv.DisplayData();
+    }
+}
+</code></pre>
+
+<p>The <code>new</code> keyword + <code>Employee()</code> the constructor <code>new Employee()</code> is used to create an object of a class i.e. an instance of a class.</p>
+
+<h2>Constructor</h2>
+
+<p>Every time you declare a class in C# there is a method <code>Public Employee()</code> created in the background automatically by the compiler having the same name as the class.</p>
+
+<ul>
+<li>Constructor is a method that has the same name as the class</li>
+<li>Constructor is executed when an object is created</li>
+<li>Constructor is used to set default/initial values for an object</li>
+<li>Constructor doesn&rsquo;t return anything including <code>void</code></li>
+</ul>
+
+
+<p><strong>Play with the constructor</strong></p>
+
+<pre><code>    public Employee()
+    {
+        Console.WriteLine("Constructor is fired");
+    }
+</code></pre>
+
+<p><strong>Constructor with Parameters and Arguments</strong></p>
+
+<p>For example: You have declared a class with two public variables and one public method.</p>
+
+<p>As constructors are used to initial default values during object creation you can define those values using a parameterized constructor.</p>
+
+<pre><code>class Employee
+{
+    public string Name;
+    public int Age;
+
+    public Employee()
+    {
+        Name = 6;
+        Age = 5;
+
+        Console.WriteLine("Ctor fired");
+    }
+
+    public Employee(string name, int age)
+    {
+        this.Name = name;
+        this.Age = age;
+    }
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+
+// creating a new Employee object by calling the parameterized constructor
+Employee abhishekluv = new Employee(3,4);
+</code></pre>
+
+<p>When an object of a class is created using the <code>new</code> keyword the constructor method is called to initialize values or get and set private variables using public method parameters and arguments.</p>
+
+<p>In the above given example <code>public Employee(string name, int age)</code> is a parameterized constructor which has two parameters <code>string name</code> and <code>int age</code>.</p>
+
+<h2>This keyword</h2>
+
+<p><code>this</code> keyword is used to access the class level data members, variables and methods.</p>
+
+<p>For example: In the above code, the <code>public Employee(string name, int age)</code> method takes in two arguments or data values for the two defined parameters <code>string name</code> and <code>int age</code>. At the time of object creation these values are applied to the member variables within the class using the this keyword <code>this.Name</code> and <code>this.Age</code>.</p>
+
+<p>Why use <code>this</code> keyword? Because it makes it easy to differeniate between the declared method parameters and the class member variables with the same name. <code>name</code> is the parameter declared for the <code>DisplayData</code> methods and <code>this.Name</code> is used to access the class level member variables.</p>
+
+<h2>Methods with returns values</h2>
+
+<p>Ever wondered why the hell you keep seeing the <code>void</code> keyword everywhere when programming in C#.</p>
+
+<p>Let&rsquo;s talk about it.</p>
+
+<p>Every method performs actions using the data variables and members defined within a class. After performing those actions the method has to return the results of those actions or sometimes not return anything.</p>
+
+<p><code>void</code> keyword is used when you don&rsquo;t want a method to return anything to the calling method/function. And when you want to return something using a method then you will have to specify the return data type of that method.</p>
+
+<p><strong>Example:</strong></p>
+
+<p><em>Note: Method names used in these examples are for educational purpose only. :P</em></p>
+
+<pre><code>Public void IDontReturnAnything(){
+    Console.WriteLine("Hello"); 
+}
+
+Public string IReturnAStringValue()
+    return "Hello";
+}
+
+Public string IReturnAIntValue()
+    return 143;
+}
+</code></pre>
+
+<h2>Methods with Parameters and Arguments</h2>
+]]></content>
+  </entry>
+  
+</feed>

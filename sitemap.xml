@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/</loc>
+<lastmod>2016-04-09T16:08:02+05:30</lastmod>
+</url>
+<url>
 <loc>http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1/</loc>
 <lastmod>2016-04-09T07:07:42+05:30</lastmod>
 </url>
@@ -337,5 +341,14 @@
 </url>
 <url>
 <loc>http://www.abhishekluv.in/blog/categories/march/</loc>
+</url>
+<url>
+<loc>http://www.abhishekluv.in/blog/categories/learn-csharp/</loc>
+</url>
+<url>
+<loc>http://www.abhishekluv.in/blog/categories/csharp-day1/</loc>
+</url>
+<url>
+<loc>http://www.abhishekluv.in/blog/categories/csharp-day2/</loc>
 </url>
 </urlset>

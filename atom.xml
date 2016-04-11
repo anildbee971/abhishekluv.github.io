@@ -4,13 +4,183 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-04-09T12:41:57+05:30</updated>
+  <updated>2016-04-11T22:16:58+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn C# in 7 Days : Day 2]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/"/>
+    <updated>2016-04-09T16:08:02+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2</id>
+    <content type="html"><![CDATA[<p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 2 of Learn C# in 7 Days. Checkout <a href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1/">Day 1</a> before starting with Day 2.</p>
+
+<!-- more -->
+
+
+<h2>Topics we&rsquo;ll be discussing</h2>
+
+<ul>
+<li>Classes</li>
+<li>Objects</li>
+<li>Constructor</li>
+<li>Methods with returns values</li>
+<li>Methods with Parameters and Arguments</li>
+<li>This keyword</li>
+<li>What is Object-Oriented Programming
+
+<ul>
+<li>Encapsulation</li>
+<li>Polymorphism</li>
+<li>Inheritance</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Classes</h2>
+
+<p>A class is a template for creating an object.</p>
+
+<pre><code>public class Employee
+{
+    // This is a constructor 
+    public Employee()
+    {
+
+    }
+    // This is the Data 
+    public string Name;
+    public int Age;
+
+    // This is a method which performs actions on the data
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+</code></pre>
+
+<h2>Objects</h2>
+
+<p>An Object is an instance of a class. In other word a snapshot or copy of a class having all the data and methods associated with it.</p>
+
+<pre><code>public class Program
+{
+    static void Main()
+    {
+        Employee abhishekluv = new Employee();
+        abhishekluv.DisplayData();
+    }
+}
+</code></pre>
+
+<p>The <code>new</code> keyword + <code>Employee()</code> the constructor <code>new Employee()</code> is used to create an object of a class i.e. an instance of a class.</p>
+
+<h2>Constructor</h2>
+
+<p>Every time you declare a class in C# there is a method <code>Public Employee()</code> created in the background automatically by the compiler having the same name as the class.</p>
+
+<ul>
+<li>Constructor is a method that has the same name as the class</li>
+<li>Constructor is executed when an object is created</li>
+<li>Constructor is used to set default/initial values for an object</li>
+<li>Constructor doesn&rsquo;t return anything including <code>void</code></li>
+</ul>
+
+
+<p><strong>Play with the constructor</strong></p>
+
+<pre><code>    public Employee()
+    {
+        Console.WriteLine("Constructor is fired");
+    }
+</code></pre>
+
+<p><strong>Constructor with Parameters and Arguments</strong></p>
+
+<p>For example: You have declared a class with two public variables and one public method.</p>
+
+<p>As constructors are used to initial default values during object creation you can define those values using a parameterized constructor.</p>
+
+<pre><code>class Employee
+{
+    public string Name;
+    public int Age;
+
+    public Employee()
+    {
+        Name = 6;
+        Age = 5;
+
+        Console.WriteLine("Ctor fired");
+    }
+
+    public Employee(string name, int age)
+    {
+        this.Name = name;
+        this.Age = age;
+    }
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+
+// creating a new Employee object by calling the parameterized constructor
+Employee abhishekluv = new Employee(3,4);
+</code></pre>
+
+<p>When an object of a class is created using the <code>new</code> keyword the constructor method is called to initialize values or get and set private variables using public method parameters and arguments.</p>
+
+<p>In the above given example <code>public Employee(string name, int age)</code> is a parameterized constructor which has two parameters <code>string name</code> and <code>int age</code>.</p>
+
+<h2>This keyword</h2>
+
+<p><code>this</code> keyword is used to access the class level data members, variables and methods.</p>
+
+<p>For example: In the above code, the <code>public Employee(string name, int age)</code> method takes in two arguments or data values for the two defined parameters <code>string name</code> and <code>int age</code>. At the time of object creation these values are applied to the member variables within the class using the this keyword <code>this.Name</code> and <code>this.Age</code>.</p>
+
+<p>Why use <code>this</code> keyword? Because it makes it easy to differeniate between the declared method parameters and the class member variables with the same name. <code>name</code> is the parameter declared for the <code>DisplayData</code> methods and <code>this.Name</code> is used to access the class level member variables.</p>
+
+<h2>Methods with returns values</h2>
+
+<p>Ever wondered why the hell you keep seeing the <code>void</code> keyword everywhere when programming in C#.</p>
+
+<p>Let&rsquo;s talk about it.</p>
+
+<p>Every method performs actions using the data variables and members defined within a class. After performing those actions the method has to return the results of those actions or sometimes not return anything.</p>
+
+<p><code>void</code> keyword is used when you don&rsquo;t want a method to return anything to the calling method/function. And when you want to return something using a method then you will have to specify the return data type of that method.</p>
+
+<p><strong>Example:</strong></p>
+
+<p><em>Note: Method names used in these examples are for educational purpose only. :P</em></p>
+
+<pre><code>Public void IDontReturnAnything(){
+    Console.WriteLine("Hello"); 
+}
+
+Public string IReturnAStringValue()
+    return "Hello";
+}
+
+Public string IReturnAIntValue()
+    return 143;
+}
+</code></pre>
+
+<h2>Methods with Parameters and Arguments</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Learn C# in 7 Days : Day 1]]></title>
@@ -1710,58 +1880,6 @@ and for more Orchard CMS tutorials subscribe to <a href="https://www.youtube.com
 <li>Contribute more to <a href="http://docs.orchardproject.net/Contributors">Orchard CMS Documentation</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Receiving Email Notifications for New Subscribers With Sendy.co]]></title>
-    <link href="http://www.abhishekluv.in/blog/2015/12/21/receiving-email-notifications-for-new-subscribers-with-sendy/"/>
-    <updated>2015-12-21T07:36:22+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2015/12/21/receiving-email-notifications-for-new-subscribers-with-sendy</id>
-    <content type="html"><![CDATA[<p>Sendy is one of the best Emailer software out there on the web. I love Sendy.</p>
-
-<p>Sendy + Amazon SES = Awesomeness</p>
-
-<p>But sendy doesn&rsquo;t have a feature of receiving email notifications when new subscribers register on our websites.</p>
-
-<p>I have figured out to do it using an email service called &ldquo;Mandrill&rdquo; by sending email to myself using ajax calls.</p>
-
-<!-- more -->
-
-
-<p>Mandrill is an email infrastructure service. With the API of Mandrill, we can send email only by JavaScript.</p>
-
-<h2>Steps</h2>
-
-<ol>
-<li>Create a new <a href="https://mandrillapp.com/">Mandrill</a> account</li>
-<li>Get your Mandrill API Key</li>
-<li><a href="https://mandrillapp.com/settings/sending-domains">Verify</a> your Domain Name and Email Address</li>
-<li>Add TXT SPF and DKIM records for authentication for your Domain name</li>
-<li>Wait for the records to propagate</li>
-<li>Use the below given code with your API key to receive email notification after someone registers using the sendy form</li>
-</ol>
-
-
-<h2>Sample Sendy Subscribe Form</h2>
-
-<p>When we create a new list using sendy we get this subscribe form which we can embed on our websites for our users to subscribe.</p>
-
-<p><strong><em>Note : Your form code may differ.</em></strong></p>
-
-<script src="https://gist.github.com/abhishekluv/09e0449b0ed91b14a9d7.js"></script>
-
-
-<h2>jQuery code for receiving email notifications using Mandrill</h2>
-
-<p>The below given code checks all the input boxes and then sends a post request to mandrill with all the form input values using AJAX. Mandrill then replies back by sending  an email to you.</p>
-
-<script src="https://gist.github.com/abhishekluv/6164fa516a8f5ba6644a.js"></script>
-
-
-<p>In order to receive email notifications for every sendy form you will have to add the above javascript and jquery code for every sendy form and even alter the form IDs and javascript variables.</p>
-
-<p><strong><em>Note : Keep in mind that your API key is visible to anyone, so any malicious user may use your key to send out emails that can eat up your quota.</em></strong></p>
 ]]></content>
   </entry>
   

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Csharp-day1 | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/csharp-day1/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-04-11T22:16:58+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learn C# in 7 Days : Day 1]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1/"/>
+    <updated>2016-04-09T07:07:42+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1</id>
+    <content type="html"><![CDATA[<p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 1 of Learn C# in 7 Days.</p>
+
+<p>Let&rsquo;s begin&hellip;</p>
+
+<!-- more -->
+
+
+<h2>Things you&rsquo;ll need to get started</h2>
+
+<ul>
+<li>PC</li>
+<li>Visual Studio Express or Community Edition</li>
+<li>Interest to learn C#</li>
+</ul>
+
+
+<h2>Hello World Program</h2>
+
+<p>Every programming language is made up by using words and letters known as Keywords.</p>
+
+<p>While programming we use <code>letters</code> and <code>words</code> to form <code>expressions and statements</code> and then those <code>statements</code> can be used within isolated function bodies called as <code>methods</code>.</p>
+
+<pre><code>    class ExampleHelloWorld
+    {
+        static void Main()
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+</code></pre>
+
+<p>In the above given example, <code>class</code>, <code>static</code>, <code>void</code> are keywords and <code>Main()</code> is a method defined by the end user which acts as the entry point for the <code>HelloWorld</code> program.</p>
+
+<p>C# is an object-oriented programming language. We won’t be going into the topic of <code>Classes</code> and <code>Objects</code> as of now.</p>
+
+<p>Let&rsquo;s dissect the above give example.</p>
+
+<p><code>Console</code> is a C# class coming from the <code>System</code> namespace.</p>
+
+<p>Object oriented programming is about creating objects from classes and then using variables and calling methods of those objects.</p>
+
+<p>Similarly in the above given example <code>Console</code> is a class which has a method called <code>WriteLine</code> which prints a value or any data on the console.</p>
+
+<p>Now, How and what will the <code>WriteLine</code> method print on the console? It won’t do anything on its own.</p>
+
+<p>We need to instruct the <code>WriteLine</code> method what to print on the screen and we can do that by passing data to the method known as <code>arguments</code>.</p>
+
+<pre><code>Console.WriteLine("Hello World");
+</code></pre>
+
+<p>in the above line of code we are passing a <code>string</code> i.e. &ldquo;Hello World&rdquo; to the <code>WriteLine</code> method. It’s the job of the <code>WriteLine</code> method to print the given data via arguments on the console screen.</p>
+
+<h2>Comments in CSharp</h2>
+
+<p>Code without comments and documentation is bad code.</p>
+
+<p>Comments are lines of text which gives information about the flow of the program and what does a method do when it’s called.</p>
+
+<p>There are three types of comments:</p>
+
+<ul>
+<li>Single line comments</li>
+<li>Multi-Line comments</li>
+<li>XML Documentation comments</li>
+</ul>
+
+
+<p><strong>Single-Line Comments</strong></p>
+
+<pre><code>// this is variable with int data type
+int myAge = 28;
+</code></pre>
+
+<p><strong>Multi-Line Comments</strong></p>
+
+<pre><code>/* 
+This is a multi line comments
+You can write whatever you want
+ */
+</code></pre>
+
+<p><strong>XML Documentation Comments</strong></p>
+
+<pre><code>    /// &lt;summary&gt;
+    /// This is the Main Method. It is an entry point for our application
+    /// &lt;/summary&gt;
+    static void Main()
+    {
+        string firstName = "Abhishek";
+
+        string lastName = " Luv";
+
+        string fullName = firstName + lastName;
+
+        Console.WriteLine(fullName);
+    }
+</code></pre>
+
+<p>XML documentation comments are used to write documentations for classes and methods in C#.</p>
+
+<p>These XML comments are then used by Visual Studio to provide us information using Intellisense.</p>
+
+<p>To write a XML comment just press <code>/</code> 3 times on any class or method.</p>
+
+<h2>Data Types in CSharp</h2>
+
+<p>Every programs needs memory and space to store data before it performs any operations and actions on the data.</p>
+
+<p>Every value has a data type associated with it.</p>
+
+<p>For example:</p>
+
+<ul>
+<li>A word like <code>Abhishek</code> will be of type <code>string</code> in C#</li>
+<li>A numeric value like <code>12345</code> will be of type <code>int</code> in C#</li>
+<li>A true or false value will be of type <code>bool</code> in C#</li>
+<li>A numeric value like <code>233.33</code> will be of type <code>float</code> in C#
+and so on&hellip;</li>
+</ul>
+
+
+<h2>Commonly used Data Types in CSharp</h2>
+
+<ul>
+<li>int : for numeric values</li>
+<li>long : for larger numeric values</li>
+<li>float : single-precision</li>
+<li>double : double-precision</li>
+<li>decimal : for very very very large numeric values</li>
+<li>string : for storing words and text</li>
+<li>bool : for storing true or false values</li>
+</ul>
+
+
+<h2>Declaring Variables using Data Types</h2>
+
+<p>int example:</p>
+
+<pre><code>data-type variable-name = variable-value;
+
+int valueForA = 1200;
+</code></pre>
+
+<p>string example:</p>
+
+<pre><code>string myName = "Abhishek Luv";
+</code></pre>
+
+<p>bool example:</p>
+
+<pre><code>bool IsAvailable = true;
+</code></pre>
+
+<h2>Arithmetic Operators in CSharp</h2>
+
+<ul>
+<li>(+) : For addition</li>
+<li>(-) : for subtraction</li>
+<li>(*) : multiplication</li>
+<li>/ : division</li>
+<li>% : modulus</li>
+<li>++ : increment</li>
+<li>&ndash; : decrement</li>
+</ul>
+
+
+<p>These are the basic arithmetic operators used in C#. Let’s look at some sample code.</p>
+
+<h2>Relational Operators in CSharp</h2>
+
+<ul>
+<li>(>) : Greater than</li>
+<li>(&lt;) : Less than</li>
+<li>(>=) : Greater than or equal to</li>
+<li>(&lt;=) : Less than or equal to</li>
+<li>(!=) : Not equal to</li>
+<li>(==) : Equal to</li>
+</ul>
+
+
+<h2>Adding Number using in CSharp</h2>
+
+<pre><code>    static void Main()
+    {
+        int a = 10; 
+        int b = 20;
+
+        int sum;
+
+        // here we have used + operator for addition
+        sum = a + b; 
+
+        Console.WriteLine(sum);
+    }
+</code></pre>
+
+<h2>Joining two string values using + Operator</h2>
+
+<p>We can use the same + operator to join two string values in C#.</p>
+
+<pre><code>    static void Main()
+    {
+        string firstName = "Abhishek";
+
+        string lastName = " Luv";
+
+        // here we have used + operator for joining two string values
+
+        string fullName = firstName + lastName;
+
+        Console.WriteLine(fullName);
+    }
+</code></pre>
+
+<h2>Playing with If Else If Statement</h2>
+
+<pre><code>    static void Main()
+    {
+        PlayingWithIf(20, 20);
+    }
+
+    static void PlayingWithIf(int x, int y)
+    {
+        if (x &lt; y)
+        {
+            Console.WriteLine("x is less than y");
+        }
+
+        else if (x &gt; y)
+        {
+            Console.WriteLine("x is greater than y");
+        }
+
+        else if (x == y)
+        {
+            Console.WriteLine("x is equal to y");
+        }
+
+        else
+        {
+            Console.WriteLine("invalid numbers");
+        }
+    }
+</code></pre>
+
+<p>In this example, we have a static void method called <code>PlayingWithIf</code> which uses <code>If Else If</code> statements with relational operators to print the desired output on the console screen. Don&rsquo;t worry about what is <code>static</code> and <code>void</code>. We&rsquo;ll come to that.</p>
+
+<pre><code>if(x &lt; y) // if x is less than y then print "x is less than y"
+
+else if(x &gt; y) // if x is greater than y then print "x is greater than y"
+
+else if(x == y) // if x is equal to y then print "x is equal to y"
+
+else....
+</code></pre>
+
+<p>Notice that the <code>PlayingWithIf</code> method takes in two <code>arguments</code> i.e. whenever the <code>PlayingWithIf</code> method is called we will have to provide two arguments or two values to the method.</p>
+
+<pre><code>    static void Main()
+    {
+        PlayingWithIf(20, 20);
+    }
+</code></pre>
+
+<p>Here, we are calling the <code>PlayingWithIf</code> method in our Main method with two arguments (20,20).</p>
+
+<p>It’s always better to write a standalone method than stuffing the entire Main method with code.</p>
+
+<h2>For Loop Statements</h2>
+
+<p>A For loop statement is used for looping to perform actions based on the initial value and the test condition declared within a For loop.</p>
+
+<p>For example: Lets print numbers 10 to 0 using a for loop</p>
+
+<pre><code>    static void Main()
+    {
+        for (int i = 10; i &gt;= 0; i--)
+        {
+            Console.WriteLine(i);
+        }
+    }
+</code></pre>
+
+<p>In this example, we have declared a initial variable <code>int i</code> with a value of <code>10</code> i.e. we are saying the For loop to set the initial value equal to 10.</p>
+
+<p><code>i &gt;= 0;</code> is the condition defined within the loop. This instructs the for loop to keep running the loop until the value <code>i</code> is greater than or equal to 0.</p>
+
+<p><code>i--</code> is the action to performed by the for loop for us.</p>
+
+<p>As the loop runs with the help of <code>i--</code> the value <code>i</code> is decremented by -1 till the condition <code>i &gt;= 0</code> is met.</p>
+
+<h2>While Loop</h2>
+
+<p>let’s look at the same example using a while loop in C#.</p>
+
+<pre><code>    static void Main()
+    {
+        int i = 10; // initial variables declared
+
+        while (i &gt;= 0) // test condition
+        {
+            Console.WriteLine(i);
+            i--; // action to be performed every time the loop runs
+        }
+    }
+</code></pre>
+
+<p>In a While loop, we declare the initial variable and value outside the loop.</p>
+
+<p>While loop starts with a test condition and then the body of the loop within curly braces {}.</p>
+
+<p>Here, the condition is to keep running the loop until the value of i is greater than or equal to zero.</p>
+
+<p>And the action to be performed in within the while loop i.e. <code>i--</code>.</p>
+
+<h2>Do..While loop</h2>
+
+<p>Do..While loop is very similar to the While loop but with only two differences.</p>
+
+<p><strong>First Difference</strong></p>
+
+<p>In a Do..While loop the statements inside the body of the loop are executed once before any conditions are met or the actions are performed by the loop.</p>
+
+<p>For example:</p>
+
+<pre><code>    static void Main()
+    {
+        int i = 0;
+
+        do
+        {
+            Console.WriteLine(i);
+            i++;
+        } while (i &lt;= 10);
+    }
+</code></pre>
+
+<p><strong>Second Difference</strong></p>
+
+<p>Here, Initial value of <code>i</code> is 0. In a Do..While loop the condition is checked at the end of the loop and in a While loop at the beginning of the loop</p>
+
+<p>And the actions <code>i++</code> is performed within the Do loop.</p>
+
+<h2>Commonly used Logical Operators in CSharp</h2>
+
+<ul>
+<li>&amp;&amp; : logical AND</li>
+<li>|| : logical OR</li>
+</ul>
+
+
+<p>Example:</p>
+
+<pre><code>    static void Main()
+    {
+        CheckNumbers(10, 20);
+    }
+
+    static void CheckNumbers(int x, int y)
+    {
+        if (x &gt;= 0 &amp;&amp; y &gt;= 0)
+        {
+            Console.WriteLine("both numbers positive");
+        }
+
+        else if (x &gt;= 0 || y &gt;= 0)
+        {
+            Console.WriteLine("at least one num is positive");
+        }
+        else
+        {
+            Console.WriteLine("both are negative");
+        }
+    }
+</code></pre>
+
+<p>In the above given code, we have a method called <code>CheckNumbers</code>.</p>
+
+<p>The <code>CheckNumbers</code> method takes in two arguments to check whether the numbers are positive or negative.</p>
+
+<pre><code>if (x &gt;= 0 &amp;&amp; y &gt;= 0) 
+// 10 &gt;= 0 &amp;&amp; 20 &gt;= 0 
+// Result will be : both numbers are positive
+</code></pre>
+
+<p>Condition <code>10 &gt;= 0</code> will return true and <code>20 &gt;= 0</code> will also return true. So, true * true is true i.e. both numbers are positive.</p>
+
+<p>Similarly OR <code>||</code> is used check at least one positive number and the <code>else</code> block executes when both the numbers are negative.</p>
+
+<h2>Switch Case Statement</h2>
+
+<p>Switch case statements are very similar to If statements. Switch case can be used with any data type.</p>
+
+<p>In a switch case statement, we provide a value which it uses to compare with the cases defined within the switch statement and display appropriate results on the console.</p>
+
+<p><em>Note: Case declared within a switch case statement has to be constant</em></p>
+
+<pre><code>    static void Main(string[] args)
+    {
+        PlayingWithSwitchCase("three");
+    }
+
+    static void PlayingWithSwitchCase(string j)
+    {
+        switch (j)
+        {
+            case "two":
+                Console.WriteLine("you entered four in words");
+                break;
+            case "three":
+                Console.WriteLine("you entered three in words");
+                break;
+            default:
+                Console.WriteLine("error");
+                break;
+        }
+    }
+</code></pre>
+
+<h2>Arrays in CSharp</h2>
+
+<p>Arrays are used to store a collection of data of similar data types.</p>
+
+<p>For example: If you want to declared 5 int variable how will you do it?</p>
+
+<p>Like this right?</p>
+
+<pre><code>int a = 1;
+int b = 2;
+int c = 3;
+int d = 4;
+int e = 5;
+</code></pre>
+
+<p>Now, this is a lot of code. It’s better to use arrays to store 5 int values than using 5 different int variables.</p>
+
+<p><strong>Declaring Arrays</strong></p>
+
+<pre><code>int[] arrayName = new int[sizeofthearray];
+
+int[] intArray = new int[5];
+</code></pre>
+
+<p>Now int[5] means that this array can hold 5 values. Values or data within an array can be accessed using an index.</p>
+
+<p>For example:</p>
+
+<pre><code>intArray[0], intArray[1] and so on...
+</code></pre>
+
+<p><em>Note: Index of an array starts from value 0. i.e. If you want to access the 5th value then you need to use intArray[4]</em></p>
+
+<p><strong>Looping over an array to display data using For Looping</strong></p>
+
+<pre><code>    for (int i = 0; i &lt; intArray.Length; i++)
+    {
+        Console.WriteLine(intArray[i]);
+    }
+</code></pre>
+
+<p>The for loop uses the <code>intArray.Length</code> of the array to define a test condition for the loop.</p>
+
+<p><strong>Looping over an array using ForEach loop</strong></p>
+
+<pre><code>    foreach (int tempArrayValue in intArray)
+    {
+        Console.WriteLine(tempArrayValue);
+    }
+</code></pre>
+
+<p>The ForEach loop uses a <code>tempArrayValue</code> variable to hold the array values one by one and display it on the console screen.</p>
+
+<h2>Strings in CSharp</h2>
+
+<p>Anything within double quotes <code>"Abhishek Luv"</code> in C# is a string.</p>
+
+<p><strong>Declaring a string</strong></p>
+
+<pre><code>string myName = "Abhishek Luv";
+</code></pre>
+
+<p><strong>Declaring an array of string</strong></p>
+
+<pre><code>string[] allListOfName = { "Abhishek", "Abhijeet","Akshay" };
+</code></pre>
+
+<p><strong>Commonly used String functions</strong></p>
+
+<ul>
+<li>ToUpper()</li>
+<li>ToLower()</li>
+<li>SubString()</li>
+<li>IndexOf</li>
+</ul>
+
+
+<p><strong>Looping over an array of string using foreach loop</strong></p>
+
+<pre><code>foreach (string names in allListOfName)
+{
+   Console.WriteLine(names);
+}
+</code></pre>
+
+<p><em>Day 1 over</em></p>
+
+<p>Stay Tuned.</p>
+
+<p>Take Care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 2016 | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/2016/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-04-09T12:41:57+05:30</updated>
+  <updated>2016-04-11T22:16:58+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,699 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn C# in 7 Days : Day 2]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/"/>
+    <updated>2016-04-09T16:08:02+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2</id>
+    <content type="html"><![CDATA[<p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 2 of Learn C# in 7 Days. Checkout <a href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1/">Day 1</a> before starting with Day 2.</p>
+
+<!-- more -->
+
+
+<h2>Topics we&rsquo;ll be discussing</h2>
+
+<ul>
+<li>Classes</li>
+<li>Objects</li>
+<li>Constructor</li>
+<li>Methods with returns values</li>
+<li>Methods with Parameters and Arguments</li>
+<li>This keyword</li>
+<li>What is Object-Oriented Programming
+
+<ul>
+<li>Encapsulation</li>
+<li>Polymorphism</li>
+<li>Inheritance</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Classes</h2>
+
+<p>A class is a template for creating an object.</p>
+
+<pre><code>public class Employee
+{
+    // This is a constructor 
+    public Employee()
+    {
+
+    }
+    // This is the Data 
+    public string Name;
+    public int Age;
+
+    // This is a method which performs actions on the data
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+</code></pre>
+
+<h2>Objects</h2>
+
+<p>An Object is an instance of a class. In other word a snapshot or copy of a class having all the data and methods associated with it.</p>
+
+<pre><code>public class Program
+{
+    static void Main()
+    {
+        Employee abhishekluv = new Employee();
+        abhishekluv.DisplayData();
+    }
+}
+</code></pre>
+
+<p>The <code>new</code> keyword + <code>Employee()</code> the constructor <code>new Employee()</code> is used to create an object of a class i.e. an instance of a class.</p>
+
+<h2>Constructor</h2>
+
+<p>Every time you declare a class in C# there is a method <code>Public Employee()</code> created in the background automatically by the compiler having the same name as the class.</p>
+
+<ul>
+<li>Constructor is a method that has the same name as the class</li>
+<li>Constructor is executed when an object is created</li>
+<li>Constructor is used to set default/initial values for an object</li>
+<li>Constructor doesn&rsquo;t return anything including <code>void</code></li>
+</ul>
+
+
+<p><strong>Play with the constructor</strong></p>
+
+<pre><code>    public Employee()
+    {
+        Console.WriteLine("Constructor is fired");
+    }
+</code></pre>
+
+<p><strong>Constructor with Parameters and Arguments</strong></p>
+
+<p>For example: You have declared a class with two public variables and one public method.</p>
+
+<p>As constructors are used to initial default values during object creation you can define those values using a parameterized constructor.</p>
+
+<pre><code>class Employee
+{
+    public string Name;
+    public int Age;
+
+    public Employee()
+    {
+        Name = 6;
+        Age = 5;
+
+        Console.WriteLine("Ctor fired");
+    }
+
+    public Employee(string name, int age)
+    {
+        this.Name = name;
+        this.Age = age;
+    }
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+
+// creating a new Employee object by calling the parameterized constructor
+Employee abhishekluv = new Employee(3,4);
+</code></pre>
+
+<p>When an object of a class is created using the <code>new</code> keyword the constructor method is called to initialize values or get and set private variables using public method parameters and arguments.</p>
+
+<p>In the above given example <code>public Employee(string name, int age)</code> is a parameterized constructor which has two parameters <code>string name</code> and <code>int age</code>.</p>
+
+<h2>This keyword</h2>
+
+<p><code>this</code> keyword is used to access the class level data members, variables and methods.</p>
+
+<p>For example: In the above code, the <code>public Employee(string name, int age)</code> method takes in two arguments or data values for the two defined parameters <code>string name</code> and <code>int age</code>. At the time of object creation these values are applied to the member variables within the class using the this keyword <code>this.Name</code> and <code>this.Age</code>.</p>
+
+<p>Why use <code>this</code> keyword? Because it makes it easy to differeniate between the declared method parameters and the class member variables with the same name. <code>name</code> is the parameter declared for the <code>DisplayData</code> methods and <code>this.Name</code> is used to access the class level member variables.</p>
+
+<h2>Methods with returns values</h2>
+
+<p>Ever wondered why the hell you keep seeing the <code>void</code> keyword everywhere when programming in C#.</p>
+
+<p>Let&rsquo;s talk about it.</p>
+
+<p>Every method performs actions using the data variables and members defined within a class. After performing those actions the method has to return the results of those actions or sometimes not return anything.</p>
+
+<p><code>void</code> keyword is used when you don&rsquo;t want a method to return anything to the calling method/function. And when you want to return something using a method then you will have to specify the return data type of that method.</p>
+
+<p><strong>Example:</strong></p>
+
+<p><em>Note: Method names used in these examples are for educational purpose only. :P</em></p>
+
+<pre><code>Public void IDontReturnAnything(){
+    Console.WriteLine("Hello"); 
+}
+
+Public string IReturnAStringValue()
+    return "Hello";
+}
+
+Public string IReturnAIntValue()
+    return 143;
+}
+</code></pre>
+
+<h2>Methods with Parameters and Arguments</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learn C# in 7 Days : Day 1]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1/"/>
+    <updated>2016-04-09T07:07:42+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1</id>
+    <content type="html"><![CDATA[<p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 1 of Learn C# in 7 Days.</p>
+
+<p>Let&rsquo;s begin&hellip;</p>
+
+<!-- more -->
+
+
+<h2>Things you&rsquo;ll need to get started</h2>
+
+<ul>
+<li>PC</li>
+<li>Visual Studio Express or Community Edition</li>
+<li>Interest to learn C#</li>
+</ul>
+
+
+<h2>Hello World Program</h2>
+
+<p>Every programming language is made up by using words and letters known as Keywords.</p>
+
+<p>While programming we use <code>letters</code> and <code>words</code> to form <code>expressions and statements</code> and then those <code>statements</code> can be used within isolated function bodies called as <code>methods</code>.</p>
+
+<pre><code>    class ExampleHelloWorld
+    {
+        static void Main()
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+</code></pre>
+
+<p>In the above given example, <code>class</code>, <code>static</code>, <code>void</code> are keywords and <code>Main()</code> is a method defined by the end user which acts as the entry point for the <code>HelloWorld</code> program.</p>
+
+<p>C# is an object-oriented programming language. We won’t be going into the topic of <code>Classes</code> and <code>Objects</code> as of now.</p>
+
+<p>Let&rsquo;s dissect the above give example.</p>
+
+<p><code>Console</code> is a C# class coming from the <code>System</code> namespace.</p>
+
+<p>Object oriented programming is about creating objects from classes and then using variables and calling methods of those objects.</p>
+
+<p>Similarly in the above given example <code>Console</code> is a class which has a method called <code>WriteLine</code> which prints a value or any data on the console.</p>
+
+<p>Now, How and what will the <code>WriteLine</code> method print on the console? It won’t do anything on its own.</p>
+
+<p>We need to instruct the <code>WriteLine</code> method what to print on the screen and we can do that by passing data to the method known as <code>arguments</code>.</p>
+
+<pre><code>Console.WriteLine("Hello World");
+</code></pre>
+
+<p>in the above line of code we are passing a <code>string</code> i.e. &ldquo;Hello World&rdquo; to the <code>WriteLine</code> method. It’s the job of the <code>WriteLine</code> method to print the given data via arguments on the console screen.</p>
+
+<h2>Comments in CSharp</h2>
+
+<p>Code without comments and documentation is bad code.</p>
+
+<p>Comments are lines of text which gives information about the flow of the program and what does a method do when it’s called.</p>
+
+<p>There are three types of comments:</p>
+
+<ul>
+<li>Single line comments</li>
+<li>Multi-Line comments</li>
+<li>XML Documentation comments</li>
+</ul>
+
+
+<p><strong>Single-Line Comments</strong></p>
+
+<pre><code>// this is variable with int data type
+int myAge = 28;
+</code></pre>
+
+<p><strong>Multi-Line Comments</strong></p>
+
+<pre><code>/* 
+This is a multi line comments
+You can write whatever you want
+ */
+</code></pre>
+
+<p><strong>XML Documentation Comments</strong></p>
+
+<pre><code>    /// &lt;summary&gt;
+    /// This is the Main Method. It is an entry point for our application
+    /// &lt;/summary&gt;
+    static void Main()
+    {
+        string firstName = "Abhishek";
+
+        string lastName = " Luv";
+
+        string fullName = firstName + lastName;
+
+        Console.WriteLine(fullName);
+    }
+</code></pre>
+
+<p>XML documentation comments are used to write documentations for classes and methods in C#.</p>
+
+<p>These XML comments are then used by Visual Studio to provide us information using Intellisense.</p>
+
+<p>To write a XML comment just press <code>/</code> 3 times on any class or method.</p>
+
+<h2>Data Types in CSharp</h2>
+
+<p>Every programs needs memory and space to store data before it performs any operations and actions on the data.</p>
+
+<p>Every value has a data type associated with it.</p>
+
+<p>For example:</p>
+
+<ul>
+<li>A word like <code>Abhishek</code> will be of type <code>string</code> in C#</li>
+<li>A numeric value like <code>12345</code> will be of type <code>int</code> in C#</li>
+<li>A true or false value will be of type <code>bool</code> in C#</li>
+<li>A numeric value like <code>233.33</code> will be of type <code>float</code> in C#
+and so on&hellip;</li>
+</ul>
+
+
+<h2>Commonly used Data Types in CSharp</h2>
+
+<ul>
+<li>int : for numeric values</li>
+<li>long : for larger numeric values</li>
+<li>float : single-precision</li>
+<li>double : double-precision</li>
+<li>decimal : for very very very large numeric values</li>
+<li>string : for storing words and text</li>
+<li>bool : for storing true or false values</li>
+</ul>
+
+
+<h2>Declaring Variables using Data Types</h2>
+
+<p>int example:</p>
+
+<pre><code>data-type variable-name = variable-value;
+
+int valueForA = 1200;
+</code></pre>
+
+<p>string example:</p>
+
+<pre><code>string myName = "Abhishek Luv";
+</code></pre>
+
+<p>bool example:</p>
+
+<pre><code>bool IsAvailable = true;
+</code></pre>
+
+<h2>Arithmetic Operators in CSharp</h2>
+
+<ul>
+<li>(+) : For addition</li>
+<li>(-) : for subtraction</li>
+<li>(*) : multiplication</li>
+<li>/ : division</li>
+<li>% : modulus</li>
+<li>++ : increment</li>
+<li>&ndash; : decrement</li>
+</ul>
+
+
+<p>These are the basic arithmetic operators used in C#. Let’s look at some sample code.</p>
+
+<h2>Relational Operators in CSharp</h2>
+
+<ul>
+<li>(>) : Greater than</li>
+<li>(&lt;) : Less than</li>
+<li>(>=) : Greater than or equal to</li>
+<li>(&lt;=) : Less than or equal to</li>
+<li>(!=) : Not equal to</li>
+<li>(==) : Equal to</li>
+</ul>
+
+
+<h2>Adding Number using in CSharp</h2>
+
+<pre><code>    static void Main()
+    {
+        int a = 10; 
+        int b = 20;
+
+        int sum;
+
+        // here we have used + operator for addition
+        sum = a + b; 
+
+        Console.WriteLine(sum);
+    }
+</code></pre>
+
+<h2>Joining two string values using + Operator</h2>
+
+<p>We can use the same + operator to join two string values in C#.</p>
+
+<pre><code>    static void Main()
+    {
+        string firstName = "Abhishek";
+
+        string lastName = " Luv";
+
+        // here we have used + operator for joining two string values
+
+        string fullName = firstName + lastName;
+
+        Console.WriteLine(fullName);
+    }
+</code></pre>
+
+<h2>Playing with If Else If Statement</h2>
+
+<pre><code>    static void Main()
+    {
+        PlayingWithIf(20, 20);
+    }
+
+    static void PlayingWithIf(int x, int y)
+    {
+        if (x &lt; y)
+        {
+            Console.WriteLine("x is less than y");
+        }
+
+        else if (x &gt; y)
+        {
+            Console.WriteLine("x is greater than y");
+        }
+
+        else if (x == y)
+        {
+            Console.WriteLine("x is equal to y");
+        }
+
+        else
+        {
+            Console.WriteLine("invalid numbers");
+        }
+    }
+</code></pre>
+
+<p>In this example, we have a static void method called <code>PlayingWithIf</code> which uses <code>If Else If</code> statements with relational operators to print the desired output on the console screen. Don&rsquo;t worry about what is <code>static</code> and <code>void</code>. We&rsquo;ll come to that.</p>
+
+<pre><code>if(x &lt; y) // if x is less than y then print "x is less than y"
+
+else if(x &gt; y) // if x is greater than y then print "x is greater than y"
+
+else if(x == y) // if x is equal to y then print "x is equal to y"
+
+else....
+</code></pre>
+
+<p>Notice that the <code>PlayingWithIf</code> method takes in two <code>arguments</code> i.e. whenever the <code>PlayingWithIf</code> method is called we will have to provide two arguments or two values to the method.</p>
+
+<pre><code>    static void Main()
+    {
+        PlayingWithIf(20, 20);
+    }
+</code></pre>
+
+<p>Here, we are calling the <code>PlayingWithIf</code> method in our Main method with two arguments (20,20).</p>
+
+<p>It’s always better to write a standalone method than stuffing the entire Main method with code.</p>
+
+<h2>For Loop Statements</h2>
+
+<p>A For loop statement is used for looping to perform actions based on the initial value and the test condition declared within a For loop.</p>
+
+<p>For example: Lets print numbers 10 to 0 using a for loop</p>
+
+<pre><code>    static void Main()
+    {
+        for (int i = 10; i &gt;= 0; i--)
+        {
+            Console.WriteLine(i);
+        }
+    }
+</code></pre>
+
+<p>In this example, we have declared a initial variable <code>int i</code> with a value of <code>10</code> i.e. we are saying the For loop to set the initial value equal to 10.</p>
+
+<p><code>i &gt;= 0;</code> is the condition defined within the loop. This instructs the for loop to keep running the loop until the value <code>i</code> is greater than or equal to 0.</p>
+
+<p><code>i--</code> is the action to performed by the for loop for us.</p>
+
+<p>As the loop runs with the help of <code>i--</code> the value <code>i</code> is decremented by -1 till the condition <code>i &gt;= 0</code> is met.</p>
+
+<h2>While Loop</h2>
+
+<p>let’s look at the same example using a while loop in C#.</p>
+
+<pre><code>    static void Main()
+    {
+        int i = 10; // initial variables declared
+
+        while (i &gt;= 0) // test condition
+        {
+            Console.WriteLine(i);
+            i--; // action to be performed every time the loop runs
+        }
+    }
+</code></pre>
+
+<p>In a While loop, we declare the initial variable and value outside the loop.</p>
+
+<p>While loop starts with a test condition and then the body of the loop within curly braces {}.</p>
+
+<p>Here, the condition is to keep running the loop until the value of i is greater than or equal to zero.</p>
+
+<p>And the action to be performed in within the while loop i.e. <code>i--</code>.</p>
+
+<h2>Do..While loop</h2>
+
+<p>Do..While loop is very similar to the While loop but with only two differences.</p>
+
+<p><strong>First Difference</strong></p>
+
+<p>In a Do..While loop the statements inside the body of the loop are executed once before any conditions are met or the actions are performed by the loop.</p>
+
+<p>For example:</p>
+
+<pre><code>    static void Main()
+    {
+        int i = 0;
+
+        do
+        {
+            Console.WriteLine(i);
+            i++;
+        } while (i &lt;= 10);
+    }
+</code></pre>
+
+<p><strong>Second Difference</strong></p>
+
+<p>Here, Initial value of <code>i</code> is 0. In a Do..While loop the condition is checked at the end of the loop and in a While loop at the beginning of the loop</p>
+
+<p>And the actions <code>i++</code> is performed within the Do loop.</p>
+
+<h2>Commonly used Logical Operators in CSharp</h2>
+
+<ul>
+<li>&amp;&amp; : logical AND</li>
+<li>|| : logical OR</li>
+</ul>
+
+
+<p>Example:</p>
+
+<pre><code>    static void Main()
+    {
+        CheckNumbers(10, 20);
+    }
+
+    static void CheckNumbers(int x, int y)
+    {
+        if (x &gt;= 0 &amp;&amp; y &gt;= 0)
+        {
+            Console.WriteLine("both numbers positive");
+        }
+
+        else if (x &gt;= 0 || y &gt;= 0)
+        {
+            Console.WriteLine("at least one num is positive");
+        }
+        else
+        {
+            Console.WriteLine("both are negative");
+        }
+    }
+</code></pre>
+
+<p>In the above given code, we have a method called <code>CheckNumbers</code>.</p>
+
+<p>The <code>CheckNumbers</code> method takes in two arguments to check whether the numbers are positive or negative.</p>
+
+<pre><code>if (x &gt;= 0 &amp;&amp; y &gt;= 0) 
+// 10 &gt;= 0 &amp;&amp; 20 &gt;= 0 
+// Result will be : both numbers are positive
+</code></pre>
+
+<p>Condition <code>10 &gt;= 0</code> will return true and <code>20 &gt;= 0</code> will also return true. So, true * true is true i.e. both numbers are positive.</p>
+
+<p>Similarly OR <code>||</code> is used check at least one positive number and the <code>else</code> block executes when both the numbers are negative.</p>
+
+<h2>Switch Case Statement</h2>
+
+<p>Switch case statements are very similar to If statements. Switch case can be used with any data type.</p>
+
+<p>In a switch case statement, we provide a value which it uses to compare with the cases defined within the switch statement and display appropriate results on the console.</p>
+
+<p><em>Note: Case declared within a switch case statement has to be constant</em></p>
+
+<pre><code>    static void Main(string[] args)
+    {
+        PlayingWithSwitchCase("three");
+    }
+
+    static void PlayingWithSwitchCase(string j)
+    {
+        switch (j)
+        {
+            case "two":
+                Console.WriteLine("you entered four in words");
+                break;
+            case "three":
+                Console.WriteLine("you entered three in words");
+                break;
+            default:
+                Console.WriteLine("error");
+                break;
+        }
+    }
+</code></pre>
+
+<h2>Arrays in CSharp</h2>
+
+<p>Arrays are used to store a collection of data of similar data types.</p>
+
+<p>For example: If you want to declared 5 int variable how will you do it?</p>
+
+<p>Like this right?</p>
+
+<pre><code>int a = 1;
+int b = 2;
+int c = 3;
+int d = 4;
+int e = 5;
+</code></pre>
+
+<p>Now, this is a lot of code. It’s better to use arrays to store 5 int values than using 5 different int variables.</p>
+
+<p><strong>Declaring Arrays</strong></p>
+
+<pre><code>int[] arrayName = new int[sizeofthearray];
+
+int[] intArray = new int[5];
+</code></pre>
+
+<p>Now int[5] means that this array can hold 5 values. Values or data within an array can be accessed using an index.</p>
+
+<p>For example:</p>
+
+<pre><code>intArray[0], intArray[1] and so on...
+</code></pre>
+
+<p><em>Note: Index of an array starts from value 0. i.e. If you want to access the 5th value then you need to use intArray[4]</em></p>
+
+<p><strong>Looping over an array to display data using For Looping</strong></p>
+
+<pre><code>    for (int i = 0; i &lt; intArray.Length; i++)
+    {
+        Console.WriteLine(intArray[i]);
+    }
+</code></pre>
+
+<p>The for loop uses the <code>intArray.Length</code> of the array to define a test condition for the loop.</p>
+
+<p><strong>Looping over an array using ForEach loop</strong></p>
+
+<pre><code>    foreach (int tempArrayValue in intArray)
+    {
+        Console.WriteLine(tempArrayValue);
+    }
+</code></pre>
+
+<p>The ForEach loop uses a <code>tempArrayValue</code> variable to hold the array values one by one and display it on the console screen.</p>
+
+<h2>Strings in CSharp</h2>
+
+<p>Anything within double quotes <code>"Abhishek Luv"</code> in C# is a string.</p>
+
+<p><strong>Declaring a string</strong></p>
+
+<pre><code>string myName = "Abhishek Luv";
+</code></pre>
+
+<p><strong>Declaring an array of string</strong></p>
+
+<pre><code>string[] allListOfName = { "Abhishek", "Abhijeet","Akshay" };
+</code></pre>
+
+<p><strong>Commonly used String functions</strong></p>
+
+<ul>
+<li>ToUpper()</li>
+<li>ToLower()</li>
+<li>SubString()</li>
+<li>IndexOf</li>
+</ul>
+
+
+<p><strong>Looping over an array of string using foreach loop</strong></p>
+
+<pre><code>foreach (string names in allListOfName)
+{
+   Console.WriteLine(names);
+}
+</code></pre>
+
+<p><em>Day 1 over</em></p>
+
+<p>Stay Tuned.</p>
+
+<p>Take Care!</p>
+
+<p>Abhishek Luv</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Orchard CMS Theme Development Course Is FREE Now]]></title>
@@ -61,100 +754,6 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8AwaH3ssiASR5GeZtPvKnyOAGogyMnjt" frameborder="0" allowfullscreen></iframe>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Monthly Review : Feb &amp; March 2016]]></title>
-    <link href="http://www.abhishekluv.in/blog/2016/03/25/monthly-review-feb-and-march-2016/"/>
-    <updated>2016-03-25T07:40:35+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2016/03/25/monthly-review-feb-and-march-2016</id>
-    <content type="html"><![CDATA[<p>This is my second monthly review. Keeping a note of every task, I have really helped myself to stay more focused and measure my progress in a better way.</p>
-
-<p><em>As I had mentioned in one of my <a href="/blog/2015/12/21/plans-for-year-2016/">previous post</a> that I will be keeping track of every task I do and blog about it online.</em></p>
-
-<p>I couldn&rsquo;t post my last months monthly review due to flu :(</p>
-
-<!-- more -->
-
-
-<h2>Review for Feb &amp; March 2016</h2>
-
-<ul>
-<li>I was looking forward to this in the month of Feb but registration for a <a href="http://www.vridhamma.org/VRI-Introduction">10-day Vipassana Meditation programme was full</a> :(</li>
-<li>Stumbled upon a video <a href="https://www.youtube.com/watch?v=3aiJe6JiIPw">&ldquo;30 Day Mental Fast&rdquo; by Jerry Clark</a></li>
-<li>Finished listening an Audio book called <a href="http://www.proctorgallagherinstitute.com/success-puzzle/download">&ldquo;The Success Puzzle&rdquo; by Bob Proctor</a></li>
-<li>Attended a 1 Day Workshop on &ldquo;Cyber Security&rdquo; organized by &ldquo;Princeton Academy&rdquo;</li>
-<li>Worked on some freelancing projects</li>
-<li>Stumbled upon a video <a href="https://www.youtube.com/watch?v=L7kSyJ1nQ4s">&ldquo;The Success Triangle&rdquo; by Jerry Clark</a></li>
-<li>Started using Facebook after a 60Day Facebook Mental Fast :)</li>
-<li>Read a lot of articles about SEO. I&rsquo;ll be posting a post about SEO very soon.</li>
-</ul>
-
-
-<p>Stay tuned.</p>
-
-<p>Take care!</p>
-
-<p>Abhishek Luv</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Using Dillinger as a FREE Markdown Editor]]></title>
-    <link href="http://www.abhishekluv.in/blog/2016/03/03/using-dillinger-as-a-free-markdown-editor/"/>
-    <updated>2016-03-03T07:09:38+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2016/03/03/using-dillinger-as-a-free-markdown-editor</id>
-    <content type="html"><![CDATA[<p>I just Love Markdown. I&rsquo;m a Markdown fan. Markdown is a plain text formatting syntax designed so that it can be converted to HTML. Markdown syntax  is pretty easy to learn and use. If you are a developer then you would have already used it.</p>
-
-<!-- more -->
-
-
-<p><strong>Why use Markdown</strong></p>
-
-<ul>
-<li>It&rsquo;s easy to learn and use</li>
-<li>It&rsquo;s fast : Faster than any rich-text editor</li>
-<li>It&rsquo;s clean : Generates perfectly-formed HTML</li>
-</ul>
-
-
-<p><strong>How can you use Markdown</strong></p>
-
-<ul>
-<li>For writing blog posts : Every blogging system has support to convert Markdown syntax into HTML</li>
-<li>For writing project documentations on GitHub</li>
-<li>For writing emails</li>
-<li>For taking notes and then exporting them as a PDF file or Styled HTML document</li>
-</ul>
-
-
-<p>I use <a href="http://markdownpad.com/">MarkdownPad</a> which is a Paid Markdown editor.</p>
-
-<p>Say Hello to <a href="http://dillinger.io/">Dillinger</a> a Free Online Markdown editor with amazing features.</p>
-
-<p><img src="http://i.imgur.com/NOpOxGa.png" alt="" /></p>
-
-<p><strong>Features of Dillinger</strong></p>
-
-<ul>
-<li>Autosave</li>
-<li>Word count</li>
-<li>Scroll sync : Scroll sync for markdown and preview windows</li>
-<li>Import markdown files from Dropbox, GitHub, Google and One Drive</li>
-<li>Export markdown files into HTML, Styled HTML and PDF</li>
-</ul>
-
-
-<p>If you are new to Markdown, then download this <a href="https://www.gitbook.com/download/pdf/book/gitbookio/markdown">Free PDF book on Markdown.</a></p>
-
-<p>Thank you for reading.</p>
-
-<p>Stay tuned!</p>
-
-<p>Take care</p>
-
-<p>Abhishek Luv</p>
 ]]></content>
   </entry>
   

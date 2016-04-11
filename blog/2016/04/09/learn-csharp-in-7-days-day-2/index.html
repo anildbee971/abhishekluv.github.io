@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="pIKQr0q3kdbVl4XRFal7YqYVfcsQCW3bVbjNMTJX6lk" />
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <meta name="Generator" content="Jekyll & Octopress (http://octopress.org)">
+  <link rel="dns-prefetch" href="http://www.abhishekluv.in/">
+  <link rel="dns-prefetch" href="http://cdnjs.cloudflare.com/">
+  <link rel="dns-prefetch" href="http://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="http://dwz6w0xm5nwrx.cloudfront.net/">
+  <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+  <link rel="dns-prefetch" href="https://disqus.com">
+  <link rel="dns-prefetch" href="https://a.disquscdn.com">
+  <link rel="dns-prefetch" href="https://ssl.google-analytics.com">
+  <link rel="dns-prefetch" href="https://s.ytimg.com">
+  <link rel="dns-prefetch" href="https://i.ytimg.com">
+  <link rel="dns-prefetch" href="http://s3-ap-southeast-1.amazonaws.com">
+  <link rel="preconnect" href="http://www.abhishekluv.in/">
+  <link rel="preconnect" href="http://cdnjs.cloudflare.com/">
+  <link rel="preconnect" href="http://fonts.gstatic.com">
+  <link rel="preconnect" href="http://dwz6w0xm5nwrx.cloudfront.net/">
+  <link rel="preconnect" href="http://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://disqus.com">
+  <link rel="preconnect" href="https://a.disquscdn.com">
+  <link rel="preconnect" href="https://ssl.google-analytics.com">
+  <link rel="preconnect" href="https://s.ytimg.com">
+  <link rel="preconnect" href="https://i.ytimg.com">
+  <link rel="preconnect" href="http://s3-ap-southeast-1.amazonaws.com">
+  <title>Learn C# in 7 Days : Day 2 - Abhishek Luv : Freelance ASP.NET MVC Developer (Mumbai, India)</title>
+  <meta name="author" content="Abhishek Luv">
+  <meta name="copyright" content="Abhishek Luv">
+  <meta name="revised" content="Mon Apr 11 22:16:58 2016">
+  <meta name="reply-to" content="abhishek@abhishekluv.in">
+  <meta name="owner" content="Abhishek Luv">
+  <meta name="og:site_name" content="Abhishek Luv : ASP.NET MVC Developer"/>
+  <meta name="og:email" content="abhishek@abhishekluv.in"/>
+  <meta name="og:country-name" content="India"/>
+  <meta property="og:title" content="Learn C# in 7 Days : Day 2 - Abhishek Luv" />
+  <meta property="og:type" content="website" />
+  
+  <meta property="og:url" content="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/" />
+  <meta property="og:image" content="https://dajgbgqiuncfc.cloudfront.net/tvt/abhishekluv.jpg" />
+  
+  <meta property="og:description" content="Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult. When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it. This is Day 2 of Learn C# in 7 Days. &hellip;" />
+  
+  <meta name="description" content="Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult. When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it. This is Day 2 of Learn C# in 7 Days. &hellip;">
+  <meta name="keywords" content="asp.net mvc developer in mumbai, .net web developer in mumbai, .net training in mumbai, asp.net mvc training in mumbai  "/>
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+  <link rel="icon" href="http://dwz6w0xm5nwrx.cloudfront.net/img/favicon.png" type="image/png" sizes="16x16">
+  
+  <link rel="canonical" href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2">
+  <link href="/atom.xml" rel="alternate" title="Abhishek Luv" type="application/atom+xml">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+  <style>
+   *{font-family: "Ubuntu" !important;}.youtube-wrapper{display:block;width:100%;max-width:600px;border:solid 1px;margin:20px auto;}.youtube-player{padding-bottom:56.25%;overflow:hidden;position:relative;width:100%;height:100%;display:block;}img.youtube-thumb{bottom:0;display:block;left:0;max-width:100%;width:100%;position:absolute;right:0;max-height: 100%;top: 0;}div.play-button{opacity:0.5;height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABLUExURQAAAAAAABAQEPv7+0dHR/Pz8wAAAAAAAOrq6iwsLAAAAKGhoQAAAAAAAMLCwmtra1xcXAAAAAAAALCwsM/Pz5eXl9vb24GBgf///9VrVkgAAAAYdFJOU7OKt/7D+kcA972k3Qon6M3JYqzi7drx03jikREAAAKTSURBVFjDrZjbtqsgDEUDIhUBr9X6/196QrD7qBVvI3nRVp0kKxEJ8Dowr1shyg6gK4VotT+6F1IXnBYlbKwU2t0DIQUSlmLtgVw7+2JqW41FPk15MVa2NrNfrbsG0hHT9MW0saJvIkpfAHnCGPtDmVmW/Cr9Cci1hOkzeiqvhloZCSCNqocqpz+znlDb+NYgHzSWNotjq63QKvqZWRlU92kQhVXTze9mP2nNmwap8bTzKZDugjuEUZA0RShySu+DdFBn/I53YOTzaNYkWHFUuKWScGKyCsOpFekP5DEuhXnJPnDBPpiPXC11goXOgZM3cMnoXrUoqBnkMO+miNeukwrUSbgVCOtQjnc4kTSinO0S5PFCj/o0cMMa1KnHo1+AMLAaE/GBW/bBR7BSxH8QZl6iQBXcNKyCQs41EEAOM2bjf/csjG4xc24GodImIy/vGuqRmag3RIdQ6Tc8sDfpHVwCUig4pJ6AVHRJE0iQQo8cIpcsJQ5eDn9ibe2VUGXOiwmrGA8OQfrv149N2XCayeiDRpAgqe0uCGvirNgtyS0QhNNHkZCaJvuT+FDuAqeTF+BrZhKRRdBZfBgbDuVBU1lVB6CT+CoqZQ0thTkcgg7jG0jgFsSXeQg6iC/GIwJoTJX1+mPdJNUeA6ikpJlzUCo+Q2kroSPd5RXQfnySct6FU3xj4RJoP74pPt5xgUqu0NjEZks/W0GyvSJsLy3bNMI2sfFNtWyTP9vniO0DyffJZltEsC1r+BZabEs/vsXos+Wx2lkesy3YYwuR320h8t8Wgq2p4Wuz5gbyTuNn9hs/vlY0kq42x/1Bcxx14mjX+TYQ+LY0+DZZGLd99jaismcbUXxbY19Wt4V0tzfrHmwf/gNGwm3W968SigAAAABJRU5ErkJggg==) no-repeat;}div.play-button:hover{opacity:0.8;cursor: pointer;}#youtube-iframe{width:100%;height:100%;position:absolute;top:0;left:0;}.avaialble{color:rgb(0,109,49);}.abhishekimage{text-align: center;margin: 15px 0;}
+  </style>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://dwz6w0xm5nwrx.cloudfront.net/css/mystyle.min.css">
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Abhishek Luv</a></h1>
+  
+    <h2>Freelance ASP.NET MVC Developer, Founder, Instructor, Podcaster</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  
+  
+</ul>
+
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/blog/">Blog</a></li>
+  <li><a target="_blank" href="https://github.com/abhishekluv?tab=contributions&period=monthly">GitHub</a></li>
+  <li><a href="/open-source-contributions/">Contributions</a></li>
+  <li><a href="/contact-me/">Contact Me</a></li>
+  <li><a target="_blank" href="/atom.xml">RSS Feed</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Learn C# in 7 Days : Day 2</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2016-04-09T16:08:02+05:30" pubdate data-updated="true">Apr 9th, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 2 of Learn C# in 7 Days. Checkout <a href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-1/">Day 1</a> before starting with Day 2.</p>
+
+<!-- more -->
+
+
+<h2>Topics we&rsquo;ll be discussing</h2>
+
+<ul>
+<li>Classes</li>
+<li>Objects</li>
+<li>Constructor</li>
+<li>Methods with returns values</li>
+<li>Methods with Parameters and Arguments</li>
+<li>This keyword</li>
+<li>What is Object-Oriented Programming
+
+<ul>
+<li>Encapsulation</li>
+<li>Polymorphism</li>
+<li>Inheritance</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Classes</h2>
+
+<p>A class is a template for creating an object.</p>
+
+<pre><code>public class Employee
+{
+    // This is a constructor 
+    public Employee()
+    {
+
+    }
+    // This is the Data 
+    public string Name;
+    public int Age;
+
+    // This is a method which performs actions on the data
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+</code></pre>
+
+<h2>Objects</h2>
+
+<p>An Object is an instance of a class. In other word a snapshot or copy of a class having all the data and methods associated with it.</p>
+
+<pre><code>public class Program
+{
+    static void Main()
+    {
+        Employee abhishekluv = new Employee();
+        abhishekluv.DisplayData();
+    }
+}
+</code></pre>
+
+<p>The <code>new</code> keyword + <code>Employee()</code> the constructor <code>new Employee()</code> is used to create an object of a class i.e. an instance of a class.</p>
+
+<h2>Constructor</h2>
+
+<p>Every time you declare a class in C# there is a method <code>Public Employee()</code> created in the background automatically by the compiler having the same name as the class.</p>
+
+<ul>
+<li>Constructor is a method that has the same name as the class</li>
+<li>Constructor is executed when an object is created</li>
+<li>Constructor is used to set default/initial values for an object</li>
+<li>Constructor doesn&rsquo;t return anything including <code>void</code></li>
+</ul>
+
+
+<p><strong>Play with the constructor</strong></p>
+
+<pre><code>    public Employee()
+    {
+        Console.WriteLine("Constructor is fired");
+    }
+</code></pre>
+
+<p><strong>Constructor with Parameters and Arguments</strong></p>
+
+<p>For example: You have declared a class with two public variables and one public method.</p>
+
+<p>As constructors are used to initial default values during object creation you can define those values using a parameterized constructor.</p>
+
+<pre><code>class Employee
+{
+    public string Name;
+    public int Age;
+
+    public Employee()
+    {
+        Name = 6;
+        Age = 5;
+
+        Console.WriteLine("Ctor fired");
+    }
+
+    public Employee(string name, int age)
+    {
+        this.Name = name;
+        this.Age = age;
+    }
+    public void DisplayData()
+    {
+        Console.WriteLine(Name + Age);
+    }
+}
+
+// creating a new Employee object by calling the parameterized constructor
+Employee abhishekluv = new Employee(3,4);
+</code></pre>
+
+<p>When an object of a class is created using the <code>new</code> keyword the constructor method is called to initialize values or get and set private variables using public method parameters and arguments.</p>
+
+<p>In the above given example <code>public Employee(string name, int age)</code> is a parameterized constructor which has two parameters <code>string name</code> and <code>int age</code>.</p>
+
+<h2>This keyword</h2>
+
+<p><code>this</code> keyword is used to access the class level data members, variables and methods.</p>
+
+<p>For example: In the above code, the <code>public Employee(string name, int age)</code> method takes in two arguments or data values for the two defined parameters <code>string name</code> and <code>int age</code>. At the time of object creation these values are applied to the member variables within the class using the this keyword <code>this.Name</code> and <code>this.Age</code>.</p>
+
+<p>Why use <code>this</code> keyword? Because it makes it easy to differeniate between the declared method parameters and the class member variables with the same name. <code>name</code> is the parameter declared for the <code>DisplayData</code> methods and <code>this.Name</code> is used to access the class level member variables.</p>
+
+<h2>Methods with returns values</h2>
+
+<p>Ever wondered why the hell you keep seeing the <code>void</code> keyword everywhere when programming in C#.</p>
+
+<p>Let&rsquo;s talk about it.</p>
+
+<p>Every method performs actions using the data variables and members defined within a class. After performing those actions the method has to return the results of those actions or sometimes not return anything.</p>
+
+<p><code>void</code> keyword is used when you don&rsquo;t want a method to return anything to the calling method/function. And when you want to return something using a method then you will have to specify the return data type of that method.</p>
+
+<p><strong>Example:</strong></p>
+
+<p><em>Note: Method names used in these examples are for educational purpose only. :P</em></p>
+
+<pre><code>Public void IDontReturnAnything(){
+    Console.WriteLine("Hello"); 
+}
+
+Public string IReturnAStringValue()
+    return "Hello";
+}
+
+Public string IReturnAIntValue()
+    return 143;
+}
+</code></pre>
+
+<h2>Methods with Parameters and Arguments</h2>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Abhishek Luv</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2016-04-09T16:08:02+05:30" pubdate data-updated="true">Apr 9th, 2016</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/2016/'>2016</a>, <a class='category' href='/blog/categories/csharp-day2/'>csharp-day2</a>, <a class='category' href='/blog/categories/learn-csharp/'>learn-csharp</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/04/09/learn-csharp-in-7-days-day-1/" title="Previous Post: Learn C# in 7 Days : Day 1">&laquo; Learn C# in 7 Days : Day 1</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'blogabhishek';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/';
+        var disqus_url = 'http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+  <aside class="sidebar">
+   
+  
+    <div>
+<p>
+Heyo, I&#8217;m
+a <strong>ASP.NET MVC Developer</strong>,
+<br>I live in Mumbai, India.<br>
+<strong><a href="/contact-me">Contact me</a></strong> or <b><a href="/about/">read more about me</a></b></p>
+<div class="github-card" data-github="abhishekluv" data-width="280" data-height="150" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</div>
+
+<section>
+ <h2>My Updated Resume </h2>
+ <h3 style="color:red;">I'm Looking out for a Full-Time job</h3>
+ <a href="Abhishek_Luv_Updated_Resume.pdf" target="_blank" title="Download My Resume"><img src="/images/resume%20thumbnail.PNG"/></a>
+</section>
+
+<section>
+ <h2>Archive List</h2>
+ <span><a href="/blog/categories/2016/">2016</a></span>
+ <br/>
+ <br/>
+ <span><a href="/blog/categories/2015/">2015</a></span>
+ <br/>
+<br/>
+ <span><a href="/blog/categories/2014/">2014</a></span>
+</section>
+
+<section>
+ <h2>My Bookshelf</h2>
+ <a href="/reading-corner/">Books on my Bookshelf</a>
+</section>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- akl_ad_! -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2363790726395878"
+     data-ad-slot="3031868943"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- akl_ad_2 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-2363790726395878"
+     data-ad-slot="4369001345"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  
+</aside>
+
+
+
+    </div>
+
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - 2016  Abhishek Luv
+  <br/>
+  <span>Website Last updated on Mon Apr 11 22:16:58 2016</span>
+</p>
+
+</footer>
+    <script>
+            var require = {
+    shim : {
+        "jquery" :{}
+    },
+    paths: {
+        "jquery" : "http://dwz6w0xm5nwrx.cloudfront.net/js/alljs.min"
+    }
+};
+   </script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.22/require.min.js" type="text/javascript"></script>
+<script>
+    require(['jquery'],function($){
+      $(document).ready(function() {  
+      var stickyNavTop=$('nav').offset().top; var stickyNav=function(){var scrollTop=$(window).scrollTop(); var navHasClassSticky=$('nav').hasClass('sticky'); if (scrollTop > stickyNavTop && navHasClassSticky){return true;}else if (scrollTop > stickyNavTop){$('nav').hide(); $('nav').addClass('sticky'); $('nav').fadeIn('2000');}else{$('nav').removeClass('sticky');}}; stickyNav(); $(window).scroll(function(){stickyNav();}); 
+        
+      });  
+    });
+</script>
+  
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29282692-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <script type="text/javascript">
+  function init(){var deferImg=document.getElementsByTagName("img"); for (var i=0; i < deferImg.length; i++){if (deferImg[i].getAttribute('data-src')){deferImg[i].setAttribute('src',deferImg[i].getAttribute('data-src'));}}}window.onload=init();
+window.onload=(function (){var v=document.querySelectorAll(".youtube-player"); for (var n=0; n < v.length; n++){var p=document.createElement("div"); p.innerHTML=videoThumb(v[n].dataset.id, v[n].dataset.size); p.onclick=videoIframe; v[n].appendChild(p);}})(); function videoThumb(id, size){return '<img class="youtube-thumb" src="//i.ytimg.com/vi/' + id + '/' + size + '.jpg "><div class="play-button"></div>';}function videoIframe(){var iframe=document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=&showinfo=0&rel=0"); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("allowfullscreen", true); this.parentNode.replaceChild(iframe, this);}
+  </script>
+</body>
+</html>
+
+
