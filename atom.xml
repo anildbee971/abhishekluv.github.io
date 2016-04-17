@@ -4,7 +4,7 @@
   <title><![CDATA[Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-04-11T22:16:58+05:30</updated>
+  <updated>2016-04-17T15:41:07+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -179,6 +179,143 @@ Public string IReturnAIntValue()
 </code></pre>
 
 <h2>Methods with Parameters and Arguments</h2>
+
+<p>One or more variables declared with the Method Signature are called Parameters.</p>
+
+<p>For example:</p>
+
+<p><code>public double FindArea(int length, int width) { }</code></p>
+
+<p>In the above given example <code>int length</code> and <code>int width</code> are parameters declared for the <code>FindArea()</code></p>
+
+<p>When a method is declared with parameters then it means that method can accept input values or in other words it can accept arguments.</p>
+
+<p>The values which we pass to method parameters are called <code>Arguments</code>.</p>
+
+<p>While calling the <code>FindArea()</code> method we can pass the values as argument which the <code>FindArea()</code> method can use for processing like this <code>FindArea(3,4)</code>.</p>
+
+<h2>this Keyword</h2>
+
+<p><code>this</code> keyword in C# is used to access the class level members and data.</p>
+
+<p>In a C# class there are different types of variables.</p>
+
+<ul>
+<li>Class level variables (Global to the whole class)</li>
+<li>Method level parameter variables (Local to that method only which a method can return)</li>
+</ul>
+
+
+<p>For example:</p>
+
+<p>You have declared a class level variable as <code>int age;</code> and method level parameter variable as <code>int age</code>.</p>
+
+<p>To access class level age use <code>this.age</code> and for method level parameter variable use <code>age</code>.</p>
+
+<pre><code>public class Employee
+{
+    public int age;
+
+    // this is a parameterized constructor with age as parameter and initializing the class level age variable 
+    // using the this keyword
+    public Employee(int age)
+    {
+        // Here we are using this.age to access the class level variables and then assigning the input value of age
+       // coming from the age parameter of the constructor
+        this.age = age;
+    }
+
+    public DisplayEmployeeAage()
+    {
+        Console.WriteLine("Age is = " + age);
+    }
+}
+</code></pre>
+
+<h2>Object-Oriented Programming</h2>
+
+<p>Any programming language which follows 3 rules of OOP is called a Object-Oriented Programming Language.</p>
+
+<p><strong>Rules for OOP:</strong></p>
+
+<ul>
+<li>Encapsulation : Data Hiding</li>
+<li>Polymorphism : Overloading and Overriding</li>
+<li>Inheritance : Abstract classes and Interfaces</li>
+</ul>
+
+
+<p>Let&rsquo;s discuss each of these types in detail.</p>
+
+<p><strong>Encapsulation</strong></p>
+
+<p>Encapsulation is the concept of writing programs with data and methods that act on the data.</p>
+
+<p>With encapsulation also comes another concept called Data Hiding. In data hiding we keep the data safe within the class and only accessible within the class. Now, that doesn&rsquo;t mean we wont be able to access the class data outside it. Yes we can access the data using public methods declared within a class.</p>
+
+<p>Data hiding concept can be applied by using access modifiers in front of classes, member variables and methods.</p>
+
+<p><em>Commonly used access modifiers:</em></p>
+
+<ul>
+<li>public : accessible at class, sub-class and project level</li>
+<li>protected : accessible at class and sub-class level</li>
+<li>private : accessible at class level only</li>
+</ul>
+
+
+<p>Example:</p>
+
+<pre><code>public class Sample
+{
+    private int age;
+    public int salary { get; private set; }
+
+    public int DisplaySalary()
+    {
+        return this.salary;
+    }
+
+    public void SetData(int age, int salary)
+    {
+        this.age = age;
+        this.salary = salary;
+    }
+
+    public void DisplayData()
+    {
+        Console.Write("age is = " + age);
+        Console.Write("salary is = " + salary);
+    }
+}
+
+public class TestSample
+{
+    static void Main()
+    {
+        Sample sample = new Sample();
+        sample.SetData(2, 333);
+        sample.DisplayData();
+
+        //the age variable of the sample cannot be accessed here
+        // is inaccessible due to protection level
+        // sample.age;
+        // this is encapsulation and data hiding
+
+        Console.Write("\n");
+
+        Console.Write("salary is = " + sample.DisplaySalary());
+
+        Console.ReadLine();
+    }
+}
+</code></pre>
+
+<p>In order to implement data hiding we can use <code>getter</code> and <code>setter</code> to limited read and write access to a particular data member in a class.</p>
+
+<p>In this example we have used <code>get</code> and <code>private set</code> for the salary property <code>public int salary { get; private set; }</code>.</p>
+
+<p><code>get</code> means <code>salary</code> property can be accessed outside of the <code>Sample</code> class and <code>private set</code> means <code>salary</code> property data can be set within the <code>Sample</code> class only and not from outside of the class.</p>
 ]]></content>
   </entry>
   
