@@ -33,7 +33,7 @@
   <title>Learn C# in 7 Days : Day 2 - Abhishek Luv : ASP.NET MVC Freelance Consultant & a ASP.NET MVC Trainer, (Mumbai, India)</title>
   <meta name="author" content="Abhishek Luv">
   <meta name="copyright" content="Abhishek Luv">
-  <meta name="revised" content="Sun May 15 17:07:21 2016">
+  <meta name="revised" content="Mon May 16 11:42:10 2016">
   <meta name="reply-to" content="abhishek@abhishekluv.in">
   <meta name="owner" content="Abhishek Luv">
   <meta name="og:site_name" content="Abhishek Luv : ASP.NET MVC Developer"/>
@@ -145,7 +145,6 @@
 <ul>
 <li>Encapsulation</li>
 <li>Polymorphism</li>
-<li>Inheritance</li>
 </ul>
 </li>
 </ul>
@@ -254,7 +253,7 @@ Employee abhishekluv = new Employee(3,4);
 
 <p>For example: In the above code, the <code>public Employee(string name, int age)</code> method takes in two arguments or data values for the two defined parameters <code>string name</code> and <code>int age</code>. At the time of object creation these values are applied to the member variables within the class using the this keyword <code>this.Name</code> and <code>this.Age</code>.</p>
 
-<p>Why use <code>this</code> keyword? Because it makes it easy to differeniate between the declared method parameters and the class member variables with the same name. <code>name</code> is the parameter declared for the <code>DisplayData</code> methods and <code>this.Name</code> is used to access the class level member variables.</p>
+<p>Why use <code>this</code> keyword? Because it makes it easy to differentiate between the declared method parameters and the class member variables with the same name. <code>name</code> is the parameter declared for the <code>DisplayData</code> methods and <code>this.Name</code> is used to access the class level member variables.</p>
 
 <h2>Methods with returns values</h2>
 
@@ -271,7 +270,7 @@ Employee abhishekluv = new Employee(3,4);
 <p><em>Note: Method names used in these examples are for educational purpose only. :P</em></p>
 
 <pre><code>Public void IDontReturnAnything(){
-    Console.WriteLine("Hello"); 
+    Console.WriteLine("Hello");    
 }
 
 Public string IReturnAStringValue()
@@ -346,7 +345,6 @@ Public string IReturnAIntValue()
 <ul>
 <li>Encapsulation : Data Hiding</li>
 <li>Polymorphism : Overloading and Overriding</li>
-<li>Inheritance : Abstract classes and Interfaces</li>
 </ul>
 
 
@@ -356,7 +354,7 @@ Public string IReturnAIntValue()
 
 <p>Encapsulation is the concept of writing programs with data and methods that act on the data.</p>
 
-<p>With encapsulation also comes another concept called Data Hiding. In data hiding we keep the data safe within the class and only accessible within the class. Now, that doesn&rsquo;t mean we wont be able to access the class data outside it. Yes we can access the data using public methods declared within a class.</p>
+<p>With encapsulation also comes another concept called Data Hiding. In data hiding we keep the data safe within the class and only accessible within the class. Now, that doesn&rsquo;t mean we won’t be able to access the class data outside it. Yes we can access the data using public methods declared within a class.</p>
 
 <p>Data hiding concept can be applied by using access modifiers in front of classes, member variables and methods.</p>
 
@@ -421,6 +419,56 @@ public class TestSample
 <p>In this example we have used <code>get</code> and <code>private set</code> for the salary property <code>public int salary { get; private set; }</code>.</p>
 
 <p><code>get</code> means <code>salary</code> property can be accessed outside of the <code>Sample</code> class and <code>private set</code> means <code>salary</code> property data can be set within the <code>Sample</code> class only and not from outside of the class.</p>
+
+<p><strong>Polymorphism</strong></p>
+
+<p>Polymorphism allows us to define multiple functions/methods/subroutines with the same name which are differentiated by their passing parameters and arguments. It is also known as method overloading or function overloading.</p>
+
+<p>Example:</p>
+
+<p>Let define a <code>Student</code> class with three methods with same name.</p>
+
+<pre><code>public class Student{
+
+    public string name;
+    public int age;
+
+    public Student(){
+        // this is the constructor
+    }
+
+    public void DisplayData(string name){
+        Console.WriteLine("Student Name is :" + name);
+    }
+
+    public void DisplayData(int age){
+        Console.WriteLine("Student Age is: " + age);
+    }
+
+}
+</code></pre>
+
+<p>Here, we are creating an instance of the <code>Student</code> class and calling the <code>DisplayData</code> method using different argument values. In this case, we are passing a &ldquo;Abhishek&rdquo; as an argument for the <code>name</code> parameter and 27 as an argument for the <code>age</code> parameter. To make it simple to understand when we pass a name then the first <code>DisplayData</code> method will be called and for age the second <code>DisplayData</code> method will be called. This is Method Overloading.</p>
+
+<pre><code>class TestStudent
+{
+    static void Main()
+    {
+        Student newStudent = new Student();
+
+        newStudent.DisplayData("Abhishek");
+        newStudent.DisplayData(27);
+    }
+}
+</code></pre>
+
+<p><em>Day 2 over</em></p>
+
+<p>Stay Tuned.</p>
+
+<p>Take Care!</p>
+
+<p>Abhishek Luv</p>
 </div>
 
 
@@ -581,7 +629,7 @@ a <strong>ASP.NET MVC Freelance Consultant</strong>
   <footer role="contentinfo"><p>
   Copyright &copy; 2014 - 2016  Abhishek Luv
   <br/>
-  <span>Website Last updated on Sun May 15 17:07:21 2016</span>
+  <span>Website Last updated on Mon May 16 11:42:10 2016</span>
 </p>
 
 </footer>
