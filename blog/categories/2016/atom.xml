@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 2016 | Abhishek Luv]]></title>
   <link href="http://www.abhishekluv.in/blog/categories/2016/atom.xml" rel="self"/>
   <link href="http://www.abhishekluv.in/"/>
-  <updated>2016-05-16T11:42:10+05:30</updated>
+  <updated>2016-05-17T06:36:40+05:30</updated>
   <id>http://www.abhishekluv.in/</id>
   <author>
     <name><![CDATA[Abhishek Luv]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn C# in 7 Days : Day 3]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/05/16/learn-csharp-in-7-days-day-3/"/>
+    <updated>2016-05-16T11:53:18+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/05/16/learn-csharp-in-7-days-day-3</id>
+    <content type="html"><![CDATA[<p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 3 of Learn C# in 7 Days. Checkout <a href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/">Day 2</a> before starting with Day 3.</p>
+
+<!-- more -->
+
+
+<h2>Topics we&rsquo;ll be discussing</h2>
+
+<ul>
+<li>Inheritance</li>
+<li>Overriding</li>
+<li>Abstract Class</li>
+<li>Interfaces</li>
+</ul>
+
+
+<h2>Inheritance</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Learn C# in 7 Days : Day 2]]></title>
@@ -921,23 +949,6 @@ int[] intArray = new int[5];
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8AwaH3ssiASskvNYC69I-FKr3kjcBo8X" frameborder="0" allowfullscreen></iframe>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orchard CMS Workflows Course Is FREE Now]]></title>
-    <link href="http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-workflows-course-is-free-now/"/>
-    <updated>2016-04-08T17:17:46+05:30</updated>
-    <id>http://www.abhishekluv.in/blog/2016/04/08/orchard-cms-workflows-course-is-free-now</id>
-    <content type="html"><![CDATA[<p>Access to Orchard CMS Workflows course is FREE and open to all.</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8AwaH3ssiASR5GeZtPvKnyOAGogyMnjt" frameborder="0" allowfullscreen></iframe>
 
 ]]></content>
   </entry>

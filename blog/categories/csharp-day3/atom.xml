@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Csharp-day3 | Abhishek Luv]]></title>
+  <link href="http://www.abhishekluv.in/blog/categories/csharp-day3/atom.xml" rel="self"/>
+  <link href="http://www.abhishekluv.in/"/>
+  <updated>2016-05-17T06:36:40+05:30</updated>
+  <id>http://www.abhishekluv.in/</id>
+  <author>
+    <name><![CDATA[Abhishek Luv]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learn C# in 7 Days : Day 3]]></title>
+    <link href="http://www.abhishekluv.in/blog/2016/05/16/learn-csharp-in-7-days-day-3/"/>
+    <updated>2016-05-16T11:53:18+05:30</updated>
+    <id>http://www.abhishekluv.in/blog/2016/05/16/learn-csharp-in-7-days-day-3</id>
+    <content type="html"><![CDATA[<p>Learning C# for beginners can be little difficult in the first place. But it isn&rsquo;t that difficult.</p>
+
+<p>When starting to learn C# you should start with the basics and not get into the deep rabbit hole of it.</p>
+
+<p>This is Day 3 of Learn C# in 7 Days. Checkout <a href="http://www.abhishekluv.in/blog/2016/04/09/learn-csharp-in-7-days-day-2/">Day 2</a> before starting with Day 3.</p>
+
+<!-- more -->
+
+
+<h2>Topics we&rsquo;ll be discussing</h2>
+
+<ul>
+<li>Inheritance</li>
+<li>Overriding</li>
+<li>Abstract Class</li>
+<li>Interfaces</li>
+</ul>
+
+
+<h2>Inheritance</h2>
+]]></content>
+  </entry>
+  
+</feed>
